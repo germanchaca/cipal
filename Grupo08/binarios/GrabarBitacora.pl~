@@ -2,40 +2,40 @@
 $LOGDIR =  $ENV{'LOGDIR'}; 
 $LOGSIZE =  $ENV{'LOGSIZE'}; 
 $log="";
-print "LOGDIR, $LOGDIR\n"; 
-print "LOGSIZE, $LOGSIZE\n"; 
+#print "LOGDIR, $LOGDIR\n"; 
+#print "LOGSIZE, $LOGSIZE\n"; 
 
 ($command, $msj, $msj_type) = @ARGV;
-print "comando, $command \n";
-print "mensaje, $msj \n";
+#print "comando, $command \n";
+#print "mensaje, $msj \n";
 if (opendir ( DIR, $LOGDIR ) ){
-	print "existe $LOGDIR\n";
+	#print "existe $LOGDIR\n";
 }else{
-	print "No existe $LOGDIR\n";
+	#print "No existe $LOGDIR\n";
 }
 
 $filename = $LOGDIR."/".$command.".log";
-print "filename , $filename\n";
+#print "filename , $filename\n";
 
 if(-e $filename){
-	print "existe\n";
+	#print "existe\n";
 	$writemod=">> ";
 }else{
-	print "no existe\n";
+	#print "no existe\n";
 	$writemod="> ";
 }
 open ($log,$writemod.$filename) || die "ERROR: No puedo abrir el fichero $filename\n";
 $logname = getlogin();
 $time_stamp=&time_stamp;
 $type=&msj_type($msj_type);
-print "tipo_de_mensaje, $type \n";
+#print "tipo_de_mensaje, $type \n";
 
 print $log "[USER:$logname][DATE:$time_stamp][CMD:$command][TYPE:$type]MSJ:$msj \n";
 $tamanio=`wc -l $filename`;
 @tamanio = split(" ", $tamanio);
 $tamanio=@tamanio[0];
-print "tamanio $tamanio \n";
-print "LOGSIZE $LOGSIZE \n";
+#print "tamanio $tamanio \n";
+#print "LOGSIZE $LOGSIZE \n";
 
 if( $tamanio ge $LOGSIZE){
 	print $log "Log Excedido \n";
