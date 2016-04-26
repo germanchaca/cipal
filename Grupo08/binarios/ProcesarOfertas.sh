@@ -1,10 +1,10 @@
 #! bin/bash
 #mis variables para ir probando
-OKDIR="../OKDIR"
-MAEDIR="../MAEDIR"
-PROCDIR="../PROCDIR"
-NOKDIR="../NOKDIR"
-LOGDIR="../LOGDIR" 
+OKDIR="../aceptados"
+MAEDIR="../maestros"
+PROCDIR="../procesados"
+NOKDIR="../rechazados"
+LOGDIR="../bitacoras" 
 
 LOGSIZE=10000
 export LOGDIR
@@ -13,7 +13,7 @@ export LOGSIZE
 #empieza mi programa de verdad
 PROCEAROFERTAS='ProcesarOfertas'
 GRABAR='perl GrabarBitacora.pl ProcesarOfertas'
-ROWSEXPECTED=3
+ROWSEXPECTED=2
 
 ERR_MSG=''
 
@@ -29,6 +29,7 @@ ICONTFUS=0
 IIMPORTE=1
 IPARTICIPA=2
 
+SEP=";"
 function fecha {
 	DATE=$(date +%d/%m/%Y)
 }
@@ -41,11 +42,22 @@ function just_name {
 }
 
 function validCONTFUS {
+	ESTADO=1
 	if [[ "$1" =~ [0-9]{7} ]]; then
-		return $OK
-		#validar contrato encontrado!!!
-		#validar grupo si esta CERRADO NO! contra MAEDIR/Grupos.csv (grep)
-		#error con grupo cerrado
+		local grupo=$(echo -n $1 | head -c 4 )
+		local orden=$(echo -n $1 | tail -c 3 )
+		local subscrpitor=$(grep "${grupo}${SEP}${orden}${SEP}.*" "${MAEDIR}/temaL_padron.csv")
+		local grupos=$(grep "${grupo}${SEP}.*" "${MAEDIR}/grupos.csv")
+		local array_grupo=(${grupos//$SEP/ })
+		if [ -z "$subscrpitor" ];then
+			ERR_MSG="Contrato no encontrado"
+			return $ERROR
+		elif [ ${array_grupo[$ESTADO]} = "CERRADO" ];then
+			ERR_MSG="Grupo CERRADO"
+			return $ERROR
+		else
+			return $OK
+		fi
 	else
 		ERR_MSG="El contrato fusionado no tiene 7 caracteres"
 		return $ERROR
@@ -65,8 +77,10 @@ function validIMPORTE {
 }
 
 function validPARTICIPA {
-	if [[ "$1" =~ ^[12]$ ]]; then
-		#buscar en padron de subscriptores
+	#buscar campo numero X en subscriptos
+	PARTICIPA=5
+	local array_subscriptor=(${1//$SEP/ })
+	if [[ "${array_subscriptor[$PARTICIPA]}" =~ ^[12]$ ]]; then
 		return $OK
 	else
 		ERR_MSG='No puede participar'
@@ -76,17 +90,19 @@ function validPARTICIPA {
 }
 
 function validOFERTA {
-	#split a linea
-	local array=(${1//,/ })
-	validCONTFUS ${array[ICONTFUS]}
+	local array=(${1//$SEP/ })
+	validCONTFUS ${array[$ICONTFUS]}
 	if [ $? = $ERROR ];	then
 		return $ERROR
 	fi
-	validIMPORTE ${array[IIMPORTE]}
+	validIMPORTE ${array[$IIMPORTE]}
 	if [ $? = $ERROR ]; then
 		return $ERROR
 	fi
-	validPARTICIPA ${array[IPARTICIPA]}
+	local grupo=$(echo -n ${array[$ICONTFUS]} | head -c 4 )
+	local orden=$(echo -n ${array[$ICONTFUS]} | tail -c 3 )
+	local subscrpitor=$(grep "${grupo}${SEP}${orden}${SEP}.*" "${MAEDIR}/temaL_padron.csv")
+	validPARTICIPA "$subscrpitor"
 	if [ $? = $ERROR ]; then
 		return $ERROR
 	else 
@@ -103,7 +119,7 @@ function errorRegistro {
 	local array=(${name//_/ })
 	local cod_concesionario=${array[ICODCONS]}
 	fecha
-	echo "${name},${ERR_MSG},'${2}',${USER},${DATE}"
+	echo "${name}${SEP}${ERR_MSG}${SEP}'${2}'${SEP}${USER}${SEP}${DATE}"
 	#fijarse caso crear si no existe
 	#escribir en ${PROCDIR}/rechazadas/cod_concesionario.rech(primer parte del nombre de file)
 	let 'MALOFERTA++'
@@ -111,18 +127,22 @@ function errorRegistro {
 
 function bienRegistro {
 	#file $1,  linea $2
+	NAME=2
 	local file_name=$(just_name $1)
 	local array=(${file_name//_/ })
-	local array_line=(${2//,/ })
+	local array_line=(${2//$SEP/ })
 	local contratoFusionado=${array_line[$ICONTFUS]}
 	local grupo=$(echo -n $contratoFusionado | head -c 4 )
 	local orden=$(echo -n $contratoFusionado | tail -c 3 )
+	local subscrpitor=$(grep "${grupo}${SEP}${orden}${SEP}.*" "${MAEDIR}/temaL_padron.csv")
+	local array_subscriptor=(${subscrpitor//$SEP/ })
+	local name=${array_subscriptor[$NAME]}
 	fecha
 	#fijarse caso crear si no existe
 	#a grabar en fecha de adjudicacion (proxima fecha) en ${PROCDIR}/validas
 	#falta el ${nombre_subs} del q oferta
 	#nombre subscrpitor, ir a temaL_padron.csv para buscar, saco donde esta con los grupos
-	echo "${array[$ICODCONS]},${array[$IFECHA]},${contratoFusionado},${grupo},${orden},${array_line[IIMPORTE]},${USER},${DATE}"
+	echo "${array[$ICODCONS]}${SEP}${array[$IFECHA]}${SEP}${contratoFusionado}${SEP}${grupo}${SEP}${orden}${SEP}${array_line[IIMPORTE]}${SEP}${name}${SEP}${USER}${SEP}${DATE}"
 	let 'BIENOFERTA++'
 }
 
@@ -152,8 +172,9 @@ do
 		finArchivo $file $ERROR
 	else
 		#primer fila de file, deja comas y \n, cuenta bytes
-		rows=$(head -1 $file | sed 's/[^,]//g' | wc -c)
-		if [ $rows = $ROWSEXPECTED ]
+		first_row=$(head -1 $file)
+		campos=(${first_row//$SEP/ })
+		if [ ${#campos[@]} = $ROWSEXPECTED ]
 			then
 			echo "PROCESANDO"
 			$GRABAR "Archivo a procesar: ${file##*/}"

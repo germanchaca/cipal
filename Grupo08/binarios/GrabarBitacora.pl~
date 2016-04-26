@@ -37,7 +37,7 @@ $tamanio=@tamanio[0];
 #print "tamanio $tamanio \n";
 #print "LOGSIZE $LOGSIZE \n";
 
-if( $tamanio >= $LOGSIZE){
+if( $tamanio ge $LOGSIZE){
 	print $log "Log Excedido \n";
 	`sed -i 1d  $filename`;
 	`sed -i 1d  $filename`;

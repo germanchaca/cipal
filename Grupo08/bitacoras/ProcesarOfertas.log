@@ -1,0 +1,145 @@
+Log Excedido 
+[USER:tobias][DATE:26/4/2016 0:2:12][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Inicio de ProcesarOfertas 
+[USER:tobias][DATE:26/4/2016 0:2:12][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Cantidad de archivos a procesar: 4 
+[USER:tobias][DATE:26/4/2016 0:2:12][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Archivo a procesar: 7894_32123.csv 
+[USER:tobias][DATE:26/4/2016 0:2:12][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Registros leidos = 4: cantidad de ofertas validas 3: cantidad de ofertas rechazadas = 1 
+[USER:tobias][DATE:26/4/2016 0:2:12][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Se rechaza el archivo '7894_98779.csv' porque su estructura no se corresponde con el formato esperado 
+[USER:tobias][DATE:26/4/2016 0:2:12][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Se rechaza el archivo '9594_123123.csv' porque su estructura no se corresponde con el formato esperado 
+[USER:tobias][DATE:26/4/2016 0:2:12][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Se rechaza el archivo '9594_32123.csv' porque su estructura no se corresponde con el formato esperado 
+[USER:tobias][DATE:26/4/2016 0:2:12][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Archivos procesados: 1: Archivos rechazados: 3 
+[USER:tobias][DATE:26/4/2016 0:2:12][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Fin de ProcesarOfertas 
+[USER:tobias][DATE:26/4/2016 0:18:19][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Inicio de ProcesarOfertas 
+[USER:tobias][DATE:26/4/2016 0:18:19][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Cantidad de archivos a procesar: 4 
+[USER:tobias][DATE:26/4/2016 0:18:19][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Archivo a procesar: 7894_32123.csv 
+[USER:tobias][DATE:26/4/2016 0:18:19][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Registros leidos = 4: cantidad de ofertas validas 0: cantidad de ofertas rechazadas = 4 
+[USER:tobias][DATE:26/4/2016 0:18:19][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Se rechaza el archivo '7894_98779.csv' porque su estructura no se corresponde con el formato esperado 
+[USER:tobias][DATE:26/4/2016 0:18:19][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Se rechaza el archivo '9594_123123.csv' porque su estructura no se corresponde con el formato esperado 
+[USER:tobias][DATE:26/4/2016 0:18:19][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Se rechaza el archivo '9594_32123.csv' porque su estructura no se corresponde con el formato esperado 
+[USER:tobias][DATE:26/4/2016 0:18:19][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Archivos procesados: 1: Archivos rechazados: 3 
+[USER:tobias][DATE:26/4/2016 0:18:19][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Fin de ProcesarOfertas 
+[USER:tobias][DATE:26/4/2016 0:19:36][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Inicio de ProcesarOfertas 
+[USER:tobias][DATE:26/4/2016 0:19:36][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Cantidad de archivos a procesar: 4 
+[USER:tobias][DATE:26/4/2016 0:19:36][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Archivo a procesar: 7894_32123.csv 
+[USER:tobias][DATE:26/4/2016 0:19:36][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Registros leidos = 8: cantidad de ofertas validas 0: cantidad de ofertas rechazadas = 8 
+[USER:tobias][DATE:26/4/2016 0:19:36][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Se rechaza el archivo '7894_98779.csv' porque su estructura no se corresponde con el formato esperado 
+[USER:tobias][DATE:26/4/2016 0:19:36][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Se rechaza el archivo '9594_123123.csv' porque su estructura no se corresponde con el formato esperado 
+[USER:tobias][DATE:26/4/2016 0:19:36][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Se rechaza el archivo '9594_32123.csv' porque su estructura no se corresponde con el formato esperado 
+[USER:tobias][DATE:26/4/2016 0:19:36][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Archivos procesados: 1: Archivos rechazados: 3 
+[USER:tobias][DATE:26/4/2016 0:19:36][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Fin de ProcesarOfertas 
+[USER:tobias][DATE:26/4/2016 0:21:32][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Inicio de ProcesarOfertas 
+[USER:tobias][DATE:26/4/2016 0:21:32][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Cantidad de archivos a procesar: 4 
+[USER:tobias][DATE:26/4/2016 0:21:32][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Archivo a procesar: 7894_32123.csv 
+[USER:tobias][DATE:26/4/2016 0:21:32][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Registros leidos = 4: cantidad de ofertas validas 0: cantidad de ofertas rechazadas = 4 
+[USER:tobias][DATE:26/4/2016 0:21:32][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Se rechaza el archivo '7894_98779.csv' porque su estructura no se corresponde con el formato esperado 
+[USER:tobias][DATE:26/4/2016 0:21:32][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Se rechaza el archivo '9594_123123.csv' porque su estructura no se corresponde con el formato esperado 
+[USER:tobias][DATE:26/4/2016 0:21:33][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Se rechaza el archivo '9594_32123.csv' porque su estructura no se corresponde con el formato esperado 
+[USER:tobias][DATE:26/4/2016 0:21:33][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Archivos procesados: 1: Archivos rechazados: 3 
+[USER:tobias][DATE:26/4/2016 0:21:33][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Fin de ProcesarOfertas 
+[USER:tobias][DATE:26/4/2016 0:22:17][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Inicio de ProcesarOfertas 
+[USER:tobias][DATE:26/4/2016 0:22:17][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Cantidad de archivos a procesar: 4 
+[USER:tobias][DATE:26/4/2016 0:22:17][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Archivo a procesar: 7894_32123.csv 
+[USER:tobias][DATE:26/4/2016 0:22:17][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Registros leidos = 4: cantidad de ofertas validas 0: cantidad de ofertas rechazadas = 4 
+[USER:tobias][DATE:26/4/2016 0:22:17][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Se rechaza el archivo '7894_98779.csv' porque su estructura no se corresponde con el formato esperado 
+[USER:tobias][DATE:26/4/2016 0:22:17][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Se rechaza el archivo '9594_123123.csv' porque su estructura no se corresponde con el formato esperado 
+[USER:tobias][DATE:26/4/2016 0:22:17][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Se rechaza el archivo '9594_32123.csv' porque su estructura no se corresponde con el formato esperado 
+[USER:tobias][DATE:26/4/2016 0:22:17][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Archivos procesados: 1: Archivos rechazados: 3 
+[USER:tobias][DATE:26/4/2016 0:22:17][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Fin de ProcesarOfertas 
+[USER:tobias][DATE:26/4/2016 0:22:37][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Inicio de ProcesarOfertas 
+[USER:tobias][DATE:26/4/2016 0:22:37][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Cantidad de archivos a procesar: 4 
+[USER:tobias][DATE:26/4/2016 0:22:37][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Archivo a procesar: 7894_32123.csv 
+[USER:tobias][DATE:26/4/2016 0:22:37][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Registros leidos = 4: cantidad de ofertas validas 1: cantidad de ofertas rechazadas = 3 
+[USER:tobias][DATE:26/4/2016 0:22:37][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Se rechaza el archivo '7894_98779.csv' porque su estructura no se corresponde con el formato esperado 
+[USER:tobias][DATE:26/4/2016 0:22:37][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Se rechaza el archivo '9594_123123.csv' porque su estructura no se corresponde con el formato esperado 
+[USER:tobias][DATE:26/4/2016 0:22:37][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Se rechaza el archivo '9594_32123.csv' porque su estructura no se corresponde con el formato esperado 
+[USER:tobias][DATE:26/4/2016 0:22:37][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Archivos procesados: 1: Archivos rechazados: 3 
+[USER:tobias][DATE:26/4/2016 0:22:37][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Fin de ProcesarOfertas 
+[USER:tobias][DATE:26/4/2016 0:31:1][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Inicio de ProcesarOfertas 
+[USER:tobias][DATE:26/4/2016 0:31:1][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Cantidad de archivos a procesar: 4 
+[USER:tobias][DATE:26/4/2016 0:31:1][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Archivo a procesar: 7894_32123.csv 
+[USER:tobias][DATE:26/4/2016 0:31:1][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Registros leidos = 4: cantidad de ofertas validas 1: cantidad de ofertas rechazadas = 3 
+[USER:tobias][DATE:26/4/2016 0:31:1][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Se rechaza el archivo '7894_98779.csv' porque su estructura no se corresponde con el formato esperado 
+[USER:tobias][DATE:26/4/2016 0:31:1][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Se rechaza el archivo '9594_123123.csv' porque su estructura no se corresponde con el formato esperado 
+[USER:tobias][DATE:26/4/2016 0:31:1][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Se rechaza el archivo '9594_32123.csv' porque su estructura no se corresponde con el formato esperado 
+[USER:tobias][DATE:26/4/2016 0:31:1][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Archivos procesados: 1: Archivos rechazados: 3 
+[USER:tobias][DATE:26/4/2016 0:31:1][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Fin de ProcesarOfertas 
+[USER:tobias][DATE:26/4/2016 0:32:38][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Inicio de ProcesarOfertas 
+[USER:tobias][DATE:26/4/2016 0:32:38][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Cantidad de archivos a procesar: 4 
+[USER:tobias][DATE:26/4/2016 0:32:38][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Archivo a procesar: 7894_32123.csv 
+[USER:tobias][DATE:26/4/2016 0:32:38][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Registros leidos = 4: cantidad de ofertas validas 0: cantidad de ofertas rechazadas = 4 
+[USER:tobias][DATE:26/4/2016 0:32:38][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Se rechaza el archivo '7894_98779.csv' porque su estructura no se corresponde con el formato esperado 
+[USER:tobias][DATE:26/4/2016 0:32:39][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Se rechaza el archivo '9594_123123.csv' porque su estructura no se corresponde con el formato esperado 
+[USER:tobias][DATE:26/4/2016 0:32:39][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Se rechaza el archivo '9594_32123.csv' porque su estructura no se corresponde con el formato esperado 
+[USER:tobias][DATE:26/4/2016 0:32:39][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Archivos procesados: 1: Archivos rechazados: 3 
+[USER:tobias][DATE:26/4/2016 0:32:39][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Fin de ProcesarOfertas 
+[USER:tobias][DATE:26/4/2016 0:33:30][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Inicio de ProcesarOfertas 
+[USER:tobias][DATE:26/4/2016 0:33:30][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Cantidad de archivos a procesar: 4 
+[USER:tobias][DATE:26/4/2016 0:33:30][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Archivo a procesar: 7894_32123.csv 
+[USER:tobias][DATE:26/4/2016 0:33:30][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Registros leidos = 4: cantidad de ofertas validas 0: cantidad de ofertas rechazadas = 4 
+[USER:tobias][DATE:26/4/2016 0:33:30][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Se rechaza el archivo '7894_98779.csv' porque su estructura no se corresponde con el formato esperado 
+[USER:tobias][DATE:26/4/2016 0:33:30][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Se rechaza el archivo '9594_123123.csv' porque su estructura no se corresponde con el formato esperado 
+[USER:tobias][DATE:26/4/2016 0:33:30][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Se rechaza el archivo '9594_32123.csv' porque su estructura no se corresponde con el formato esperado 
+[USER:tobias][DATE:26/4/2016 0:33:30][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Archivos procesados: 1: Archivos rechazados: 3 
+[USER:tobias][DATE:26/4/2016 0:33:30][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Fin de ProcesarOfertas 
+[USER:tobias][DATE:26/4/2016 0:35:6][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Inicio de ProcesarOfertas 
+[USER:tobias][DATE:26/4/2016 0:35:6][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Cantidad de archivos a procesar: 4 
+[USER:tobias][DATE:26/4/2016 0:35:6][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Archivo a procesar: 7894_32123.csv 
+[USER:tobias][DATE:26/4/2016 0:35:6][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Registros leidos = 4: cantidad de ofertas validas 0: cantidad de ofertas rechazadas = 4 
+[USER:tobias][DATE:26/4/2016 0:35:6][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Se rechaza el archivo '7894_98779.csv' porque su estructura no se corresponde con el formato esperado 
+[USER:tobias][DATE:26/4/2016 0:35:6][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Se rechaza el archivo '9594_123123.csv' porque su estructura no se corresponde con el formato esperado 
+[USER:tobias][DATE:26/4/2016 0:35:6][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Se rechaza el archivo '9594_32123.csv' porque su estructura no se corresponde con el formato esperado 
+[USER:tobias][DATE:26/4/2016 0:35:6][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Archivos procesados: 1: Archivos rechazados: 3 
+[USER:tobias][DATE:26/4/2016 0:35:6][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Fin de ProcesarOfertas 
+[USER:tobias][DATE:26/4/2016 0:35:41][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Inicio de ProcesarOfertas 
+[USER:tobias][DATE:26/4/2016 0:35:41][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Cantidad de archivos a procesar: 4 
+[USER:tobias][DATE:26/4/2016 0:35:41][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Archivo a procesar: 7894_32123.csv 
+[USER:tobias][DATE:26/4/2016 0:35:41][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Registros leidos = 4: cantidad de ofertas validas 0: cantidad de ofertas rechazadas = 4 
+[USER:tobias][DATE:26/4/2016 0:35:41][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Se rechaza el archivo '7894_98779.csv' porque su estructura no se corresponde con el formato esperado 
+[USER:tobias][DATE:26/4/2016 0:35:41][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Se rechaza el archivo '9594_123123.csv' porque su estructura no se corresponde con el formato esperado 
+[USER:tobias][DATE:26/4/2016 0:35:41][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Se rechaza el archivo '9594_32123.csv' porque su estructura no se corresponde con el formato esperado 
+[USER:tobias][DATE:26/4/2016 0:35:41][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Archivos procesados: 1: Archivos rechazados: 3 
+[USER:tobias][DATE:26/4/2016 0:35:41][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Fin de ProcesarOfertas 
+[USER:tobias][DATE:26/4/2016 0:37:34][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Inicio de ProcesarOfertas 
+[USER:tobias][DATE:26/4/2016 0:37:34][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Cantidad de archivos a procesar: 4 
+[USER:tobias][DATE:26/4/2016 0:37:34][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Archivo a procesar: 7894_32123.csv 
+[USER:tobias][DATE:26/4/2016 0:37:34][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Registros leidos = 4: cantidad de ofertas validas 0: cantidad de ofertas rechazadas = 4 
+[USER:tobias][DATE:26/4/2016 0:37:34][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Se rechaza el archivo '7894_98779.csv' porque su estructura no se corresponde con el formato esperado 
+[USER:tobias][DATE:26/4/2016 0:37:34][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Se rechaza el archivo '9594_123123.csv' porque su estructura no se corresponde con el formato esperado 
+[USER:tobias][DATE:26/4/2016 0:37:34][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Se rechaza el archivo '9594_32123.csv' porque su estructura no se corresponde con el formato esperado 
+[USER:tobias][DATE:26/4/2016 0:37:34][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Archivos procesados: 1: Archivos rechazados: 3 
+[USER:tobias][DATE:26/4/2016 0:37:34][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Fin de ProcesarOfertas 
+[USER:tobias][DATE:26/4/2016 0:38:22][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Inicio de ProcesarOfertas 
+[USER:tobias][DATE:26/4/2016 0:38:22][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Cantidad de archivos a procesar: 4 
+[USER:tobias][DATE:26/4/2016 0:38:22][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Archivo a procesar: 7894_32123.csv 
+[USER:tobias][DATE:26/4/2016 0:38:22][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Registros leidos = 4: cantidad de ofertas validas 1: cantidad de ofertas rechazadas = 3 
+[USER:tobias][DATE:26/4/2016 0:38:22][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Se rechaza el archivo '7894_98779.csv' porque su estructura no se corresponde con el formato esperado 
+[USER:tobias][DATE:26/4/2016 0:38:22][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Se rechaza el archivo '9594_123123.csv' porque su estructura no se corresponde con el formato esperado 
+[USER:tobias][DATE:26/4/2016 0:38:22][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Se rechaza el archivo '9594_32123.csv' porque su estructura no se corresponde con el formato esperado 
+[USER:tobias][DATE:26/4/2016 0:38:22][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Archivos procesados: 1: Archivos rechazados: 3 
+[USER:tobias][DATE:26/4/2016 0:38:22][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Fin de ProcesarOfertas 
+[USER:tobias][DATE:26/4/2016 0:41:44][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Inicio de ProcesarOfertas 
+[USER:tobias][DATE:26/4/2016 0:41:44][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Cantidad de archivos a procesar: 4 
+[USER:tobias][DATE:26/4/2016 0:41:44][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Archivo a procesar: 7894_32123.csv 
+[USER:tobias][DATE:26/4/2016 0:41:44][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Registros leidos = 4: cantidad de ofertas validas 1: cantidad de ofertas rechazadas = 3 
+[USER:tobias][DATE:26/4/2016 0:41:44][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Se rechaza el archivo '7894_98779.csv' porque su estructura no se corresponde con el formato esperado 
+[USER:tobias][DATE:26/4/2016 0:41:44][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Se rechaza el archivo '9594_123123.csv' porque su estructura no se corresponde con el formato esperado 
+[USER:tobias][DATE:26/4/2016 0:41:44][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Se rechaza el archivo '9594_32123.csv' porque su estructura no se corresponde con el formato esperado 
+[USER:tobias][DATE:26/4/2016 0:41:44][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Archivos procesados: 1: Archivos rechazados: 3 
+[USER:tobias][DATE:26/4/2016 0:41:44][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Fin de ProcesarOfertas 
+[USER:tobias][DATE:26/4/2016 0:46:20][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Inicio de ProcesarOfertas 
+[USER:tobias][DATE:26/4/2016 0:46:20][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Cantidad de archivos a procesar: 4 
+[USER:tobias][DATE:26/4/2016 0:46:20][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Archivo a procesar: 7894_32123.csv 
+[USER:tobias][DATE:26/4/2016 0:46:20][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Registros leidos = 4: cantidad de ofertas validas 1: cantidad de ofertas rechazadas = 3 
+[USER:tobias][DATE:26/4/2016 0:46:20][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Se rechaza el archivo '7894_98779.csv' porque su estructura no se corresponde con el formato esperado 
+[USER:tobias][DATE:26/4/2016 0:46:20][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Se rechaza el archivo '9594_123123.csv' porque su estructura no se corresponde con el formato esperado 
+[USER:tobias][DATE:26/4/2016 0:46:20][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Se rechaza el archivo '9594_32123.csv' porque su estructura no se corresponde con el formato esperado 
+[USER:tobias][DATE:26/4/2016 0:46:20][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Archivos procesados: 1: Archivos rechazados: 3 
+[USER:tobias][DATE:26/4/2016 0:46:20][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Fin de ProcesarOfertas 
+[USER:tobias][DATE:26/4/2016 0:47:53][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Inicio de ProcesarOfertas 
+[USER:tobias][DATE:26/4/2016 0:47:53][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Cantidad de archivos a procesar: 4 
+[USER:tobias][DATE:26/4/2016 0:47:53][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Archivo a procesar: 7894_32123.csv 
+[USER:tobias][DATE:26/4/2016 0:47:53][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Registros leidos = 4: cantidad de ofertas validas 1: cantidad de ofertas rechazadas = 3 
+[USER:tobias][DATE:26/4/2016 0:47:53][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Se rechaza el archivo '7894_98779.csv' porque su estructura no se corresponde con el formato esperado 
+[USER:tobias][DATE:26/4/2016 0:47:53][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Se rechaza el archivo '9594_123123.csv' porque su estructura no se corresponde con el formato esperado 
+[USER:tobias][DATE:26/4/2016 0:47:53][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Se rechaza el archivo '9594_32123.csv' porque su estructura no se corresponde con el formato esperado 
+[USER:tobias][DATE:26/4/2016 0:47:53][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Archivos procesados: 1: Archivos rechazados: 3 
+[USER:tobias][DATE:26/4/2016 0:47:53][CMD:ProcesarOfertas][TYPE:INFO]MSJ:Fin de ProcesarOfertas 
