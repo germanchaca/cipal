@@ -30,8 +30,36 @@ IIMPORTE=1
 IPARTICIPA=2
 
 SEP=";"
-function fecha {
+
+function fechaActual {
 	DATE=$(date +%d/%m/%Y)
+}
+
+function proximaFechaAdj {
+	fechaActual
+	IANIO=2
+	IMES=1
+	IDIA=0
+	local array_fecha=(${DATE//// })
+	local nextDate=$(grep "[0-3][0-9]/${array_fecha[$IMES]}/${array_fecha[$IANIO]}${SEP}.*" "${MAEDIR}/FechasAdj.csv")
+	local nextDay=${nextDate%%/*}
+	if [ ! $nextDay -gt ${array_fecha[$IDIA]} ]; then
+		local mesSiguiente=$(( ${array_fecha[$IMES]} + 1 ))
+		if [ 10 -gt $mesSiguiente ];then
+			mesSiguiente="0${mesSiguiente}"
+		fi
+		nextDate=$(grep "[0-3][0-9]/$mesSiguiente/${array_fecha[$IANIO]}${SEP}.*" "${MAEDIR}/FechasAdj.csv")
+	fi
+	PROXADJ=${nextDate%%${SEP}*}
+	PROXADJ=${PROXADJ////-}
+}
+
+function writeLineTo {
+	#$1 line $2 archivo
+	if [ ! -f $1 ]; then
+		touch $1
+	fi
+	echo $2 >> $1
 }
 
 function just_name {
@@ -118,10 +146,9 @@ function errorRegistro {
 	local name=$(just_name $1)
 	local array=(${name//_/ })
 	local cod_concesionario=${array[ICODCONS]}
-	fecha
-	echo "${name}${SEP}${ERR_MSG}${SEP}'${2}'${SEP}${USER}${SEP}${DATE}"
-	#fijarse caso crear si no existe
-	#escribir en ${PROCDIR}/rechazadas/cod_concesionario.rech(primer parte del nombre de file)
+	fechaActual
+	local line="${name}${SEP}${ERR_MSG}${SEP}'${2}'${SEP}${USER}${SEP}${DATE}"
+	writeLineTo "${PROCDIR}/rechazadas/${cod_concesionario}.rech" "$line"
 	let 'MALOFERTA++'
 }
 
@@ -137,12 +164,10 @@ function bienRegistro {
 	local subscrpitor=$(grep "${grupo}${SEP}${orden}${SEP}.*" "${MAEDIR}/temaL_padron.csv")
 	local array_subscriptor=(${subscrpitor//$SEP/ })
 	local name=${array_subscriptor[$NAME]}
-	fecha
-	#fijarse caso crear si no existe
-	#a grabar en fecha de adjudicacion (proxima fecha) en ${PROCDIR}/validas
-	#falta el ${nombre_subs} del q oferta
-	#nombre subscrpitor, ir a temaL_padron.csv para buscar, saco donde esta con los grupos
-	echo "${array[$ICODCONS]}${SEP}${array[$IFECHA]}${SEP}${contratoFusionado}${SEP}${grupo}${SEP}${orden}${SEP}${array_line[IIMPORTE]}${SEP}${name}${SEP}${USER}${SEP}${DATE}"
+	fechaActual
+	proximaFechaAdj
+	local line="${array[$ICODCONS]}${SEP}${array[$IFECHA]}${SEP}${contratoFusionado}${SEP}${grupo}${SEP}${orden}${SEP}${array_line[IIMPORTE]}${SEP}${name}${SEP}${USER}${SEP}${DATE}"
+	writeLineTo "${PROCDIR}/validas/${PROXADJ}.csv" $line
 	let 'BIENOFERTA++'
 }
 
