@@ -29,7 +29,7 @@ then
 	echo "Proceso no tiene permisos de ejecucion"
 	exit
 fi
-for i in $(ps -f)
+for i in $(ps -L u n )
 do
 	if [[ $i == $proceso ]]; then
 		echo Proceso $proceso ya se encuentra corriendo
