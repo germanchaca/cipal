@@ -30,7 +30,7 @@ $time_stamp=&time_stamp;
 $type=&msj_type($msj_type);
 #print "tipo_de_mensaje, $type \n";
 
-print $log "[USER:$logname][DATE:$time_stamp][CMD:$command][TYPE:$type]MSJ:$msj \n";
+print $log "DATE:$time_stamp-USER:$logname-CMD:$command-TYPE:$type-MSJ:$msj \n";
 $tamanio=`wc -l $filename`;
 @tamanio = split(" ", $tamanio);
 $tamanio=@tamanio[0];
