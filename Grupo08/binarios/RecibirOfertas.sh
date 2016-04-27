@@ -22,6 +22,11 @@ do
 					#Me fijo que tenga un codigo valido
 					codigoValido=false
 					codArch=${arch%%_*}
+					if [ ! -f "$MAEDIR/concesionarios.csv" ]
+					then
+						echo No existe $MAEDIR/concesionarios.csv
+						exit
+					fi
 					while read -r linea
 					do
 						cod=${linea##*;}
@@ -40,7 +45,30 @@ do
 						then
 							if  date --date $fecha >/dev/null 2>&1;
 							then
-								echo $arch esta en fecha
+								#Me dijo que este despues del acto de adjudicacion anterior
+								if [ ! -f "$MAEDIR/FechasAdj.csv" ]
+								then
+									echo No existe $MAEDIR/FechasAdj.csv
+									exit
+								fi
+								anterior=1
+								while read -r i
+								do
+									fechaAux=${i%%;*}
+									fechaAux="${fechaAux///}"
+									fechaAux=$(echo $fechaAux | sed "s-\([0-3][0-9]\)\([0-1][0-9]\)\([0-9]\{4\}\)-\3\2\1-g")
+									if [ $fechaActual -gt $anterior -a $fechaAux -gt $fechaActual ]
+									then
+										actoAnterior=$anterior
+									fi
+									anterior=$fechaAux
+								done < "$MAEDIR/FechasAdj.csv" 
+								if [ $fecha -gt $actoAnterior ]
+								then
+									echo "$arch es correcto -> Moverlo"
+								else
+									echo "La fecha de $arch es anterior al ultimo acto de adjudicacion"
+								fi
 							else
 								echo $arch fecha invalida
 							fi
@@ -63,10 +91,12 @@ do
 		echo "$arch no es un texto"
 	fi
 done
+
+#Me fijo canidad de archivos en OK
 cant=$(ls -1 $OKDIR | wc -l)
 cero=0
 if [ $cant -gt $cero ]
 then
-	salida=$(./LanzarProceso.sh proceso)
-	echo $salida posta
+	salida=$(./LanzarProceso.sh ProcesarOfertas)
+	echo LanzarOfertas: $salida 
 fi
