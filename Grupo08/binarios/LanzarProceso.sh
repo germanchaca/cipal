@@ -1,12 +1,21 @@
 #Falta ver que este inicializado el ambiente
 #Antes de iniciarlo me fijo que no es te corriendo.
-proceso=$@
+proceso=$2
+background=$1
+
 #Me fijo la cantidad de parametros
-uno=1
-if [ "$#" -gt "$uno" ]
+dos=2
+if [ "$#" -gt "$dos" ]
 then
 	echo "Cantidad de parametros incorrecta"
 	exit
+fi
+if [ "$#" -eq "$dos" ]
+then
+	proceso=$2
+	background=$1
+else
+	proceso=$1
 fi
 #Me fijo que exista el proceso
 if [ ! -f $proceso ]
@@ -20,19 +29,18 @@ then
 	echo "Proceso no tiene permisos de ejecucion"
 	exit
 fi
-corriendo=false
-while read -r linea
+for i in $(ps -f)
 do
-	p=${linea%% *}
-	if [ $p == $proceso ]
-	then
-		echo Fallo la inicializacion. El proceso ya se encontraba corriendo
-		corriendo=true
+	if [[ $i == $proceso ]]; then
+		echo Proceso $proceso ya se encuentra corriendo
+		exit
 	fi
-done < procesos
-if [ $corriendo = false ]
+done
+if [ $background == "-b" ]
 then
-	./"$proceso" &
-	echo $proceso $!  >> procesos
-	echo Inicializacion exitosa. El proceso $proceso esta corriendo
+	sh "$proceso" &
+	echo Inicializacion exitosa. El proceso $proceso esta corriendo en background. Numero de proceso: $!
+else
+	sh "$proceso"
+	echo Inicializacion exitosa. El proceso $proceso esta corriendo.
 fi

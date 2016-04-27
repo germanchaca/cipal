@@ -17,41 +17,41 @@ do
 			then
 				#Que tenga formato correcto
 				re="^[0-9]*_[0-9]{8}.*$"
-				if [[ ! $arch =~ $re ]]
-				then
-					echo Formato Incorrecto
-					exit
-				fi
-				#Me fijo que tenga un codigo valido
-				codigoValido=false
-				codArch=${arch%%_*}
-				while read -r linea
-				do
-					cod=${linea##*;}
-					if [ $codArch -eq $cod ]
+				if [[ $arch =~ $re ]]
 					then
-						codigoValido=true
-					fi
-				done < "$MAEDIR/concesionarios.csv"
-				if [ $codigoValido == true ]
-				#Si es valido el codigo, me fijo que pasa con la fecha
-				then
-					aux=${arch#*_}
-					fecha=${aux%%.*}
-					fechaActual=$(date +%Y%m%d)
-					if [ $fecha -le $fechaActual ]
-					then
-						if  date --date $fecha >/dev/null 2>&1;
+					#Me fijo que tenga un codigo valido
+					codigoValido=false
+					codArch=${arch%%_*}
+					while read -r linea
+					do
+						cod=${linea##*;}
+						if [ $codArch -eq $cod ]
 						then
-							echo $arch esta en fecha
+							codigoValido=true
+						fi
+					done < "$MAEDIR/concesionarios.csv"
+					if [ $codigoValido == true ]
+					#Si es valido el codigo, me fijo que pasa con la fecha
+					then
+						aux=${arch#*_}
+						fecha=${aux%%.*}
+						fechaActual=$(date +%Y%m%d)
+						if [ $fecha -le $fechaActual ]
+						then
+							if  date --date $fecha >/dev/null 2>&1;
+							then
+								echo $arch esta en fecha
+							else
+								echo $arch fecha invalida
+							fi
 						else
-							echo $arch fecha invalida
+							echo $arch es del futuro
 						fi
 					else
-						echo $arch es del futuro
+						echo $arch codigo invalido
 					fi
 				else
-					echo $arch codigo invalido
+					echo $arch formato Incorrecto
 				fi
 			else
 				echo "$arch no tiene permisos de lectura"	
