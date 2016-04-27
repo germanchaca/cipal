@@ -1,4 +1,4 @@
-#! bin/bash
+#! /bin/bash
 #mis variables para ir probando
 OKDIR="../aceptados"
 MAEDIR="../maestros"
@@ -10,6 +10,7 @@ LOGSIZE=10000
 export LOGDIR
 export LOGSIZE
 
+#faltaria validar mis propias funciones, como tomo la fecha
 #empieza mi programa de verdad
 PROCEAROFERTAS='ProcesarOfertas'
 GRABAR='perl GrabarBitacora.pl ProcesarOfertas'
@@ -69,18 +70,25 @@ function just_name {
 	echo -n $just_name
 }
 
+
+function setVariablesOfertaDeArchivosMaestros {
+	# $1 --> contrato fusiondo(grupo+orden)
+	
+	local grupo=$(echo -n $1 | head -c 4 )
+	local orden=$(echo -n $1 | tail -c 3 )
+	SUBSCRIPTOROFERTA=$(grep "${grupo}${SEP}${orden}${SEP}.*" "${MAEDIR}/temaL_padron.csv")
+	GRUPOOFERTA=$(grep "${grupo}${SEP}.*" "${MAEDIR}/grupos.csv")
+
+}
+
 function validCONTFUS {
-	ESTADO=1
+	IESTADO=1
 	if [[ "$1" =~ [0-9]{7} ]]; then
-		local grupo=$(echo -n $1 | head -c 4 )
-		local orden=$(echo -n $1 | tail -c 3 )
-		local subscrpitor=$(grep "${grupo}${SEP}${orden}${SEP}.*" "${MAEDIR}/temaL_padron.csv")
-		local grupos=$(grep "${grupo}${SEP}.*" "${MAEDIR}/grupos.csv")
-		local array_grupo=(${grupos//$SEP/ })
-		if [ -z "$subscrpitor" ];then
+		local array_grupo=(${GRUPOOFERTA//$SEP/ })
+		if [ -z "$SUBSCRIPTOROFERTA" ];then
 			ERR_MSG="Contrato no encontrado"
 			return $ERROR
-		elif [ ${array_grupo[$ESTADO]} = "CERRADO" ];then
+		elif [ ${array_grupo[$IESTADO]} = "CERRADO" ];then
 			ERR_MSG="Grupo CERRADO"
 			return $ERROR
 		else
@@ -93,10 +101,28 @@ function validCONTFUS {
 }
 
 function validIMPORTE {
+	ICUOTPURA=3
+	ICUOTPEND=4
+	ICUOTLIC=5
 	if [[ "$1" =~ [0-9]+ ]]; then
 		#validar contra >= a cuota_pura * cantidad_cuotas para licitacion
 		# <= a vouta_pura * cuotas_pendientes ?? de donde sale --> grupo
 		#error con sobre o bajo
+		local array_grupo=(${GRUPOOFERTA//$SEP/ })
+		local cuotaPura=${array_grupo[$ICUOTPURA]}
+		local cuotasPend=${array_grupo[$ICUOTPEND]}
+		local cuotasLic=${array_grupo[$ICUOTLIC]}
+		cuotaPura=${cuotaPura//,/.}
+		local maximo=$(echo "scale=2;$cuotaPura*$cuotasPend" | bc)
+		local minimo=$(echo "scale=2;$cuotaPura*$cuotasLic" | bc)
+
+		if (( $(echo "$1>$maximo" | bc -l) )); then
+			ERR_MSG="El importe supera el maximo a ofertar"
+			return $ERROR
+		elif (( $(echo "$1<$maximo" | bc -l) )); then
+			ERR_MSG="El importe esta por debajo de lo minimo a ofertar"
+			return $ERROR
+		fi
 		return $OK
 	else
 		ERR_MSG="No es un numero el importe"
@@ -107,7 +133,7 @@ function validIMPORTE {
 function validPARTICIPA {
 	#buscar campo numero X en subscriptos
 	PARTICIPA=5
-	local array_subscriptor=(${1//$SEP/ })
+	local array_subscriptor=(${SUBSCRIPTOROFERTA//$SEP/ })
 	if [[ "${array_subscriptor[$PARTICIPA]}" =~ ^[12]$ ]]; then
 		return $OK
 	else
@@ -119,6 +145,7 @@ function validPARTICIPA {
 
 function validOFERTA {
 	local array=(${1//$SEP/ })
+	setVariablesOfertaDeArchivosMaestros ${array[$ICONTFUS]}
 	validCONTFUS ${array[$ICONTFUS]}
 	if [ $? = $ERROR ];	then
 		return $ERROR
@@ -127,10 +154,7 @@ function validOFERTA {
 	if [ $? = $ERROR ]; then
 		return $ERROR
 	fi
-	local grupo=$(echo -n ${array[$ICONTFUS]} | head -c 4 )
-	local orden=$(echo -n ${array[$ICONTFUS]} | tail -c 3 )
-	local subscrpitor=$(grep "${grupo}${SEP}${orden}${SEP}.*" "${MAEDIR}/temaL_padron.csv")
-	validPARTICIPA "$subscrpitor"
+	validPARTICIPA
 	if [ $? = $ERROR ]; then
 		return $ERROR
 	else 
@@ -159,15 +183,12 @@ function bienRegistro {
 	local array=(${file_name//_/ })
 	local array_line=(${2//$SEP/ })
 	local contratoFusionado=${array_line[$ICONTFUS]}
-	local grupo=$(echo -n $contratoFusionado | head -c 4 )
-	local orden=$(echo -n $contratoFusionado | tail -c 3 )
-	local subscrpitor=$(grep "${grupo}${SEP}${orden}${SEP}.*" "${MAEDIR}/temaL_padron.csv")
-	local array_subscriptor=(${subscrpitor//$SEP/ })
+	local array_subscriptor=(${SUBSCRIPTOROFERTA//$SEP/ })
 	local name=${array_subscriptor[$NAME]}
 	fechaActual
 	proximaFechaAdj
 	local line="${array[$ICODCONS]}${SEP}${array[$IFECHA]}${SEP}${contratoFusionado}${SEP}${grupo}${SEP}${orden}${SEP}${array_line[IIMPORTE]}${SEP}${name}${SEP}${USER}${SEP}${DATE}"
-	writeLineTo "${PROCDIR}/validas/${PROXADJ}.csv" $line
+	writeLineTo "${PROCDIR}/validas/${PROXADJ}.csv" "$line"
 	let 'BIENOFERTA++'
 }
 
@@ -181,6 +202,8 @@ function finArchivo {
 	fi
 }
 
+
+#Programa principal
 $GRABAR "Inicio de ${PROCEAROFERTAS}"
 
 ofertas="${OKDIR}/*_*.csv"
@@ -196,7 +219,7 @@ do
 		echo "DUPLICADO"
 		finArchivo $file $ERROR
 	else
-		#primer fila de file, deja comas y \n, cuenta bytes
+		#obtiene primer fila y arma array de elementos
 		first_row=$(head -1 $file)
 		campos=(${first_row//$SEP/ })
 		if [ ${#campos[@]} = $ROWSEXPECTED ]
