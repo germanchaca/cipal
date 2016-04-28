@@ -74,10 +74,10 @@ function just_name {
 function setVariablesOfertaDeArchivosMaestros {
 	# $1 --> contrato fusiondo(grupo+orden)
 	
-	local grupo=$(echo -n $1 | head -c 4 )
-	local orden=$(echo -n $1 | tail -c 3 )
-	SUBSCRIPTOROFERTA=$(grep "${grupo}${SEP}${orden}${SEP}.*" "${MAEDIR}/temaL_padron.csv")
-	GRUPOOFERTA=$(grep "${grupo}${SEP}.*" "${MAEDIR}/grupos.csv")
+	GRUPO=$(echo -n $1 | head -c 4 )
+	ORDEN=$(echo -n $1 | tail -c 3 )
+	SUBSCRIPTOROFERTA=$(grep "${GRUPO}${SEP}${ORDEN}${SEP}.*" "${MAEDIR}/temaL_padron.csv")
+	GRUPOOFERTA=$(grep "${GRUPO}${SEP}.*" "${MAEDIR}/grupos.csv")
 
 }
 
@@ -115,11 +115,16 @@ function validIMPORTE {
 		cuotaPura=${cuotaPura//,/.}
 		local maximo=$(echo "scale=2;$cuotaPura*$cuotasPend" | bc)
 		local minimo=$(echo "scale=2;$cuotaPura*$cuotasLic" | bc)
-
+		echo "Pura, ${cuotaPura}"
+		echo "Pend, ${cuotasPend}"
+		echo "Lic, ${cuotasLic}"
+		echo $maximo
+		echo $1
+		echo $minimo
 		if (( $(echo "$1>$maximo" | bc -l) )); then
 			ERR_MSG="El importe supera el maximo a ofertar"
 			return $ERROR
-		elif (( $(echo "$1<$maximo" | bc -l) )); then
+		elif (( $(echo "$1<$minimo" | bc -l) )); then
 			ERR_MSG="El importe esta por debajo de lo minimo a ofertar"
 			return $ERROR
 		fi
@@ -185,9 +190,10 @@ function bienRegistro {
 	local contratoFusionado=${array_line[$ICONTFUS]}
 	local array_subscriptor=(${SUBSCRIPTOROFERTA//$SEP/ })
 	local name=${array_subscriptor[$NAME]}
+	local fecha_original=$(echo ${array[$IFECHA]} | sed "s/^\([0-9]\{4\}\)\([01][0-9]\)\([0-3][0-9]\)$/\3-\2-\1/" )
 	fechaActual
 	proximaFechaAdj
-	local line="${array[$ICODCONS]}${SEP}${array[$IFECHA]}${SEP}${contratoFusionado}${SEP}${grupo}${SEP}${orden}${SEP}${array_line[IIMPORTE]}${SEP}${name}${SEP}${USER}${SEP}${DATE}"
+	local line="${array[$ICODCONS]}${SEP}${fecha_original}${SEP}${contratoFusionado}${SEP}${GRUPO}${SEP}${ORDEN}${SEP}${array_line[$IIMPORTE]}${SEP}${name}${SEP}${USER}${SEP}${DATE}"
 	writeLineTo "${PROCDIR}/validas/${PROXADJ}.csv" "$line"
 	let 'BIENOFERTA++'
 }
