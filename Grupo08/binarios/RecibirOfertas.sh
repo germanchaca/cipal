@@ -1,6 +1,6 @@
-MAEDIR=/home/federico/Escritorio/cipal/Grupo08/maestros
-ARRIDIR=/home/federico/Escritorio/cipal/Grupo08/arribados
-OKDIR=/home/federico/Escritorio/cipal/Grupo08/aceptados
+MAEDIR=../maestros
+ARRIDIR=../arribados
+OKDIR=../aceptados
 for arch in $(ls $ARRIDIR)
 do
 	dir="$ARRIDIR/$arch"
