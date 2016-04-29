@@ -11,12 +11,11 @@ OKDIR=../aceptados
 #else
 #	echo "No era bash"
 #fi
-
 for arch in $(ls $ARRIDIR)
 do
 	dir="$ARRIDIR/$arch"
 	extension=${arch##*.}
-	text="txt"
+	text='txt'
 	#Que sea un texto
 	if [ "$extension" == "$text" ]
 	then
@@ -76,7 +75,7 @@ do
 								done < "$MAEDIR/FechasAdj.csv" 
 								if [ $fecha -gt $actoAnterior ]
 								then
-									./MoverArchivo.sh $ARRIDIR$arch $OKDIR
+									./MoverArchivo.sh $dir $OKDIR
 									echo Movido
 								else
 									echo "La fecha de $arch es anterior al ultimo acto de adjudicacion"
@@ -109,6 +108,6 @@ cant=$(ls -1 $OKDIR | wc -l)
 cero=0
 if [ $cant -gt $cero ]
 then
-	salida=$(./LanzarProceso.sh ProcesarOfertas.sh)
+	#salida=$(./LanzarProceso.sh ProcesarOfertas.sh)
 	echo LanzarOfertas: $salida 
 fi

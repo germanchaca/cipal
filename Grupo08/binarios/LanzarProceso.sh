@@ -5,12 +5,13 @@ parametroCorrecto=-b
 dos=2
 
 #Me fijo quien lo llama
-padre="base"
+padre=$(ps -o stat= -p $PPID)
+bash='Ss'
 #Metodo de salida
 #$1 mensaje
 #$2 tipo
 Mensaje () {
-    if [ "$padre" == "bash" ]
+    if [ ! "$padre" == "$bash" ]
     then
    		echo "Lanzar Proceso:" $1
    	else
@@ -48,23 +49,23 @@ then
 	Mensaje "Proceso no tiene permisos de ejecucion" "ERR"
 fi
 #Me fijo que este inicializado el ambiente
-if [ ! -z "$OKDIR" ] 
+if [ -z "$OKDIR" ] 
 then
 	Mensaje "El ambiente no se ecuentra inicializado" "ERR"
 fi
 #Antes de iniciarlo me fijo que no es te corriendo.
 for i in $(ps -L u n )
 do
-	if [[ $i == $proceso ]] 
+	if [ $i == $proceso ] 
 	then
 		Mensaje "Proceso $proceso ya se encuentra corriendo" "ERR"
 	fi
 done
 if [ $background == "-b" ]
 then
-	sh "$proceso" &
+	./"$proceso" &
 	Mensaje "Inicializacion exitosa. El proceso $proceso esta corriendo en background. Numero de proceso: $!" "INFO"
 else
-	sh "$proceso"
+	./"$proceso"
 	Mensaje "Inicializacion exitosa. El proceso $proceso esta corriendo." "INFO"
 fi

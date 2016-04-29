@@ -1,1 +1,1 @@
-sh LanzarProceso.sh RecibirOfertas.sh
+./LanzarProceso.sh RecibirOfertas.sh
