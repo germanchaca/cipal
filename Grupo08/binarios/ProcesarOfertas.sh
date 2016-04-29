@@ -113,18 +113,13 @@ function validIMPORTE {
 		local cuotasPend=${array_grupo[$ICUOTPEND]}
 		local cuotasLic=${array_grupo[$ICUOTLIC]}
 		cuotaPura=${cuotaPura//,/.}
-		local maximo=$(echo "scale=2;$cuotaPura*$cuotasPend" | bc)
-		local minimo=$(echo "scale=2;$cuotaPura*$cuotasLic" | bc)
-		echo "Pura, ${cuotaPura}"
-		echo "Pend, ${cuotasPend}"
-		echo "Lic, ${cuotasLic}"
-		echo $maximo
-		echo $1
-		echo $minimo
-		if (( $(echo "$1>$maximo" | bc -l) )); then
+		local maximo=$(echo "scale=2;${cuotaPura}*${cuotasPend}" | bc)
+		local minimo=$(echo "scale=2;${cuotaPura}*${cuotasLic}" | bc)
+		local importe=${1//,/.}
+		if (( $(echo "${importe} > ${maximo}" | bc -l) )); then
 			ERR_MSG="El importe supera el maximo a ofertar"
 			return $ERROR
-		elif (( $(echo "$1<$minimo" | bc -l) )); then
+		elif (( $(echo "${importe} < ${minimo}" | bc -l) )); then
 			ERR_MSG="El importe esta por debajo de lo minimo a ofertar"
 			return $ERROR
 		fi
@@ -201,9 +196,10 @@ function bienRegistro {
 function finArchivo {
 	if [ $2 = $ERROR ]; then
 		let 'RECHAZADOS++'
-		#mover $1 a ${NOKDIR}
+		./MoverArchivos.sh $1 ${NOKDIR}
 	else
 		let 'PROCESADOS++'
+		./MoverArchivos.sh $1 ${PROCDIR}/procesadas
 		#mover $1 a ${PROCDIR}/procesadas
 	fi
 }
@@ -235,6 +231,9 @@ do
 
 			for line in $(<$file)
 			do
+				#archivos windows !!
+				line=${line//^M/}
+				line=$(echo $line | tr -d '\r')
 				validOFERTA $line
 				if [ $? = $OK ]; then
 					bienRegistro $file $line 
