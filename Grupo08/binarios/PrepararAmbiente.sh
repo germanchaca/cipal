@@ -1,13 +1,5 @@
 #!/bin/bash
 
-#TODO Revisar ambiente
-	#TODO Checkear archivos y directorios existentes
-	#TODO Checkear permisos en archivos
-
-#TODO Si es necesario reparar ambiente.
-	#TODO Crear directorio de recovery con los ejecutables para restaurarlos	
-
-
 #Parametros:
 #		1.mensaje a guardar en bitacora
 #		2.tipo de mensaje (INFO, WAR, ERR)
@@ -16,19 +8,40 @@ function grabarBitacora() {
   	local msj=$1
 	local msj_type=$2
 	local grab_bitac="./GrabarBitacora.pl"
- 	chkExistFncShGrabarBitacora "$grab_bitac"
+ 	chkFileExists "$grab_bitac"
   	"$grab_bitac" "$command" "$msj" "$msj_type"
 }
 
-function chkExistFncShGrabarBitacora(){
+function chkFileExists(){
 	if [ ! -f "$1" ];
 	then
-		echo "Error: No existe el binario grabar bitacora"
-		exit 1
+		echo "Error: No existe el archivo $1"
+		return 1
 	fi
 }
 
-config_file="../config/CIPAL.cnf"
+function chkDirExists(){
+	if [ ! -d "$1" ];
+	then
+		echo "Error: No existe el directorio $1"
+		return 1
+	fi
+}
+
+
+#TODO Revisar ambiente
+	#TODO Checkear archivos y directorios existentes
+
+config_dir="../config"
+config_file="$config_dir/CIPAL.cnf"
+	
+	
+	
+	#TODO Checkear permisos en archivos
+
+#TODO Si es necesario reparar ambiente.
+	#TODO Crear directorio de recovery con los ejecutables para restaurarlos	
+
 IFS='='
 	while read var value user record_date
 	do
