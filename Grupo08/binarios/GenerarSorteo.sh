@@ -79,7 +79,7 @@ function chkExistFncShGrabarBitacora(){
 #		1.numero de orden
 #		2.numero de sorteo correspondiente al numero de orden
 function escribirLineaArchivo(){
-	echo "$1;$2\n">>$fileNameSorteo
+	echo "$1;$2">>$fileNameSorteo
 }
 
 #COMIENZA MAIN
@@ -91,7 +91,7 @@ TEMP="GrabarBitacora.pl"
 GRABITAC="$BINDIR$TEMP"
 chkExistFncShGrabarBitacora
 
-TEMP="FechasAdj.csv"
+TEMP="/FechasAdj.csv"
 TABLA_FECHAS_ADJ="$MAEDIR$TEMP"
 checkearExistenciaTablaFechasAdj
 
@@ -110,14 +110,14 @@ do
 
 	fechaModificada=${fecha////-} #FORMATO DD-MM-YYYY
 
-	TEMP="sorteos/$sorteoId""_""$fechaModificada.srt"
+	TEMP="/sorteos/$sorteoId""_""$fechaModificada.srt"
 
 	fileNameSorteo="$PROCDIR$TEMP"
 
 	#Si ya esta creado lo renombra con .old
 	if [ -w $fileNameSorteo ]
 	then
-		mv $fileNameSorteo $fileNameSorteo".old"
+		rm $fileNameSorteo
 	fi
 
 	nroOrden=1
