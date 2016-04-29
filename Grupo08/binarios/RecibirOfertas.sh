@@ -1,113 +1,132 @@
-MAEDIR=../maestros
-ARRIDIR=../arribados
-OKDIR=../aceptados
+#!/bin/bash
 
-#padre="$(ps -o comm= $PPID)"
-#bash="bash"
-#if [ "$padre" == "$bash" ]
-#then
-#   echo RecibirOfertas solo se puede invocar desde LanzarProceso o InicializarAmbiente
-#    exit
-#else
-#	echo "No era bash"
-#fi
-for arch in $(ls $ARRIDIR)
+Mensaje () {
+   	./GrabarBitacora.pl RecibirOfertas $1 $2
+}
+#$1 dir con el file
+#$2 destino
+MoverArchivo(){
+	./MoverArchivo $1 $NOKDIR "RecibirOfertas"
+}
+cont=0
+while true
 do
-	dir="$ARRIDIR/$arch"
-	extension=${arch##*.}
-	text='txt'
-	#Que sea un texto
-	if [ "$extension" == "$text" ]
+	cont=$((cont+1))
+	Mensaje "Corrida numero: $cont" "INFO"
+	padre=$(ps -o stat= -p $PPID)
+	bash='Ss'
+	if [ "$padre" == "$bash" ]
 	then
-		#Que no sea vacio
-		if [ -s $dir ]
+		echo RecibirOfertas solo se puede invocar desde LanzarProceso o InicializarAmbiente
+		exit
+	fi
+	for arch in $(ls $ARRIDIR)
+	do
+		dir="$ARRIDIR/$arch"
+		extension=${arch##*.}
+		text='txt'
+		#Que sea un texto
+		if [ "$extension" == "$text" ]
 		then
-			#Que tenga permisos de lectura
-			if [ -f $dir ] 
+			#Que no sea vacio
+			if [ -s $dir ]
 			then
-				#Que tenga formato correcto
-				re="^[0-9]*_[0-9]{8}.*$"
-				if [[ $arch =~ $re ]]
-					then
-					#Me fijo que tenga un codigo valido
-					codigoValido=false
-					codArch=${arch%%_*}
-					if [ ! -f "$MAEDIR/concesionarios.csv" ]
-					then
-						echo No existe $MAEDIR/concesionarios.csv
-						exit
-					fi
-					while read -r linea
-					do
-						cod=${linea##*;}
-						if [ $codArch -eq $cod ]
+				#Que tenga permisos de lectura
+				if [ -f $dir ] 
+				then
+					#Que tenga formato correcto
+					re="^[0-9]*_[0-9]{8}.*$"
+					if [[ $arch =~ $re ]]
 						then
-							codigoValido=true
+						#Me fijo que tenga un codigo valido
+						codigoValido=false
+						codArch=${arch%%_*}
+						if [ ! -f "$MAEDIR/concesionarios.csv" ]
+						then
+							Mensaje "No existe $MAEDIR/concesionarios.csv" "ERR"
+							exit
 						fi
-					done < "$MAEDIR/concesionarios.csv"
-					if [ $codigoValido == true ]
-					#Si es valido el codigo, me fijo que pasa con la fecha
-					then
-						aux=${arch#*_}
-						fecha=${aux%%.*}
-						fechaActual=$(date +%Y%m%d)
-						if [ $fecha -le $fechaActual ]
-						then
-							if  date --date $fecha >/dev/null 2>&1;
+						while read -r linea
+						do
+							cod=${linea##*;}
+							if [ $codArch -eq $cod ]
 							then
-								#Me dijo que este despues del acto de adjudicacion anterior
-								if [ ! -f "$MAEDIR/FechasAdj.csv" ]
+								codigoValido=true
+							fi
+						done < "$MAEDIR/concesionarios.csv"
+						if [ $codigoValido == true ]
+						#Si es valido el codigo, me fijo que pasa con la fecha
+						then
+							aux=${arch#*_}
+							fecha=${aux%%.*}
+							fechaActual=$(date +%Y%m%d)
+							if [ $fecha -le $fechaActual ]
+							then
+								if  date --date $fecha >/dev/null 2>&1;
 								then
-									echo No existe $MAEDIR/FechasAdj.csv
-									exit
-								fi
-								anterior=1
-								while read -r i
-								do
-									fechaAux=${i%%;*}
-									fechaAux="${fechaAux///}"
-									fechaAux=$(echo $fechaAux | sed "s-\([0-3][0-9]\)\([0-1][0-9]\)\([0-9]\{4\}\)-\3\2\1-g")
-									if [ $fechaActual -gt $anterior -a $fechaAux -gt $fechaActual ]
+									#Me dijo que este despues del acto de adjudicacion anterior
+									if [ ! -f "$MAEDIR/FechasAdj.csv" ]
 									then
-										actoAnterior=$anterior
+										Mensaje "No existe $MAEDIR/FechasAdj.csv" "ERR"
+										exit
 									fi
-									anterior=$fechaAux
-								done < "$MAEDIR/FechasAdj.csv" 
-								if [ $fecha -gt $actoAnterior ]
-								then
-									./MoverArchivo.sh $dir $OKDIR
-									echo Movido
+									anterior=1
+									while read -r i
+									do
+										fechaAux=${i%%;*}
+										fechaAux="${fechaAux///}"
+										fechaAux=$(echo $fechaAux | sed "s-\([0-3][0-9]\)\([0-1][0-9]\)\([0-9]\{4\}\)-\3\2\1-g")
+										if [ $fechaActual -gt $anterior -a $fechaAux -gt $fechaActual ]
+										then
+											actoAnterior=$anterior
+										fi
+										anterior=$fechaAux
+									done < "$MAEDIR/FechasAdj.csv" 
+									if [ $fecha -gt $actoAnterior ]
+									then
+										./MoverArchivo.sh $dir $OKDIR
+										Mensaje "$arch movido a $OKDIR" "INFO"
+									else
+										Mensaje "La fecha de $arch es anterior al ultimo acto de adjudicacion" "ERR"
+										MoverArchivo $dir
+									fi
 								else
-									echo "La fecha de $arch es anterior al ultimo acto de adjudicacion"
+									Mensaje "$arch fecha invalida" "ERR"
+									MoverArchivo $dir
 								fi
 							else
-								echo $arch fecha invalida
+								Mensaje "$arch es del futuro" "ERR"
+								MoverArchivo $dir
 							fi
 						else
-							echo $arch es del futuro
+							Mensaje "$arch codigo invalido" "ERR"
+							MoverArchivo $dir
 						fi
 					else
-						echo $arch codigo invalido
+						Mensaje "$arch formato Incorrecto" "ERR"
+						MoverArchivo $dir
 					fi
 				else
-					echo $arch formato Incorrecto
+					Mensaje "$arch no tiene permisos de lectura" "ERR"
+					MoverArchivo $dir
 				fi
 			else
-				echo "$arch no tiene permisos de lectura"	
+				Mensaje "$arch esta vacio" "ERR"
+				MoverArchivo $dir
 			fi
 		else
-			echo "$arch esta vacio"
+			Mensaje "$arch no es un texto" "ERR"
+			MoverArchivo $dir
 		fi
-	else
-		echo "$arch no es un texto"
-	fi
-done
+	done
 
-#Me fijo canidad de archivos en OK
-cant=$(ls -1 $OKDIR | wc -l)
-cero=0
-if [ $cant -gt $cero ]
-then
-	#salida=$(./LanzarProceso.sh ProcesarOfertas.sh)
-	echo LanzarOfertas: $salida 
-fi
+	#Me fijo canidad de archivos en OK
+	cant=$(ls -1 $OKDIR | wc -l)
+	cero=0
+	if [ $cant -gt $cero ]
+	then
+		salida=$(./LanzarProceso.sh ProcesarOfertas.sh)
+		Mensaje "LanzarOfertas: $salida""INFO"
+	fi
+	sleep $SLEEPTIME
+done
