@@ -15,7 +15,6 @@ function grabarBitacora() {
 function chkFileExists(){
 	if [ ! -f "$1" ];
 	then
-		echo "Error: No existe el archivo $1"
 		return 1
 	fi
 }
@@ -23,10 +22,22 @@ function chkFileExists(){
 function chkDirExists(){
 	if [ ! -d "$1" ];
 	then
-		echo "Error: No existe el directorio $1"
 		return 1
 	fi
 }
+
+function showErrorFileNotFound(){
+	error="Error: No existe el archivo $PWD/$1"
+	echo $error
+	grabarBitacora $error "ERR"
+}
+
+function showErrorDirNotFound(){
+	error="Error: No existe el directorio $PWD/$1"
+	echo $error
+	grabarBitacora $error "ERR"
+}
+
 
 
 #TODO Revisar ambiente
@@ -34,8 +45,20 @@ function chkDirExists(){
 
 config_dir="../config"
 config_file="$config_dir/CIPAL.cnf"
-	
-	
+
+if [ ! -d $config_dir ];
+then
+	showErrorDirNotFound $config_dir
+	return 1
+fi
+
+if [ ! -f $config_file ];
+then
+	showErrorFileNotFound $config_file
+	return 1
+fi
+
+
 	
 	#TODO Checkear permisos en archivos
 
@@ -64,8 +87,8 @@ IFS='='
 	if [[ $reply =~ ^[sS][iI]?$ ]];
 	then
 		echo "Lanzando RecibirOfertas"
-		$(./LanzarProceso.sh RecibirOfertas.sh)
+		$(./LanzarProceso.sh -b RecibirOfertas.sh)
 		echo "Para detener el proceso RecibirOfertas, se debe invocar el comando \"./DetenerProceso.sh RecibirOfertas.sh\""
 	else
-		echo "Para lanzar el proceso RecibirOfertas, se debe invocar el comando \"./LanzarProceso.sh RecibirOfertas.sh"
+		echo "Para lanzar el proceso RecibirOfertas, se debe invocar el comando \"./LanzarProceso.sh -b RecibirOfertas.sh"
 	fi 
