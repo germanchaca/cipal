@@ -1,6 +1,17 @@
 MAEDIR=../maestros
 ARRIDIR=../arribados
 OKDIR=../aceptados
+
+#padre="$(ps -o comm= $PPID)"
+#bash="bash"
+#if [ "$padre" == "$bash" ]
+#then
+#   echo RecibirOfertas solo se puede invocar desde LanzarProceso o InicializarAmbiente
+#    exit
+#else
+#	echo "No era bash"
+#fi
+
 for arch in $(ls $ARRIDIR)
 do
 	dir="$ARRIDIR/$arch"
@@ -65,7 +76,8 @@ do
 								done < "$MAEDIR/FechasAdj.csv" 
 								if [ $fecha -gt $actoAnterior ]
 								then
-									echo "$arch es correcto -> Moverlo"
+									./MoverArchivo.sh $ARRIDIR$arch $OKDIR
+									echo Movido
 								else
 									echo "La fecha de $arch es anterior al ultimo acto de adjudicacion"
 								fi
@@ -97,6 +109,6 @@ cant=$(ls -1 $OKDIR | wc -l)
 cero=0
 if [ $cant -gt $cero ]
 then
-	salida=$(./LanzarProceso.sh ProcesarOfertas)
+	salida=$(./LanzarProceso.sh ProcesarOfertas.sh)
 	echo LanzarOfertas: $salida 
 fi
