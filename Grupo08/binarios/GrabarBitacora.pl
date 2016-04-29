@@ -1,17 +1,21 @@
 #!/usr/bin/perl
+if((not defined $ENV{'LOGDIR'}) or (not defined $ENV{'LOGSIZE'})){
+	print	"ERROR: NO ESTAN DEFINIDAS LAS VARIABLES DE AMBIENTE\n";
+    exit 1;
+}
 $LOGDIR =  $ENV{'LOGDIR'}; 
 $LOGSIZE =  $ENV{'LOGSIZE'}; 
 $log="";
 #print "LOGDIR, $LOGDIR\n"; 
 #print "LOGSIZE, $LOGSIZE\n"; 
-
+$LOGDIR= "../".$LOGDIR;
 ($command, $msj, $msj_type) = @ARGV;
 #print "comando, $command \n";
 #print "mensaje, $msj \n";
 if (opendir ( DIR, $LOGDIR ) ){
 	#print "existe $LOGDIR\n";
 }else{
-	#print "No existe $LOGDIR\n";
+	print "No existe $LOGDIR\n";
 }
 
 $filename = $LOGDIR."/".$command.".log";
