@@ -1,15 +1,23 @@
 #!/bin/bash
-
+#
+# Universidad de Buenos Aires
+# Facultad de Ingenieria
+#
+# 75.08 Sistemas Operativos
+# Grupo: 08
+#
 #Parametros: 
 #		-a: Ayuda
 # Input:
-# 	1.Tabla de Fechas de adjudicacion MAEDIR/fechas_adj.csv
+# 	1.Tabla de Fechas de adjudicacion MAEDIR/Fechas_Adj.csv
 # Output:
 # 	1.Archivos de sorteos PROCDIR/sorteos/<sorteoId>_<fecha de adjudicación >
 # 	2.Log del Comando LOGDIR/GenerarSorteo.log
 
+
+
 function intruirModoLlamada(){
-	echo "Modo de llamada a funcion bash: GenerarSorteo.sh \n"
+	echo "Modo de llamada a funcion bash: GenerarSorteo.sh"
 	exit 1
 }
 function mostrarAyuda(){
@@ -17,12 +25,12 @@ function mostrarAyuda(){
 	echo "El propósito de este comando es generar números aleatorios sin repetición del 1 al 168"	
 	echo "Deben de estar inicializadas las variables de ambiente"
 	echo "Modo de llamada a funcion bash: GenerarSorteo.sh "	
-	echo "Graba el resultado de cada sorteo para cada fecha de adjudicacion en bitacora y archivo de /sorteos/<sorteoId>_<fecha de adjudicación>	"
+	echo "Graba el resultado de cada sorteo para cada fecha de adjudicacion en bitacora y archivo de /sorteos/<sorteoId>_<fecha de adjudicación>"
 	exit 0
 }
 function checkearEntornoNoIniciado(){
 	if [ -z "$BINDIR"  -o -z "$MAEDIR"  -o -z "$PROCDIR" ] ; then
-		echo "Error: No estan inicializadas las variables de entorno \n"
+		echo "Error: No estan inicializadas las variables de entorno "
 		exit 1
 	fi	
 }
@@ -38,8 +46,10 @@ function grabarBitacora() {
 }
 
 function crearDirOutputSorteosSiNoExiste(){
-	TEMP="/sorteos"
-	mkdir -p "$PROCDIR$TEMP"
+	if [ ! -d $PROCDIR"sorteos" ]
+	then
+		mkdir -p $PROCDIR"sorteos"
+	fi
 }
 
 function inicializarLog(){
@@ -53,14 +63,14 @@ function checkearExistenciaTablaFechasAdj(){
 	if [ ! -f "$TABLA_FECHAS_ADJ" ];
 	then
 		grabarBitacora "No existe el archivo $TABLA_FECHAS_ADJ" "ERR"
-		echo "No existe el archivo $TABLA_FECHAS_ADJ \n"
+		echo "No existe el archivo $TABLA_FECHAS_ADJ"
 		exit 1
 	fi
 }
 function chkExistFncShGrabarBitacora(){
 	if [ ! -f "$GRABITAC" ];
 	then
-		echo "Error: No existe el archivo $GRABITAC \n"
+		echo "Error: No existe el archivo $GRABITAC"
 		exit 1
 	fi
 }
@@ -74,14 +84,14 @@ function escribirLineaArchivo(){
 
 #COMIENZA MAIN
 [[ $1 == "-a" ]] && mostrarAyuda
-[[ $# -gt 0 ]] && instruirModoLlamada
+[[ $# -gt 0 ]] && intruirModoLlamada
 
 checkearEntornoNoIniciado
 TEMP="GrabarBitacora.pl"
 GRABITAC="$BINDIR$TEMP"
 chkExistFncShGrabarBitacora
 
-TEMP="/FechasAdj.csv"
+TEMP="FechasAdj.csv"
 TABLA_FECHAS_ADJ="$MAEDIR$TEMP"
 checkearExistenciaTablaFechasAdj
 
@@ -98,10 +108,17 @@ for fecha in $fechasActoAdjudicacion
 do
 	sorteo=$(seq 168 | shuf) #Generador de numeros aleatorios del 1 al 168
 
-	fechaModificada=${fecha////-}
-	TEMP="/sorteos/$sorteoId_$fechaModificada.srt"
+	fechaModificada=${fecha////-} #FORMATO DD-MM-YYYY
+
+	TEMP="sorteos/$sorteoId""_""$fechaModificada.srt"
+
 	fileNameSorteo="$PROCDIR$TEMP"
-	touch $fileNameSorteo #vacia el archivo si existe y lo crea
+
+	#Si ya esta creado lo renombra con .old
+	if [ -w $fileNameSorteo ]
+	then
+		mv $fileNameSorteo $fileNameSorteo".old"
+	fi
 
 	nroOrden=1
 	for nroSorteo in $sorteo
