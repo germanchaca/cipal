@@ -23,7 +23,7 @@ then
 	echo "NOKDIR=$grupo/rechazados=$(whoami)=$(date +%d-%m-%Y\ %H:%M)" >> "$config_file"
 	echo "BCKP=$grupo/backup=$(whoami)=$(date +%d-%m-%Y\ %H:%M)" >> "$config_file"
 	echo "LOGSIZE=10000=$(whoami)=$(date +%d-%m-%Y\ %H:%M)" >> "$config_file"
-	echo "SLEEPTIME=1000=$(whoami)=$(date +%d-%m-%Y\ %H:%M)" >> "$config_file"
+	echo "SLEEPTIME=5=$(whoami)=$(date +%d-%m-%Y\ %H:%M)" >> "$config_file"
 	
 	echo "Instalacion exitosa."
 else
