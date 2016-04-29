@@ -1,14 +1,14 @@
 #! /bin/bash
 #mis variables para ir probando
-OKDIR="../aceptados"
-MAEDIR="../maestros"
-PROCDIR="../procesados"
-NOKDIR="../rechazados"
-LOGDIR="../bitacoras" 
+# OKDIR="../aceptados"
+# MAEDIR="../maestros"
+# PROCDIR="../procesados"
+# NOKDIR="../rechazados"
+# LOGDIR="../bitacoras" 
 
-LOGSIZE=10000
-export LOGDIR
-export LOGSIZE
+# LOGSIZE=10000
+# export LOGDIR
+# export LOGSIZE
 
 #faltaria validar mis propias funciones, como tomo la fecha
 #empieza mi programa de verdad

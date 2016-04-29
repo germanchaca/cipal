@@ -1,9 +1,9 @@
 #! /bin/bash
 
-LOGDIR="../bitacoras"
-LOGSIZE=1000
-export LOGDIR
-export LOGSIZE
+# LOGDIR="../bitacoras"
+# LOGSIZE=1000
+# export LOGDIR
+# export LOGSIZE
 
 #ACA EMPIEZA
 NOGRABA=0
