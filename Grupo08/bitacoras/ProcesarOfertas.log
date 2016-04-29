@@ -1,9 +1,0 @@
-DATE:29/4/2016 19:35:30-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
-DATE:29/4/2016 19:35:30-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 3 
-DATE:29/4/2016 19:35:30-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 3303_20160420.csv 
-DATE:29/4/2016 19:35:36-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Registros leidos = 93: cantidad de ofertas validas 50: cantidad de ofertas rechazadas = 43 
-DATE:29/4/2016 19:35:36-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 7894_20161025.csv 
-DATE:29/4/2016 19:35:36-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Registros leidos = 7: cantidad de ofertas validas 1: cantidad de ofertas rechazadas = 6 
-DATE:29/4/2016 19:35:36-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '9594_20160428.csv' porque su estructura no se corresponde con el formato esperado 
-DATE:29/4/2016 19:35:36-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 2: Archivos rechazados: 1 
-DATE:29/4/2016 19:35:36-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
