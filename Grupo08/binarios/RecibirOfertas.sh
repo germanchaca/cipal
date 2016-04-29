@@ -6,7 +6,7 @@ Mensaje () {
 #$1 dir con el file
 #$2 destino
 MoverArchivo(){
-	./MoverArchivo $1 $NOKDIR "RecibirOfertas"
+	./MoverArchivo.sh $1 $NOKDIR "RecibirOfertas"
 }
 cont=0
 while true
