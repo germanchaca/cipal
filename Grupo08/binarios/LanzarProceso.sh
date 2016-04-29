@@ -5,9 +5,7 @@ parametroCorrecto=-b
 dos=2
 
 #Me fijo quien lo llama
-padre=$(grep "$PPID" "/proc/$PID/status" |cut -f2)
-echo $padre
-exit
+padre="base"
 #Metodo de salida
 #$1 mensaje
 #$2 tipo
