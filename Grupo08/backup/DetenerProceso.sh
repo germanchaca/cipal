@@ -1,7 +1,7 @@
 proceso=$@
 #Me fijo la cantidad de parametros
 uno=1
-if [ "$#" -gt "$uno" -o "$#" -eq 0 ]
+if [ "$#" -gt "$uno" ]
 then
 	echo "Cantidad de parametros incorrecta"
 	exit

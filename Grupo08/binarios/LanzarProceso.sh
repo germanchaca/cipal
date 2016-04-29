@@ -1,46 +1,71 @@
-#Falta ver que este inicializado el ambiente
-#Antes de iniciarlo me fijo que no es te corriendo.
 proceso=$2
 background=$1
-
+parametroCorrecto=-b
 #Me fijo la cantidad de parametros
 dos=2
-if [ "$#" -gt "$dos" ]
+
+#Me fijo quien lo llama
+padre=$(ps -o stat= -p $PPID)
+bash='Ss'
+#Metodo de salida
+#$1 mensaje
+#$2 tipo
+Mensaje () {
+    if [ ! "$padre" == "$bash" ]
+    then
+   		echo "Lanzar Proceso:" $1
+   	else
+   		#Aca graba bitacora
+   		#echo $1
+   		echo $1
+   		#./GrabarBitacora.pl LanzarProceso $1 $2
+   	fi
+   	exit
+}
+
+if [ "$#" -gt "$dos" -o "$#" -eq 0 ]
 then
-	echo "Cantidad de parametros incorrecta"
-	exit
+	Mensaje "Cantidad de parametros incorrecta" "ERR"
 fi
 if [ "$#" -eq "$dos" ]
 then
 	proceso=$2
 	background=$1
+	if [ ! "$background" == "$parametroCorrecto" ]
+	then
+		Mensaje "Flag incorrecto, el Unico posible es -b" "ERR"
+	fi
 else
 	proceso=$1
 fi
 #Me fijo que exista el proceso
 if [ ! -f $proceso ]
 then
-	echo "Proceso no existe"
-	exit
+	Mensaje "Proceso no existe" "ERR"
 fi
 #Me fijo que tenga permisos de ejecucion
 if [ ! -x $proceso ]
 then
-	echo "Proceso no tiene permisos de ejecucion"
-	exit
+	Mensaje "Proceso no tiene permisos de ejecucion" "ERR"
 fi
+#Me fijo que este inicializado el ambiente
+if [ -z "$OKDIR" ] 
+then
+	Mensaje "El ambiente no se ecuentra inicializado" "ERR"
+fi
+#Antes de iniciarlo me fijo que no es te corriendo.
 for i in $(ps -L u n )
 do
-	if [[ $i == $proceso ]]; then
-		echo Proceso $proceso ya se encuentra corriendo
-		exit
+	if [ $i == $proceso ] 
+	then
+		Mensaje "Proceso $proceso ya se encuentra corriendo" "ERR"
 	fi
 done
 if [ $background == "-b" ]
 then
-	sh "$proceso" &
-	echo Inicializacion exitosa. El proceso $proceso esta corriendo en background. Numero de proceso: $!
+	./"$proceso" &
+	Mensaje "Inicializacion exitosa. El proceso $proceso esta corriendo en background. Numero de proceso: $!" "INFO"
 else
-	sh "$proceso"
-	echo Inicializacion exitosa. El proceso $proceso esta corriendo.
+	./"$proceso"
+	Mensaje "Inicializacion exitosa. El proceso $proceso esta corriendo." "INFO"
 fi

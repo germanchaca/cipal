@@ -8,37 +8,18 @@
 	#TODO Crear directorio de recovery con los ejecutables para restaurarlos	
 
 
-#Parametros:
-#		1.mensaje a guardar en bitacora
-#		2.tipo de mensaje (INFO, WAR, ERR)
-function grabarBitacora() {
-	local command="PrepararAmbiente"
-  	local msj=$1
-	local msj_type=$2
-	local grab_bitac="./GrabarBitacora.pl"
- 	chkExistFncShGrabarBitacora "$grab_bitac"
-  	"$grab_bitac" "$command" "$msj" "$msj_type"
-}
-
-function chkExistFncShGrabarBitacora(){
-	if [ ! -f "$1" ];
-	then
-		echo "Error: No existe el binario grabar bitacora"
-		exit 1
-	fi
-}
-
+GRABAR='perl GrabarBitacora.pl PrepararAmbiente'
 config_file="../config/CIPAL.cnf"
 IFS='='
 	while read var value user record_date
 	do
 		export "$var"="$value"
 		echo "Variable $var inicializada con valor $value"
-		grabarBitacora "Variable ${var} inicializada con valor ${value}" "INFO"
+		$GRABAR "Variable $var inicializada con valor $value"
 	done < $config_file
 
 	echo "Estado del Sistema: INICIALIZADO"
-	grabarBitacora "Estado del Sistema: INICIALIZADO" "INFO"
+	$GRABAR "Estado del Sistema: INICIALIZADO"
 
 	read -p "¿Desea efectuar la activación de RecibirOfertas? Si – No: " reply
 	
