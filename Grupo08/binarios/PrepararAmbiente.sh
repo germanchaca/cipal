@@ -3,6 +3,9 @@
 #Parametros:
 #		1.mensaje a guardar en bitacora
 #		2.tipo de mensaje (INFO, WAR, ERR)
+
+
+
 function grabarBitacora() {
 	local command="PrepararAmbiente"
   	local msj=$1
@@ -38,14 +41,19 @@ function showErrorDirNotFound(){
 	grabarBitacora $error "ERR"
 }
 
-
-
-#TODO Revisar ambiente
-	#TODO Checkear archivos y directorios existentes
+function createDirIfNotPresent(){
+	if [ ! -d $1 ];
+	then
+		grabarBitacora "Directorio $1 no encontrado. Creando directorio."
+		mkdir $1
+	fi
+}
 
 config_dir="../config"
 config_file="$config_dir/CIPAL.cnf"
 
+
+#Check if config directory and file exist.
 if [ ! -d $config_dir ];
 then
 	showErrorDirNotFound $config_dir
@@ -59,20 +67,42 @@ then
 fi
 
 
+
+#Read config file and set environment variables.
+IFS='='
+while read var value user record_date
+do
+	export "$var"="$value"
+	echo "Variable $var inicializada con valor $value"
+	grabarBitacora "Variable $var inicializada con valor $value" "INFO"
+done < $config_file
+
+#Check if directories exist, and create them if they don't.
+createDirIfNotPresent $BINDIR
+createDirIfNotPresent $MAEDIR
+createDirIfNotPresent $ARRIDIR
+createDirIfNotPresent $OKDIR
+createDirIfNotPresent $PROCDIR
+createDirIfNotPresent $PROCDIR/procesadas
+createDirIfNotPresent $PROCDIR/rechazadas
+createDirIfNotPresent $PROCDIR/validas
+createDirIfNotPresent $INFODIR
+createDirIfNotPresent $LOGDIR
+createDirIfNotPresent $NOKDIR
 	
+
+
+
+#TODO Revisar ambiente
+	#TODO Checkear archivos y directorios existentes
 	#TODO Checkear permisos en archivos
 
 #TODO Si es necesario reparar ambiente.
 	#TODO Crear directorio de recovery con los ejecutables para restaurarlos	
 
-IFS='='
-	while read var value user record_date
-	do
-		export "$var"="$value"
-		echo "Variable $var inicializada con valor $value"
-		grabarBitacora "Variable ${var} inicializada con valor ${value}" "INFO"
-	done < $config_file
 
+
+	export INICIALIZADO=1
 	echo "Estado del Sistema: INICIALIZADO"
 	grabarBitacora "Estado del Sistema: INICIALIZADO" "INFO"
 
@@ -90,5 +120,5 @@ IFS='='
 		$(./LanzarProceso.sh -b RecibirOfertas.sh)
 		echo "Para detener el proceso RecibirOfertas, se debe invocar el comando \"./DetenerProceso.sh RecibirOfertas.sh\""
 	else
-		echo "Para lanzar el proceso RecibirOfertas, se debe invocar el comando \"./LanzarProceso.sh -b RecibirOfertas.sh"
+		echo "Para lanzar el proceso RecibirOfertas, se debe invocar el comando \"./LanzarProceso.sh -b RecibirOfertas.sh\""
 	fi 
