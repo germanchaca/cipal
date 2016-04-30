@@ -12,10 +12,11 @@ encontro=false
 for i in $(ps -ef -o comm)
 do
 	aux=${proceso%.*}
-	if [ $i == $aux ] 
+	if [ ${i%.*} == $aux ] 
 	then
 		encontro=true
 		pid=$(pidof -x $proceso)
+		pid=${pid% *}
 		kill $pid
 	fi
 done

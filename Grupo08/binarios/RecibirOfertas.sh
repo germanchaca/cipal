@@ -6,20 +6,25 @@ Mensaje () {
 #$1 dir con el file
 #$2 destino
 MoverArchivo(){
-	./MoverArchivo.sh $1 $NOKDIR "RecibirOfertas"
+	./MoverArchivos.sh $1 $NOKDIR "RecibirOfertas"
 }
+case $(ps -o stat= -p $$) in
+  *+*) background=0 ;;
+  *) background=1 ;;
+esac
+padre=$(ps -o stat= -p $PPID)
+er1='Ss'
+er2='Ss+'
+if ([ "$padre" == "$er1" ] && [ $background -eq 0 ]) || [ "$padre" == "$er2" ]
+then
+	echo "RecibirOfertas solo se puede invocar desde LanzarProceso o InicializarAmbiente"
+	exit
+fi
 cont=0
 while true
 do
 	cont=$((cont+1))
 	Mensaje "Corrida numero: $cont" "INFO"
-	padre=$(ps -o stat= -p $PPID)
-	bash='Ss'
-	if [ "$padre" == "$bash" ]
-	then
-		echo RecibirOfertas solo se puede invocar desde LanzarProceso o InicializarAmbiente
-		exit
-	fi
 	for arch in $(ls $ARRIDIR)
 	do
 		dir="$ARRIDIR/$arch"

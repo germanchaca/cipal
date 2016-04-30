@@ -17,12 +17,10 @@ Mensaje () {
    		echo "Lanzar Proceso:" $1
    	else
    		#Aca graba bitacora
-   		#echo $1
    		./GrabarBitacora.pl LanzarProceso $1 $2
    	fi
    	exit
 }
-
 if [ "$#" -gt "$dos" -o "$#" -eq 0 ]
 then
 	Mensaje "Cantidad de parametros incorrecta" "ERR"
@@ -49,7 +47,7 @@ then
 	Mensaje "Proceso no tiene permisos de ejecucion" "ERR"
 fi
 #Me fijo que este inicializado el ambiente
-if [ ! -z "$OKDIR" ] 
+if [ -z "$OKDIR" ] 
 then
 	Mensaje "El ambiente no se ecuentra inicializado" "ERR"
 fi
