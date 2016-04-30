@@ -1,16 +1,5 @@
 #! /bin/bash
-#mis variables para ir probando
-OKDIR="../aceptados"
-MAEDIR="../maestros"
-PROCDIR="../procesados"
-NOKDIR="../rechazados"
-LOGDIR="../bitacoras" 
 
-LOGSIZE=10000
-export LOGDIR
-export LOGSIZE
-
-#faltaria validar mis propias funciones, como tomo la fecha
 #empieza mi programa de verdad
 PROCEAROFERTAS='ProcesarOfertas'
 GRABAR='perl GrabarBitacora.pl ProcesarOfertas'
@@ -31,6 +20,11 @@ IIMPORTE=1
 IPARTICIPA=2
 
 SEP=";"
+
+if [ ! "$INICIALIZADO" = 1 ];then
+	echo "No esta inicializado el ambiente"
+	exit $ERROR
+fi
 
 function fechaActual {
 	DATE=$(date +%d/%m/%Y)
@@ -207,6 +201,12 @@ function finArchivo {
 
 #Programa principal
 $GRABAR "Inicio de ${PROCEAROFERTAS}"
+
+ARCHIV=$(ls $OKDIR)
+if [ ! $ARCHIV ]; then
+	$GRABAR "$OKDIR VACIO"
+	exit
+fi
 
 ofertas="${OKDIR}/*_*.csv"
 countOfertas=$(ls -1  $ofertas | wc -l)

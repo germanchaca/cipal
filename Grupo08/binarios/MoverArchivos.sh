@@ -1,10 +1,5 @@
 #! /bin/bash
 
-LOGDIR="../bitacoras"
-LOGSIZE=1000
-export LOGDIR
-export LOGSIZE
-
 #ACA EMPIEZA
 NOGRABA=0
 GRABA=1
@@ -12,8 +7,11 @@ ERROR=1
 OK=0
 LLAMADOR=''
 MODO=3
-# no entendi si este max tiene que estar en configuracion
-MAXSEQ=10
+
+if [ ! "$INICIALIZADO" = 1 ];then
+	echo "No esta inicializado el ambiente"
+	exit $ERROR
+fi
 
 function logear {
 	if [ $MODO = $GRABA ]; then
@@ -22,11 +20,11 @@ function logear {
 }
 
 function getMaxSeqArch {
-	#obtiene el numero del proximos archivo
+	#obtiene el numero del proximo archivo
 	local numbers_array=($(ls $1 | grep "${FILENAME}\..*" | sed "s-\(.*\.\)\([0-9]\+\)-\2-"))
 	local number=$(( 1 + ${#numbers_array[@]}))
 	echo $number
-	
+		
 }
 
 function salirError {
@@ -92,10 +90,6 @@ if [ -f $DESTINO ];then
 	if [ -f "${DIRDUPL}${FILENAME}" ];then 
 		#existe el duplicado
 		SEQ=$(getMaxSeqArch "${DIRDUPL}")
-		if [ $SEQ -gt $MAXSEQ ];then
-		
-			SEQ=1
-		fi
 		mv $1 "${DIRDUPL}${FILENAME}.${SEQ}"
 		logear "Movio ${FILENAME} a ${DIRDUPL}, repeticion:${SEQ}"
 	else

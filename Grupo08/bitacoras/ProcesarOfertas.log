@@ -1,275 +1,1391 @@
-DATE:29/4/2016 17:15:55-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
-DATE:29/4/2016 17:15:55-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 3 
-DATE:29/4/2016 17:15:55-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 3402_20160420.csv 
-DATE:29/4/2016 17:16:32-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Registros leidos = 312: cantidad de ofertas validas 268: cantidad de ofertas rechazadas = 44 
-DATE:29/4/2016 17:16:32-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 7894_20161025.csv 
-DATE:29/4/2016 17:16:33-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Registros leidos = 7: cantidad de ofertas validas 1: cantidad de ofertas rechazadas = 6 
-DATE:29/4/2016 17:16:33-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '9594_20160428.csv' porque su estructura no se corresponde con el formato esperado 
-DATE:29/4/2016 17:16:33-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 2: Archivos rechazados: 1 
-DATE:29/4/2016 17:16:33-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
-DATE:29/4/2016 17:58:51-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
-DATE:29/4/2016 17:58:51-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 3 
-DATE:29/4/2016 17:59:20-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
-DATE:29/4/2016 17:59:20-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 3 
-DATE:29/4/2016 17:59:20-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 3402_20160420.csv 
-DATE:29/4/2016 18:1:19-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
-DATE:29/4/2016 18:1:19-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 3 
-DATE:29/4/2016 18:1:19-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 3402_20160420.csv 
-DATE:29/4/2016 18:4:49-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
-DATE:29/4/2016 18:4:49-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 3 
-DATE:29/4/2016 18:4:49-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 3402_20160420.csv 
-DATE:29/4/2016 18:4:49-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 0 
-DATE:29/4/2016 18:4:49-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
-DATE:29/4/2016 18:5:12-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
-DATE:29/4/2016 18:5:12-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 3 
-DATE:29/4/2016 18:5:12-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 3402_20160420.csv 
-DATE:29/4/2016 18:8:28-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
-DATE:29/4/2016 18:8:28-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 3 
-DATE:29/4/2016 18:8:28-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 3402_20160420.csv 
-DATE:29/4/2016 18:9:35-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
-DATE:29/4/2016 18:9:35-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 3 
-DATE:29/4/2016 18:9:35-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 3402_20160420.csv 
-DATE:29/4/2016 18:9:52-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
-DATE:29/4/2016 18:9:52-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 3 
-DATE:29/4/2016 18:9:52-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 3402_20160420.csv 
-DATE:29/4/2016 18:9:57-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
-DATE:29/4/2016 18:9:57-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 3 
-DATE:29/4/2016 18:9:57-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 3402_20160420.csv 
-DATE:29/4/2016 18:11:3-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
-DATE:29/4/2016 18:11:3-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 3 
-DATE:29/4/2016 18:11:3-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 3402_20160420.csv 
-DATE:29/4/2016 18:11:37-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
-DATE:29/4/2016 18:11:37-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 3 
-DATE:29/4/2016 18:11:37-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 3402_20160420.csv 
-DATE:29/4/2016 18:12:2-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
-DATE:29/4/2016 18:12:2-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 3 
-DATE:29/4/2016 18:12:2-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 3402_20160420.csv 
-DATE:29/4/2016 18:13:12-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
-DATE:29/4/2016 18:13:12-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 3 
-DATE:29/4/2016 18:13:12-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 3402_20160420.csv 
-DATE:29/4/2016 18:13:37-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
-DATE:29/4/2016 18:13:38-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 3 
-DATE:29/4/2016 18:13:38-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 3402_20160420.csv 
-DATE:29/4/2016 18:14:4-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
-DATE:29/4/2016 18:14:4-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 3 
-DATE:29/4/2016 18:14:4-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 3402_20160420.csv 
-DATE:29/4/2016 18:15:28-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
-DATE:29/4/2016 18:15:28-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 3 
-DATE:29/4/2016 18:15:28-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 3402_20160420.csv 
-DATE:29/4/2016 18:16:0-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
-DATE:29/4/2016 18:16:0-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 3 
-DATE:29/4/2016 18:16:0-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 3402_20160420.csv 
-DATE:29/4/2016 18:18:53-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
-DATE:29/4/2016 18:18:53-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 3 
-DATE:29/4/2016 18:18:53-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 3402_20160420.csv 
-DATE:29/4/2016 18:19:53-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
-DATE:29/4/2016 18:19:53-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 3 
-DATE:29/4/2016 18:19:53-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 3402_20160420.csv 
-DATE:29/4/2016 18:20:19-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
-DATE:29/4/2016 18:20:19-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 3 
-DATE:29/4/2016 18:20:19-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 3402_20160420.csv 
-DATE:29/4/2016 18:21:57-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
-DATE:29/4/2016 18:21:57-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 3 
-DATE:29/4/2016 18:21:57-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 3402_20160420.csv 
-DATE:29/4/2016 18:23:44-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
-DATE:29/4/2016 18:23:44-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 3 
-DATE:29/4/2016 18:23:44-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 3402_20160420.csv 
-DATE:29/4/2016 18:24:6-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
-DATE:29/4/2016 18:24:6-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 3 
-DATE:29/4/2016 18:24:6-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 3402_20160420.csv 
-DATE:29/4/2016 18:24:46-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
-DATE:29/4/2016 18:24:46-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 3 
-DATE:29/4/2016 18:24:46-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 3402_20160420.csv 
-DATE:29/4/2016 18:25:33-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
-DATE:29/4/2016 18:25:33-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 3 
-DATE:29/4/2016 18:25:33-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 3402_20160420.csv 
-DATE:29/4/2016 18:25:53-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
-DATE:29/4/2016 18:25:53-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 3 
-DATE:29/4/2016 18:25:53-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 3402_20160420.csv 
-DATE:29/4/2016 18:28:48-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
-DATE:29/4/2016 18:28:48-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 3 
-DATE:29/4/2016 18:28:48-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 3402_20160420.csv 
-DATE:29/4/2016 18:29:25-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
-DATE:29/4/2016 18:29:25-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 3 
-DATE:29/4/2016 18:29:25-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 3402_20160420.csv 
-DATE:29/4/2016 18:32:25-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
-DATE:29/4/2016 18:32:25-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 3 
-DATE:29/4/2016 18:32:25-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 3402_20160420.csv 
-DATE:29/4/2016 18:33:20-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
-DATE:29/4/2016 18:33:21-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 3 
-DATE:29/4/2016 18:33:21-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 3402_20160420.csv 
-DATE:29/4/2016 18:38:32-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
-DATE:29/4/2016 18:38:32-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 3 
-DATE:29/4/2016 18:38:32-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 3402_20160420.csv 
-DATE:29/4/2016 18:39:14-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
-DATE:29/4/2016 18:39:14-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 3 
-DATE:29/4/2016 18:39:14-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 3402_20160420.csv 
-DATE:29/4/2016 18:39:52-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
-DATE:29/4/2016 18:39:52-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 3 
-DATE:29/4/2016 18:39:52-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 3402_20160420.csv 
-DATE:29/4/2016 18:41:2-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
-DATE:29/4/2016 18:41:2-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 3 
-DATE:29/4/2016 18:41:2-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 3402_20160420.csv 
-DATE:29/4/2016 18:41:19-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
-DATE:29/4/2016 18:41:19-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 3 
-DATE:29/4/2016 18:41:19-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 3402_20160420.csv 
-DATE:29/4/2016 18:42:5-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
-DATE:29/4/2016 18:42:5-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 3 
-DATE:29/4/2016 18:42:5-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 3402_20160420.csv 
-DATE:29/4/2016 18:42:51-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
-DATE:29/4/2016 18:42:51-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 3 
-DATE:29/4/2016 18:42:51-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 3402_20160420.csv 
-DATE:29/4/2016 18:43:12-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
-DATE:29/4/2016 18:43:12-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 3 
-DATE:29/4/2016 18:43:12-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 3402_20160420.csv 
-DATE:29/4/2016 18:46:28-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
-DATE:29/4/2016 18:46:28-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 3 
-DATE:29/4/2016 18:46:28-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 3402_20160420.csv 
-DATE:29/4/2016 18:46:54-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
-DATE:29/4/2016 18:46:54-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 3 
-DATE:29/4/2016 18:46:54-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 3402_20160420.csv 
-DATE:29/4/2016 18:47:14-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
-DATE:29/4/2016 18:47:14-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 3 
-DATE:29/4/2016 18:47:14-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 3402_20160420.csv 
-DATE:29/4/2016 18:47:43-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
-DATE:29/4/2016 18:47:43-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 3 
-DATE:29/4/2016 18:47:43-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 3402_20160420.csv 
-DATE:29/4/2016 18:48:3-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
-DATE:29/4/2016 18:48:4-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 3 
-DATE:29/4/2016 18:48:4-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 3402_20160420.csv 
-DATE:29/4/2016 18:48:28-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
-DATE:29/4/2016 18:48:28-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 3 
-DATE:29/4/2016 18:48:28-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 3402_20160420.csv 
-DATE:29/4/2016 18:48:58-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
-DATE:29/4/2016 18:48:58-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 3 
-DATE:29/4/2016 18:48:58-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 3402_20160420.csv 
-DATE:29/4/2016 18:49:55-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
-DATE:29/4/2016 18:49:55-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 3 
-DATE:29/4/2016 18:49:55-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 3402_20160420.csv 
-DATE:29/4/2016 18:50:26-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
-DATE:29/4/2016 18:50:26-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 3 
-DATE:29/4/2016 18:50:26-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 3402_20160420.csv 
-DATE:29/4/2016 18:51:8-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
-DATE:29/4/2016 18:51:9-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 3 
-DATE:29/4/2016 18:51:9-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 3402_20160420.csv 
-DATE:29/4/2016 18:51:34-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
-DATE:29/4/2016 18:51:34-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 3 
-DATE:29/4/2016 18:51:34-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 3402_20160420.csv 
-DATE:29/4/2016 18:51:54-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
-DATE:29/4/2016 18:51:54-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 3 
-DATE:29/4/2016 18:51:54-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 3402_20160420.csv 
-DATE:29/4/2016 18:52:9-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
-DATE:29/4/2016 18:52:9-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 3 
-DATE:29/4/2016 18:52:9-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 3402_20160420.csv 
-DATE:29/4/2016 18:52:21-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
-DATE:29/4/2016 18:52:21-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 3 
-DATE:29/4/2016 18:52:21-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 3402_20160420.csv 
-DATE:29/4/2016 18:52:46-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Registros leidos = 312: cantidad de ofertas validas 178: cantidad de ofertas rechazadas = 134 
-DATE:29/4/2016 18:52:46-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 7894_20161025.csv 
-DATE:29/4/2016 18:52:47-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Registros leidos = 7: cantidad de ofertas validas 1: cantidad de ofertas rechazadas = 6 
-DATE:29/4/2016 18:52:47-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '9594_20160428.csv' porque su estructura no se corresponde con el formato esperado 
-DATE:29/4/2016 18:52:47-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 2: Archivos rechazados: 1 
-DATE:29/4/2016 18:52:47-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
-DATE:29/4/2016 18:54:49-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
-DATE:29/4/2016 18:54:49-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 3 
-DATE:29/4/2016 18:54:49-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 3402_20160420.csv 
-DATE:29/4/2016 18:55:11-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Registros leidos = 312: cantidad de ofertas validas 178: cantidad de ofertas rechazadas = 134 
-DATE:29/4/2016 18:55:11-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 7894_20161025.csv 
-DATE:29/4/2016 18:55:11-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Registros leidos = 7: cantidad de ofertas validas 1: cantidad de ofertas rechazadas = 6 
-DATE:29/4/2016 18:55:11-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '9594_20160428.csv' porque su estructura no se corresponde con el formato esperado 
-DATE:29/4/2016 18:55:12-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 2: Archivos rechazados: 1 
-DATE:29/4/2016 18:55:12-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
-DATE:29/4/2016 18:58:2-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
-DATE:29/4/2016 18:58:2-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 3 
-DATE:29/4/2016 18:58:2-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 3402_20160420.csv 
-DATE:29/4/2016 18:58:27-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Registros leidos = 312: cantidad de ofertas validas 178: cantidad de ofertas rechazadas = 134 
-DATE:29/4/2016 18:58:27-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 7894_20161025.csv 
-DATE:29/4/2016 18:58:28-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Registros leidos = 7: cantidad de ofertas validas 1: cantidad de ofertas rechazadas = 6 
-DATE:29/4/2016 18:58:28-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '9594_20160428.csv' porque su estructura no se corresponde con el formato esperado 
-DATE:29/4/2016 18:58:28-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 2: Archivos rechazados: 1 
-DATE:29/4/2016 18:58:28-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
-DATE:29/4/2016 18:59:23-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
-DATE:29/4/2016 18:59:23-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 3 
-DATE:29/4/2016 18:59:23-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 3402_20160420.csv 
-DATE:29/4/2016 18:59:57-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Registros leidos = 312: cantidad de ofertas validas 178: cantidad de ofertas rechazadas = 134 
-DATE:29/4/2016 18:59:57-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 7894_20161025.csv 
-DATE:29/4/2016 18:59:58-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Registros leidos = 7: cantidad de ofertas validas 1: cantidad de ofertas rechazadas = 6 
-DATE:29/4/2016 18:59:58-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '9594_20160428.csv' porque su estructura no se corresponde con el formato esperado 
-DATE:29/4/2016 18:59:58-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 2: Archivos rechazados: 1 
-DATE:29/4/2016 18:59:58-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
-DATE:29/4/2016 19:0:48-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
-DATE:29/4/2016 19:0:48-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 3 
-DATE:29/4/2016 19:0:48-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 3402_20160420.csv 
-DATE:29/4/2016 19:1:14-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
-DATE:29/4/2016 19:1:14-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 3 
-DATE:29/4/2016 19:1:14-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 3402_20160420.csv 
-DATE:29/4/2016 19:1:37-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Registros leidos = 312: cantidad de ofertas validas 178: cantidad de ofertas rechazadas = 134 
-DATE:29/4/2016 19:1:37-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 7894_20161025.csv 
-DATE:29/4/2016 19:1:37-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Registros leidos = 7: cantidad de ofertas validas 1: cantidad de ofertas rechazadas = 6 
-DATE:29/4/2016 19:1:37-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '9594_20160428.csv' porque su estructura no se corresponde con el formato esperado 
-DATE:29/4/2016 19:1:37-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 2: Archivos rechazados: 1 
-DATE:29/4/2016 19:1:37-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
-DATE:29/4/2016 19:3:3-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
-DATE:29/4/2016 19:3:3-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 3 
-DATE:29/4/2016 19:3:3-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 3402_20160420.csv 
-DATE:29/4/2016 19:3:24-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Registros leidos = 312: cantidad de ofertas validas 178: cantidad de ofertas rechazadas = 134 
-DATE:29/4/2016 19:3:24-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 7894_20161025.csv 
-DATE:29/4/2016 19:3:24-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Registros leidos = 7: cantidad de ofertas validas 1: cantidad de ofertas rechazadas = 6 
-DATE:29/4/2016 19:3:24-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '9594_20160428.csv' porque su estructura no se corresponde con el formato esperado 
-DATE:29/4/2016 19:3:24-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 2: Archivos rechazados: 1 
-DATE:29/4/2016 19:3:24-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
-DATE:29/4/2016 19:7:17-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
-DATE:29/4/2016 19:7:17-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 2 
-DATE:29/4/2016 19:7:17-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 7894_20161025.csv 
-DATE:29/4/2016 19:7:17-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Registros leidos = 7: cantidad de ofertas validas 1: cantidad de ofertas rechazadas = 6 
-DATE:29/4/2016 19:7:17-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '9594_20160428.csv' porque su estructura no se corresponde con el formato esperado 
-DATE:29/4/2016 19:7:17-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 1: Archivos rechazados: 1 
-DATE:29/4/2016 19:7:17-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
-DATE:29/4/2016 19:8:2-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
-DATE:29/4/2016 19:8:2-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 14 
-DATE:29/4/2016 19:8:2-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 3303_20160420.csv 
-DATE:29/4/2016 19:8:8-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Registros leidos = 93: cantidad de ofertas validas 50: cantidad de ofertas rechazadas = 43 
-DATE:29/4/2016 19:8:8-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 3402_20160420.csv 
-DATE:29/4/2016 19:8:28-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Registros leidos = 312: cantidad de ofertas validas 178: cantidad de ofertas rechazadas = 134 
-DATE:29/4/2016 19:8:28-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 3500_20160420.csv 
-DATE:29/4/2016 19:8:41-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Registros leidos = 192: cantidad de ofertas validas 115: cantidad de ofertas rechazadas = 77 
-DATE:29/4/2016 19:8:41-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 3505_20160421.csv 
-DATE:29/4/2016 19:8:48-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Registros leidos = 91: cantidad de ofertas validas 54: cantidad de ofertas rechazadas = 37 
-DATE:29/4/2016 19:8:48-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 3510_20160420.csv 
-DATE:29/4/2016 19:8:56-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Registros leidos = 116: cantidad de ofertas validas 67: cantidad de ofertas rechazadas = 49 
-DATE:29/4/2016 19:8:56-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 3520_20160422.csv 
-DATE:29/4/2016 19:9:6-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Registros leidos = 134: cantidad de ofertas validas 77: cantidad de ofertas rechazadas = 57 
-DATE:29/4/2016 19:9:6-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 3718_20160420.csv 
-DATE:29/4/2016 19:9:8-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Registros leidos = 19: cantidad de ofertas validas 11: cantidad de ofertas rechazadas = 8 
-DATE:29/4/2016 19:9:8-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 3722_20160423.csv 
-DATE:29/4/2016 19:9:10-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Registros leidos = 25: cantidad de ofertas validas 20: cantidad de ofertas rechazadas = 5 
-DATE:29/4/2016 19:9:10-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 3724_20160420.csv 
-DATE:29/4/2016 19:9:16-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Registros leidos = 76: cantidad de ofertas validas 48: cantidad de ofertas rechazadas = 28 
-DATE:29/4/2016 19:9:16-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 3729_20160424.csv 
-DATE:29/4/2016 19:9:25-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Registros leidos = 102: cantidad de ofertas validas 71: cantidad de ofertas rechazadas = 31 
-DATE:29/4/2016 19:9:25-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 3732_20160420.csv 
-DATE:29/4/2016 19:9:28-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Registros leidos = 35: cantidad de ofertas validas 27: cantidad de ofertas rechazadas = 8 
-DATE:29/4/2016 19:9:28-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 3735_20160425.csv 
-DATE:29/4/2016 19:9:33-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Registros leidos = 63: cantidad de ofertas validas 37: cantidad de ofertas rechazadas = 26 
-DATE:29/4/2016 19:9:33-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 3739_20160420.csv 
-DATE:29/4/2016 19:9:35-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Registros leidos = 25: cantidad de ofertas validas 15: cantidad de ofertas rechazadas = 10 
-DATE:29/4/2016 19:9:35-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 3741_20160426.csv 
-DATE:29/4/2016 19:9:48-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Registros leidos = 147: cantidad de ofertas validas 84: cantidad de ofertas rechazadas = 63 
-DATE:29/4/2016 19:9:48-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 14: Archivos rechazados: 0 
-DATE:29/4/2016 19:9:48-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
-DATE:29/4/2016 19:12:13-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
-DATE:29/4/2016 19:12:13-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 1 
-DATE:29/4/2016 19:12:14-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 7894_20161025.csv 
-DATE:29/4/2016 19:12:14-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Registros leidos = 7: cantidad de ofertas validas 1: cantidad de ofertas rechazadas = 6 
-DATE:29/4/2016 19:12:14-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 1: Archivos rechazados: 0 
-DATE:29/4/2016 19:12:14-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
-DATE:29/4/2016 19:12:19-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
-DATE:29/4/2016 19:12:19-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 1 
-DATE:29/4/2016 19:12:19-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '7894_20161025.csv' por estar duplicado 
-DATE:29/4/2016 19:12:20-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
-DATE:29/4/2016 19:12:20-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
-DATE:29/4/2016 19:12:34-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
-DATE:29/4/2016 19:12:34-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 1 
-DATE:29/4/2016 19:12:34-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '7894_20161025.csv' por estar duplicado 
-DATE:29/4/2016 19:12:34-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
-DATE:29/4/2016 19:12:34-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 19:35:30-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 19:35:30-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 3 
+DATE:29/4/2016 19:35:30-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 3303_20160420.csv 
+DATE:29/4/2016 19:35:36-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Registros leidos = 93: cantidad de ofertas validas 50: cantidad de ofertas rechazadas = 43 
+DATE:29/4/2016 19:35:36-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 7894_20161025.csv 
+DATE:29/4/2016 19:35:36-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Registros leidos = 7: cantidad de ofertas validas 1: cantidad de ofertas rechazadas = 6 
+DATE:29/4/2016 19:35:36-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '9594_20160428.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 19:35:36-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 2: Archivos rechazados: 1 
+DATE:29/4/2016 19:35:36-USER:tobias-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 20:44:7-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 20:44:7-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 2 
+DATE:29/4/2016 20:44:7-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 3402_20160420.csv 
+DATE:29/4/2016 20:45:39-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 20:45:39-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 2 
+DATE:29/4/2016 20:45:39-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 3402_20160420.csv 
+DATE:29/4/2016 20:46:11-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 20:46:11-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 2 
+DATE:29/4/2016 20:46:11-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 3402_20160420.csv 
+DATE:29/4/2016 21:0:0-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:0:0-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 2 
+DATE:29/4/2016 21:0:0-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 3402_20160420.csv 
+DATE:29/4/2016 21:0:8-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Registros leidos = 312: cantidad de ofertas validas 178: cantidad de ofertas rechazadas = 134 
+DATE:29/4/2016 21:0:8-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivo a procesar: 3500_20160420.csv 
+DATE:29/4/2016 21:0:13-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Registros leidos = 192: cantidad de ofertas validas 115: cantidad de ofertas rechazadas = 77 
+DATE:29/4/2016 21:0:13-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 2: Archivos rechazados: 0 
+DATE:29/4/2016 21:0:13-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:0:18-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:0:18-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:0:18-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:0:18-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:0:18-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:0:23-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:0:23-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:0:23-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:0:23-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:0:23-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:0:28-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:0:28-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:0:28-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:0:28-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:0:28-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:0:33-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:0:33-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:0:33-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:0:33-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:0:33-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:0:38-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:0:38-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:0:38-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:0:38-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:0:38-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:0:43-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:0:43-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:0:43-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:0:43-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:0:43-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:0:48-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:0:48-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:0:48-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:0:48-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:0:48-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:0:53-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:0:53-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:0:53-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:0:53-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:0:53-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:0:58-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:0:58-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:0:58-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:0:58-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:0:58-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:1:1-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:1:1-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:1:1-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:1:1-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:1:1-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:1:3-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:1:4-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:1:4-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:1:4-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:1:4-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:1:6-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:1:6-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:1:6-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:1:6-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:1:6-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:1:9-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:1:9-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:1:9-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:1:9-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:1:9-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:1:11-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:1:11-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:1:11-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:1:11-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:1:11-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:1:14-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:1:14-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:1:14-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:1:14-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:1:14-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:1:16-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:1:16-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:1:16-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:1:16-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:1:16-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:1:19-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:1:19-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:1:19-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:1:19-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:1:19-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:1:21-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:1:21-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:1:21-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:1:21-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:1:21-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:1:24-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:1:24-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:1:24-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:1:24-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:1:24-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:1:26-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:1:27-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:1:27-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:1:27-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:1:27-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:1:29-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:1:29-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:1:29-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:1:29-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:1:29-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:1:32-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:1:32-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:1:32-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:1:32-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:1:32-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:1:34-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:1:34-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:1:34-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:1:34-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:1:34-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:1:37-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:1:37-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:1:37-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:1:37-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:1:37-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:1:39-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:1:39-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:1:39-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:1:39-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:1:39-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:1:42-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:1:42-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:1:42-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:1:42-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:1:42-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:1:44-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:1:44-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:1:44-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:1:44-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:1:44-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:1:47-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:1:47-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:1:47-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:1:47-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:1:47-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:1:49-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:1:49-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:1:50-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:1:50-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:1:50-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:1:52-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:1:52-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:1:52-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:1:52-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:1:52-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:1:55-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:1:55-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:1:55-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:1:55-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:1:55-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:1:57-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:1:57-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:1:57-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:1:57-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:1:57-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:2:0-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:2:0-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:2:0-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:2:0-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:2:0-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:2:2-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:2:2-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:2:2-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:2:2-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:2:2-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:2:5-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:2:5-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:2:5-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:2:5-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:2:5-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:2:7-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:2:7-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:2:7-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:2:7-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:2:7-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:2:10-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:2:10-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:2:10-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:2:10-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:2:10-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:2:12-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:2:12-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:2:12-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:2:12-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:2:12-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:2:15-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:2:15-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:2:15-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:2:15-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:2:15-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:2:18-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:2:18-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:2:18-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:2:18-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:2:18-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:2:20-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:2:20-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:2:20-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:2:20-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:2:20-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:2:23-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:2:23-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:2:23-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:2:23-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:2:23-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:2:25-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:2:25-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:2:25-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:2:25-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:2:25-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:2:28-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:2:28-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:2:28-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:2:28-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:2:28-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:2:30-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:2:30-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:2:30-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:2:30-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:2:30-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:2:33-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:2:33-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:2:33-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:2:33-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:2:33-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:2:35-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:2:35-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:2:35-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:2:35-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:2:35-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:2:38-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:2:38-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:2:38-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:2:38-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:2:38-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:2:41-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:2:41-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:2:41-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:2:41-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:2:41-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:2:43-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:2:43-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:2:43-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:2:43-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:2:43-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:2:46-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:2:46-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:2:46-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:2:46-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:2:46-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:2:48-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:2:48-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:2:48-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:2:48-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:2:48-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:2:51-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:2:51-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:2:51-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:2:51-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:2:51-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:2:53-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:2:53-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:2:53-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:2:53-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:2:53-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:2:56-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:2:56-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:2:56-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:2:56-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:2:56-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:2:58-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:2:58-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:2:58-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:2:58-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:2:58-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:3:1-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:3:1-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:3:1-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:3:1-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:3:1-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:3:4-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:3:4-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:3:4-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:3:4-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:3:4-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:3:6-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:3:6-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:3:6-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:3:6-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:3:6-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:3:9-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:3:9-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:3:9-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:3:9-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:3:9-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:3:11-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:3:11-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:3:11-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:3:11-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:3:11-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:3:14-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:3:14-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:3:14-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:3:14-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:3:14-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:3:16-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:3:16-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:3:16-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:3:16-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:3:16-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:3:19-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:3:19-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:3:19-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:3:19-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:3:19-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:3:21-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:3:21-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:3:21-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:3:21-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:3:22-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:3:24-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:3:24-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:3:24-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:3:24-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:3:24-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:3:27-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:3:27-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:3:27-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:3:27-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:3:27-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:3:29-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:3:29-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:3:29-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:3:29-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:3:29-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:3:32-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:3:32-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:3:32-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:3:32-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:3:32-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:3:34-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:3:34-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:3:34-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:3:34-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:3:34-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:3:37-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:3:37-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:3:37-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:3:37-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:3:37-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:3:39-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:3:39-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:3:39-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:3:39-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:3:39-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:3:42-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:3:42-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:3:42-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:3:42-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:3:42-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:3:44-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:3:44-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:3:44-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:3:44-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:3:44-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:3:47-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:3:47-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:3:47-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:3:47-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:3:47-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:3:50-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:3:50-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:3:50-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:3:50-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:3:50-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:3:52-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:3:52-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:3:52-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:3:52-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:3:52-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:3:55-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:3:55-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:3:55-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:3:55-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:3:55-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:3:57-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:3:57-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:3:57-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:3:57-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:3:57-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:4:0-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:4:0-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:4:0-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:4:0-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:4:0-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:4:2-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:4:2-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:4:2-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:4:2-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:4:2-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:4:5-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:4:5-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:4:5-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:4:5-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:4:5-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:4:7-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:4:7-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:4:7-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:4:7-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:4:7-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:4:10-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:4:10-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:4:10-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:4:10-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:4:10-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:4:13-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:4:13-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:4:13-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:4:13-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:4:13-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:4:15-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:4:15-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:4:15-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:4:15-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:4:15-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:4:18-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:4:18-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:4:18-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:4:18-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:4:18-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:4:20-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:4:20-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:4:20-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:4:20-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:4:20-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:4:23-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:4:23-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:4:23-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:4:23-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:4:23-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:4:25-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:4:25-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:4:25-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:4:25-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:4:25-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:4:28-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:4:28-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:4:28-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:4:28-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:4:28-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:4:30-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:4:30-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:4:30-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:4:30-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:4:30-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:4:33-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:4:33-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:4:33-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:4:33-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:4:33-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:4:36-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:4:36-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:4:36-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:4:36-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:4:36-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:4:38-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:4:38-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:4:38-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:4:38-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:4:38-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:4:41-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:4:41-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:4:41-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:4:41-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:4:41-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:4:43-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:4:43-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:4:43-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:4:43-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:4:43-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:4:46-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:4:46-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:4:46-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:4:46-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:4:46-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:4:48-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:4:48-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:4:48-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:4:48-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:4:48-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:4:51-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:4:51-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:4:51-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:4:51-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:4:51-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:4:53-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:4:53-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:4:53-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:4:53-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:4:53-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:4:56-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:4:56-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:4:56-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:4:56-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:4:56-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:4:59-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:4:59-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:4:59-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:4:59-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:4:59-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:5:1-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:5:1-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:5:1-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:5:1-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:5:1-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:5:4-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:5:4-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:5:4-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:5:4-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:5:4-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:5:6-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:5:6-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:5:6-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:5:6-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:5:6-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:5:9-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:5:9-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:5:9-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:5:9-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:5:9-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:5:11-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:5:11-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:5:11-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:5:11-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:5:11-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:5:14-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:5:14-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:5:14-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:5:14-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:5:14-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:5:16-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:5:16-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:5:16-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:5:16-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:5:16-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:5:19-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:5:19-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:5:19-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:5:19-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:5:19-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:5:22-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:5:22-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:5:22-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:5:22-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:5:22-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:5:24-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:5:24-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:5:24-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:5:24-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:5:24-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:5:27-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:5:27-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:5:27-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:5:27-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:5:27-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:5:29-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:5:29-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:5:29-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:5:29-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:5:29-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:5:32-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:5:32-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:5:32-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:5:32-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:5:32-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:5:34-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:5:34-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:5:34-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:5:34-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:5:34-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:5:37-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:5:37-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:5:37-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:5:37-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:5:37-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:5:39-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:5:39-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:5:39-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:5:39-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:5:40-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:5:42-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:5:42-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:5:42-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:5:42-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:5:42-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:5:45-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:5:45-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:5:45-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:5:45-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:5:45-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:5:47-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:5:47-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:5:47-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:5:47-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:5:47-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:5:50-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:5:50-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:5:50-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:5:50-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:5:50-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:5:52-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:5:52-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:5:52-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:5:52-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:5:52-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:5:55-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:5:55-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:5:55-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:5:55-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:5:55-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:5:57-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:5:57-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:5:57-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:5:57-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:5:57-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:6:0-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:6:0-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:6:0-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:6:0-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:6:0-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:6:2-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:6:2-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:6:2-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:6:3-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:6:3-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:6:5-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:6:5-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:6:5-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:6:5-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:6:5-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:6:8-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:6:8-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:6:8-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:6:8-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:6:8-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:6:10-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:6:10-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:6:10-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:6:10-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:6:10-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:6:13-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:6:13-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:6:13-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:6:13-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:6:13-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:6:15-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:6:15-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:6:15-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:6:15-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:6:15-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:6:18-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:6:18-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:6:18-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:6:18-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:6:18-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:6:20-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:6:20-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:6:20-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:6:20-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:6:20-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:6:23-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:6:23-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:6:23-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:6:23-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:6:23-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:6:26-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:6:26-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:6:26-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:6:26-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:6:26-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:6:28-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:6:28-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:6:28-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:6:28-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:6:28-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:6:31-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:6:31-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:6:31-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:6:31-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:6:31-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:6:33-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:6:33-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:6:33-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:6:33-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:6:33-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:6:36-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:6:36-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:6:36-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:6:36-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:6:36-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:6:38-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:6:38-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:6:38-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:6:38-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:6:38-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:6:41-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:6:41-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:6:41-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:6:41-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:6:41-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:6:43-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:6:43-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:6:43-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:6:43-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:6:43-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:6:46-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:6:46-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:6:46-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:6:46-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:6:46-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:6:48-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:6:48-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:6:48-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:6:48-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:6:48-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:6:51-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:6:51-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:6:51-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:6:51-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:6:51-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:6:54-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:6:54-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:6:54-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:6:54-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:6:54-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:6:56-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:6:56-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:6:56-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:6:56-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:6:56-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:6:59-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:6:59-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:6:59-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:6:59-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:6:59-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:7:1-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:7:1-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:7:1-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:7:1-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:7:1-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:7:4-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:7:4-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:7:4-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:7:4-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:7:4-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:7:6-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:7:6-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:7:6-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:7:6-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:7:6-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:7:9-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:7:9-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:7:9-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:7:9-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:7:9-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:7:11-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:7:11-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:7:12-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:7:12-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:7:12-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:7:14-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:7:14-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:7:14-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:7:14-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:7:14-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:7:17-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:7:17-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:7:17-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:7:17-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:7:17-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:7:19-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:7:19-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:7:19-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:7:19-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:7:19-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:7:22-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:7:22-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:7:22-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:7:22-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:7:22-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:7:24-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:7:24-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:7:24-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:7:24-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:7:24-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:7:27-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:7:27-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:7:27-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:7:27-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:7:27-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:7:29-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:7:29-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:7:29-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:7:29-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:7:29-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:7:32-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:7:32-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:7:32-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:7:32-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:7:32-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:7:34-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:7:34-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:7:34-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:7:35-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:7:35-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:7:37-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:7:37-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:7:37-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:7:37-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:7:37-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:7:40-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:7:40-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:7:40-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:7:40-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:7:40-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:7:42-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:7:42-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:7:42-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:7:42-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:7:42-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:7:45-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:7:45-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:7:45-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:7:45-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:7:45-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:7:47-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:7:47-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:7:47-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:7:47-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:7:47-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:7:50-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:7:50-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:7:50-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:7:50-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:7:50-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:7:52-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:7:52-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:7:52-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:7:52-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:7:52-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:7:55-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:7:55-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:7:55-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:7:55-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:7:55-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:7:57-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:7:57-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:7:57-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:7:57-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:7:57-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:8:0-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:8:0-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:8:0-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:8:0-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:8:0-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:8:3-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:8:3-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:8:3-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:8:3-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:8:3-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:8:5-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:8:5-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:8:5-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:8:5-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:8:5-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:8:8-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:8:8-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:8:8-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:8:8-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:8:8-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:8:10-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:8:10-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:8:10-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:8:10-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:8:10-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:8:13-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:8:13-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:8:13-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:8:13-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:8:13-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:8:15-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:8:15-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:8:15-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:8:15-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:8:15-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:8:18-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:8:18-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:8:18-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:8:18-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:8:18-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:8:20-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:8:20-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:8:20-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:8:21-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:8:21-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:8:23-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:8:23-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:8:23-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:8:23-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:8:23-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:8:26-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:8:26-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:8:26-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:8:26-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:8:26-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:8:28-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:8:28-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:8:28-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:8:28-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:8:28-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:8:31-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:8:31-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:8:31-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:8:31-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:8:31-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:8:33-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:8:33-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:8:33-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:8:33-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:8:33-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:8:36-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:8:36-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:8:36-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:8:36-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:8:36-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:8:38-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:8:38-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:8:38-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:8:38-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:8:38-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:8:41-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:8:41-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:8:41-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:8:41-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:8:41-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:8:43-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:8:43-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:8:43-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:8:43-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:8:43-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:8:46-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:8:46-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:8:46-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:8:46-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:8:46-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:8:49-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:8:49-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:8:49-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:8:49-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:8:49-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:9:2-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:9:2-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:9:2-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:9:2-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:9:2-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:9:7-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:9:7-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:9:7-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:9:7-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:9:7-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:9:18-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:9:18-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:9:18-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:9:18-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:9:18-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:9:20-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:9:20-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:9:20-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:9:20-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:9:20-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:9:23-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:9:23-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:9:23-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:9:23-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:9:23-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:9:25-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:9:25-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:9:25-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:9:25-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:9:25-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:9:28-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:9:28-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:9:28-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:9:29-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:9:29-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:9:30-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:9:30-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:9:30-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:9:30-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:9:30-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:9:34-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:9:34-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:9:34-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:9:34-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:9:34-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:9:35-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:9:35-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:9:35-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:9:35-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:9:35-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:9:39-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:9:39-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:9:39-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:9:39-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:9:39-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:9:40-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:9:40-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:9:40-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:9:40-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:9:40-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:9:44-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:9:44-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:9:44-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:9:44-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:9:44-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:9:45-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:9:45-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:9:45-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:9:45-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:9:45-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:9:49-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:9:49-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:9:49-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:9:49-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:9:49-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:9:50-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:9:50-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:9:50-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:9:50-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:9:50-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:9:54-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:9:54-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:9:54-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:9:54-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:9:54-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:9:56-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:9:56-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:9:56-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:9:56-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:9:56-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:9:59-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:9:59-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:9:59-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:9:59-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:9:59-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:10:1-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:10:1-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:10:1-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:10:1-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:10:1-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:10:4-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:10:4-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:10:4-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:10:4-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:10:4-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:10:6-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:10:6-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:10:6-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:10:6-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:10:6-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:10:9-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:10:9-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:10:9-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:10:9-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:10:9-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:10:11-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:10:11-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:10:11-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:10:11-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:10:11-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:13:32-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:13:32-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:13:32-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:13:32-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:13:32-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:13:37-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:13:37-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:13:37-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:13:37-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:13:37-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:13:42-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:13:42-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:13:42-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:13:42-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:13:42-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:13:47-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:13:47-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:13:47-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:13:47-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:13:47-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:13:52-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:13:52-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:13:52-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:13:52-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:13:52-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:13:57-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:13:57-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:13:57-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:13:57-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:13:57-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:14:2-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:14:2-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:14:2-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:14:2-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:14:2-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:14:7-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:14:7-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:14:7-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:14:8-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:14:8-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:14:13-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:14:13-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:14:13-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:14:13-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:14:13-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:14:46-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:14:46-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:14:46-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:14:46-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:14:46-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:18:44-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:18:44-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:18:44-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:18:44-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:18:44-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:18:49-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:18:49-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:18:49-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:18:49-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:18:49-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:18:54-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:18:54-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:18:54-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:18:54-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:18:54-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:19:42-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:19:42-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:19:42-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:19:42-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:19:42-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:19:47-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:19:47-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:19:47-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:19:47-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:19:47-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:19:52-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:19:52-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:19:52-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:19:52-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:19:52-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:20:11-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:20:11-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:20:11-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:20:11-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:20:11-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:20:16-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:20:16-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:20:16-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:20:16-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:20:16-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:20:28-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:20:28-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:20:28-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:20:28-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:20:28-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:20:33-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:20:33-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:20:33-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:20:33-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:20:33-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:20:38-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:20:38-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:20:38-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:20:38-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:20:38-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:21:51-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:21:51-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:21:51-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:21:51-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:21:51-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:21:56-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:21:56-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:21:56-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:21:56-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:21:56-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:22:1-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:22:1-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:22:1-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:22:1-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:22:1-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:22:6-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:22:6-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:22:6-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:22:6-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:22:6-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:22:11-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:22:11-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:22:11-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:22:11-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:22:11-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:22:21-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:22:21-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:22:21-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:22:21-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:22:21-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:22:26-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:22:26-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:22:26-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:22:26-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:22:26-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:22:31-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:22:31-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:22:31-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:22:31-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:22:31-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:23:16-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:23:16-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:23:16-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:23:16-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:23:16-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:23:21-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:23:21-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:23:21-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:23:21-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:23:21-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:23:26-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:23:26-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:23:26-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:23:26-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:23:26-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:23:31-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:23:31-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:23:31-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:23:31-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:23:31-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:23:37-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:23:37-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:23:37-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:23:37-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:23:37-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:23:42-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:23:42-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:23:42-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:23:42-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:23:42-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:23:47-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:23:47-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:23:47-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:23:47-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:23:47-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:23:52-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:23:52-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:23:52-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:23:52-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:23:52-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:23:57-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:23:57-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:23:57-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:23:57-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:23:57-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:24:2-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:24:2-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:24:2-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:24:2-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:24:2-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:24:7-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:24:7-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:24:7-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:24:7-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:24:7-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:24:15-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:24:15-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:24:15-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:24:15-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:24:15-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:24:20-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:24:20-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:24:20-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:24:20-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:24:20-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:24:25-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:24:25-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:24:25-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:24:25-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:24:25-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:24:30-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:24:30-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:24:30-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:24:30-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:24:30-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:25:25-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:25:25-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:25:25-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:25:25-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:25:25-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:26:31-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:26:31-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:26:31-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:26:31-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:26:31-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:28:22-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:28:22-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:28:22-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:28:22-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:28:22-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:28:27-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:28:27-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:28:27-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:28:27-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:28:27-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:30:54-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:30:54-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:30:54-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:30:54-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:30:54-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:30:59-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:30:59-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:30:59-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:30:59-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:30:59-USER:federico-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:31:3-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:31:3-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:31:3-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:31:3-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:31:3-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:31:9-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:31:9-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:31:9-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:31:9-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:31:9-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:31:55-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:31:55-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:31:55-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:31:55-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:31:55-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:32:0-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:32:0-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:32:0-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:32:0-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:32:0-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:32:5-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:32:5-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:32:5-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:32:5-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:32:5-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 21:32:6-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 21:32:6-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archivos a procesar: 0 
+DATE:29/4/2016 21:32:6-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
+DATE:29/4/2016 21:32:6-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
+DATE:29/4/2016 21:32:6-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
