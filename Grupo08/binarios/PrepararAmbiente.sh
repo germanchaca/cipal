@@ -49,6 +49,8 @@ function createDirIfNotPresent(){
 	fi
 }
 
+export INICIALIZADO=0
+
 config_dir="../config"
 config_file="$config_dir/CIPAL.cnf"
 
@@ -89,8 +91,6 @@ createDirIfNotPresent $PROCDIR/validas
 createDirIfNotPresent $INFODIR
 createDirIfNotPresent $LOGDIR
 createDirIfNotPresent $NOKDIR
-	
-
 
 
 #TODO Revisar ambiente
@@ -100,9 +100,7 @@ createDirIfNotPresent $NOKDIR
 #TODO Si es necesario reparar ambiente.
 	#TODO Crear directorio de recovery con los ejecutables para restaurarlos	
 
-
-
-	export INICIALIZADO=1
+	INICIALIZADO=1
 	echo "Estado del Sistema: INICIALIZADO"
 	grabarBitacora "Estado del Sistema: INICIALIZADO" "INFO"
 
