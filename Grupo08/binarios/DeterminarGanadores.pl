@@ -53,20 +53,28 @@ my $fechaDeAdjudicacion= substr $sorteo,$index_separtor +1 ,$lenght_fecha -1 ;
 print "fecha: ".$fechaDeAdjudicacion."\n";
 my $pathPadrones=$MAEDIR."/temaL_padron.csv";
 my $pathGrupos=$MAEDIR."/grupos.csv";
-my $pathFechas=$PROCDIR."/validas/$fechaDeAdjudicacion.txt";
+my $pathFechas=$PROCDIR."/validas/$fechaDeAdjudicacion.csv";
 my $pathSorteos=$PROCDIR."/sorteos/$sorteo";
 print $pathGrupos."\n";
 print $pathPadrones."\n";
 print $pathSorteos."\n";
+print $pathFechas."\n";
 
-if(not((-r $pathPadrones)and(-r $pathGrupos)and(-r $pathSorteos))){#and(-e $pathFechas)
+if(not((-r $pathPadrones)and(-r $pathGrupos)and(-r $pathSorteos)and(-r $pathFechas))){#and(-e $pathFechas)
 	print	"ERROR: NO ESTAN TODOS LOS ARCHIVOS DE INGRESO\n";
     exit 1;
 }
-
-my %hashGrupos=&hashGrupos($pathGrupos);
 my %hashSorteos=&hashSorteos($pathSorteos);
-#print $hashGrupos{7886}[0]."\n";
+my %hashGrupos=&hashGrupos($pathGrupos);
+my %hashPadron=&hashPadron($pathPadrones);
+my %hashFechaDeAdjudicacion=&hashFechaDeAdjudicacion($pathFechas);
+my @gruposOk;
+foreach $grupo (@grupos) {
+	if(defined $hashGrupos{$grupo}){
+		push (@gruposOk,$grupo);
+	}
+}
+
 $cadena = "";
 &opciones;
 while ($cadena ne "exit") {
@@ -81,11 +89,14 @@ while ($cadena ne "exit") {
 		}
 		elsif($cadena eq "B"){
 			print "Ganadores por sorteo\n";
-			&GanadoresPorSorteo;
+			print "Ganadores del sorteo $sorteoId de fecha $fechaDeAdjudicacion\n";
+			$imprimo ="imprimir";
+			&GanadoresPorSorteo(\%hashPadron,\%hashSorteos,\@gruposOk,$imprimo);
 		}
 		elsif($cadena eq "C"){
 			print "Ganadores por licitacion\n";
-			&GanadoresPorLicitacion;
+			print "Ganadores por Licitación $sorteoId de fecha $fechaDeAdjudicacion\n";
+			&GanadoresPorLicitacion(\%hashFechas,\%hashPadron,\%hashSorteos,\@gruposOk);
 		}
 		elsif($cadena eq "D"){
 			print "Resultado por grupo \n";
@@ -112,15 +123,102 @@ sub ResultadoGeneralDelSorteo{
 	}
 }
 sub GanadoresPorSorteo{
-	print "Holis\n";
-		if($grabarBool){
-		print "Grabo: ";
-		print "$sorteoId"."_"."$fechaDeAdjudicacion.txt\n";
-		&escribirArchivo("$sorteoId_$fechaDeAdjudicacion.txt",$texto)
+	my ($refhashPadron,$refhashSorteos,$refgrupos) = @_;
+	my $texto="";
+	my @grupos=@$refgrupos;
+	my %hashPadron=%$refhashPadron;
+	my %hashSorteos=%$refhashSorteos;
+	my $filename="$sorteoId";
+	my $texto="";
+ 	foreach $grupos (@gruposOk){
+ 		$filename=$filename.$grupo."-"
+ 	}
+ 	$filename=$filename."_"."$fechaDeAdjudicacion";
+	foreach $grupo (@gruposOk){
+		my @listaUsuarios;
+		foreach $nombrePadron (keys(%hashPadron)){
+			my $grupoPadron=@{$hashPadron{$nombrePadron}}[0];
+			if ($grupo == $grupoPadron){
+				push(@listaUsuarios,[@{$hashPadron{$nombrePadron}}]);
+			}
+		} 
+		my $boolGano=0;
+		foreach $key (sort { $a <=> $b } (keys(%hashSorteos))){#orden que indica el sorteo con el sorteoId y fecha que se pasan por paramtro
+			foreach $user (@listaUsuarios){
+				my @listUser = @{$user}; #le aclaro a perl que es una lista con los datos del uuario
+				if($hashSorteos{$key}==$listUser[1]){#numero de orden
+					$linea="Ganador por sorteo del grupo $grupo, Nro de orden $hashSorteos{$key}, $user[6] (N° de sorteo: $key)\n";
+					$hashGanador{$grupo}=$hashSorteos{$key};#guardo N de orden
+					$boolGano=1;
+					$texto = $texto.$linea;	
+					if($imprimo eq"imprimir"){
+						print $linea;
+					}
+					last;
+				}
+			}
+			if($boolGano==1){
+				last;
+			}
+		}
 	}
+	if($grabarBool){
+		print "Grabo: ";
+		print "$filename\n";
+		&escribirArchivo("$filename",$texto)				
+	}
+	return %hashPadron;
 }
 sub GanadoresPorLicitacion{
-	print "Holis\n";
+	print "GOLUS\n";
+	my ($refhashFecha,$refhashPadron,$refhashSorteos,$refgrupos) = @_;
+	my $texto="";
+	my @grupos=@$refgrupos;
+	my %hashFecha=%$refhashFecha;
+	my %hashSorteos=%$refhashSorteos;
+	my %hashPadron=%$refhashPadron;
+	my %hashNOrden;
+	foreach $numeroDeSorteo (keys(%hashSorteos)){
+		$hashNOrden[$hashSorteos{$numeroDeSorteo}]=$numeroDeSorteo;
+	}
+	my $filename="$sorteoId";
+	my $texto="";
+ 	my %ganadoresPorSorteo=	&GanadoresPorSorteo(\%hashPadron,\%hashSorteos,\@gruposOk,"no imprimir");
+ 	foreach $grupos (@gruposOk){
+ 		$filename=$filename.$grupo."-";
+ 	}
+ 	$filename=$filename."_"."$fechaDeAdjudicacion";
+	foreach $grupo (@gruposOk){
+		my @listaUsuarios;
+		foreach $nombreFecha (keys(%hashFecha)){
+			my $grupoFecha=@{$hashFecha{$nombreFecha}}[0];
+			print "$grupoFecha"."\n";
+			if (($grupo == $grupoFecha)and(not (@{$hashFecha{$nombreFecha}}[4]==$ganadoresPorSorteo[$grupo]))){#guardo N de orden
+				print "@{$hashFecha{$nombreFecha}}";
+				push(@listaUsuarios,[@{$hashFecha{$nombreFecha}}]);
+			}
+		} 
+		$numeroDeOrden;
+		$nombre;
+		$ofertaMax=0;
+		foreach $user (@listaUsuarios){
+			my @listUser = @{$user}; #le aclaro a perl que es una lista con los datos del uuario
+			if($ofertaMax<$listUser[5]){#Importe Ofertado
+				$ofertaMax=$listUser[5];
+				$texto = $texto.$linea;	
+				$nombre=$listUser[6];
+				$numeroDeOrden=$listUser[4];
+				
+				if($imprimo eq"imprimir"){
+					print $linea;
+				}
+				last;
+			}
+		}
+	}
+	if($grabarBool){
+		
+	}
 }
 sub ResultadoPorGrupo{
 	print "Holis\n";
@@ -128,8 +226,8 @@ sub ResultadoPorGrupo{
 sub hashSorteos{
 	my %hashSorteos;
 	($pathSorteos)=@_;
-	print $pathSorteos."\n";
-	open (my $handleSorteos,'<'.$pathSorteos) || die "ERROR: No puedo abrir el fichero $filename\n";
+	print "Path sorteos: ".$pathSorteos."\n";
+	open (my $handleSorteos,'<'.$pathSorteos) || die "ERROR: No puedo abrir el fichero $pathSorteos\n";
 	while ($linea=<$handleSorteos>){
 		chomp($linea);
 		my @listCsv=split(/;/,$linea);
@@ -141,6 +239,27 @@ sub hashSorteos{
 	close $handleSorteos;
 	return %hashSorteos;
 }
+sub hashPadron{
+	#Key nombre, Value= info padron
+	my %hashPadron;
+	($pathPadrones)=@_;
+	print "Path padrones: ".$pathPadrones."\n";
+	open (my $handlePadron,'<'.$pathPadrones) || die "ERROR: No puedo abrir el fichero $pathPadrones\n";
+	while ($linea=<$handlePadron>){
+		chomp($linea);
+		my @listCsv=split(/;/,$linea);
+		my $participa=$listCsv[5];
+		if(($participa!=1) and ($participa!=2)){ #ESTOS son los que nos son validos
+			next;
+		}
+		$hashPadron{$listCsv[2]}=[@listCsv];
+	}
+	close $handlePadron;
+#	foreach $key (keys(%hashPadron)){#ordena numericamente{}
+#		print "Nombre $key ,Datos:  @{$hashPadron{$key}} \n";
+#	}
+	return %hashPadron;
+}
 sub ayuda{
 	print "ayuda\n";
 }
@@ -150,16 +269,44 @@ sub opciones{
 sub hashGrupos{
 	my %hashGrupos;
 	($pathGrupos)=@_;
-	open (my $handleGrupos,'<'.$pathGrupos) || die "ERROR: No puedo abrir el fichero $filename\n";
+	open (my $handleGrupos,'<'.$pathGrupos) || die "ERROR: No puedo abrir el fichero $pathGrupos\n";
 	while ($linea=<$handleGrupos>){
 		chomp($linea);
 		my @listCsv=split(/;/,$linea);
-		my $key=shift(@listCsv);
+		my $estado= $listCsv[1];
+		if($estado eq "CERRADO"){
+			next;
+		}
+		my $key=shift(@listCsv);#numero de grupo
 		$hashGrupos{$key} = [@listCsv];
 	}
 	close $handleGroup;
+
+	#foreach $key (keys(%hashGrupos)){#ordena numericamente{}
+	#	print "Numero $key , Estado @{$hashGrupos{$key}} \n";
+	#}
+
 	return %hashGrupos;
 }
+sub hashFechaDeAdjudicacion{
+	my %hashFechaDeAdjudicacion;
+	($pathFechas)=@_;
+	print "Path fechas: ".$pathFechas."\n";
+	open (my $handleFechas,'<'.$pathFechas) || die "ERROR: No puedo abrir el fichero $pathFechas\n";
+	while ($linea=<$handleFechas>){
+		chomp($linea);
+		my @listCsv=split(/;/,$linea);
+		my $nombre=$listCsv[6];
+		$hashFechaDeAdjudicacion{$nombre}=[@listCsv];
+	}
+	close $handleFechas;
+
+	foreach $key (keys(%hashFechaDeAdjudicacion)){#ordena numericamente{}
+		print "Nombre $key ,Datos:  @{$hashFechaDeAdjudicacion{$key}} \n";
+	}
+	return %hashFechaDeAdjudicacion;
+
+}	
 sub listaGrupos{
 	my (@argumentos) = @_;
 	my @grupos;
@@ -167,7 +314,7 @@ sub listaGrupos{
 		if (index($grupo,"-",0) ne "-1"){
 			($inicial,$final)=split(/-/,$grupo);
 			for (my $i=$inicial; $i<$final+1; $i++) {
-				push(@grupos, $i);
+					push(@grupos, $i);
 			}
 		}else{
 			push(@grupos, $grupo);
