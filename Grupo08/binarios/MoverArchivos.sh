@@ -8,6 +8,11 @@ OK=0
 LLAMADOR=''
 MODO=3
 
+if [ ! "$INICIALIZADO" = 1 ];then
+	echo "No esta inicializado el ambiente"
+	exit $ERROR
+fi
+
 function logear {
 	if [ $MODO = $GRABA ]; then
 		perl GrabarBitacora.pl $LLAMADOR "$1"

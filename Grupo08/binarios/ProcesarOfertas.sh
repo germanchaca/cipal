@@ -21,6 +21,11 @@ IPARTICIPA=2
 
 SEP=";"
 
+if [ ! "$INICIALIZADO" = 1 ];then
+	echo "No esta inicializado el ambiente"
+	exit $ERROR
+fi
+
 function fechaActual {
 	DATE=$(date +%d/%m/%Y)
 }
