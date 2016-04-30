@@ -15,7 +15,12 @@ esac
 padre=$(ps -o stat= -p $PPID)
 er1='Ss'
 er2='Ss+'
-if ([ "$padre" == "$er1" ] && [ $background -eq 0 ]) || [ "$padre" == "$er2" ]
+if [ $background -eq 0 ]
+then 
+	echo "RecibirOfertas solo corre en background"
+	exit
+fi
+if [ "$padre" == "$er2" ]
 then
 	echo "RecibirOfertas solo se puede invocar desde LanzarProceso o InicializarAmbiente"
 	exit
