@@ -47,7 +47,7 @@ then
 	Mensaje "Proceso no tiene permisos de ejecucion" "ERR"
 fi
 #Me fijo que este inicializado el ambiente
-if [ $INICIALIZADO -eq 0 ] 
+if [ -z $INICIALIZADO ] || [ $INICIALIZADO -eq 0 ]
 then
 	Mensaje "El ambiente no se ecuentra inicializado" "ERR"
 fi
