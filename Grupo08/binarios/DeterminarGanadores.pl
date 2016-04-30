@@ -244,9 +244,17 @@ sub ResultadoPorGrupo{
 		$nombreGanadorLicitacion=@{$hashGanadoresPorLicitacion{$grupo}}[1];
 		$numOrdenGanadorSorteo=@{$hashGanadoresPorSorteo{$grupo}}[0];
 		$numOrdenGanadorLicitacion=@{$hashGanadoresPorLicitacion{$grupo}}[0];
-		print "$grupo- $numOrdenGanadorSorteo S ( $nombreGanadorSorteo)\n";
-		print "$grupo- $numOrdenGanadorLicitacion L ( $nombreGanadorLicitacion)\n";
+		$linea= " $grupo-$numOrdenGanadorSorteo S ($nombreGanadorSorteo)\n $grupo-$numOrdenGanadorLicitacion L ($nombreGanadorLicitacion)\n";
+		print $linea;
+		if($grabarBool){
+			my $filename="$sorteoId"."_"."Grupo"."$grupo"."_"."$fechaDeAdjudicacion";
+			print "Grabo: ";
+			print "$filename\n";
+			&escribirArchivo("$filename",$linea)				
 	}
+
+	}
+
 }
 sub hashSorteos{
 	my %hashSorteos;
