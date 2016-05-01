@@ -127,7 +127,7 @@ sub ResultadoGeneralDelSorteo{
 		$texto = $texto.$linea;	
 	}
 	if($grabarBool){
-		print "Grabo: $sorteoId"."_"."$fechaDeAdjudicacion.txt\n";
+		print "Grabo: $sorteoId"."_"."$fechaDeAdjudicacion.txt\n\n";
 		system("./GrabarBitacora.pl", "$NOMBRE_CMD", "Grabo: $sorteoId"."_"."$fechaDeAdjudicacion.txt", "INFO");
 		&escribirArchivo("$sorteoId_$fechaDeAdjudicacion.txt",$texto)
 	}
@@ -174,7 +174,7 @@ sub GanadoresPorSorteo{
 		}
 	}
 	if($grabarBool and ($imprimo eq "imprimir")){
-		print "Grabo: $filename\n";
+		print "Grabo: $filename\n\n";
 		system("./GrabarBitacora.pl", "$NOMBRE_CMD", "Grabo: $filename", "INFO");
 		&escribirArchivo("$filename",$texto)				
 	}
@@ -191,7 +191,8 @@ sub GanadoresPorLicitacion{
 	my %hashGanador;
 
 	foreach $numeroDeSorteo (keys(%hashSorteos)){
-		$hashNOrden{$hashSorteos{$numeroDeSorteo}}=$numeroDeSorteo;
+		$numeroDeOrden = sprintf( "%03d", $hashSorteos{$numeroDeSorteo} );
+		$hashNOrden{$numeroDeOrden}=$numeroDeSorteo;
 	}
 	my $filename="$sorteoId";
 	my $texto="";
@@ -236,7 +237,7 @@ sub GanadoresPorLicitacion{
 		}
 	}
 	if($grabarBool and ($imprimo eq "imprimir")){
-		print "Grabo: $filename\n";
+		print "Grabo: $filename\n\n";
 		system("./GrabarBitacora.pl", "$NOMBRE_CMD", "Grabo: $filename", "INFO");
 		&escribirArchivo("$filename",$texto);					
 	}
@@ -260,7 +261,7 @@ sub ResultadoPorGrupo{
 		print $linea;
 		if($grabarBool){
 			my $filename="$sorteoId"."_"."Grupo"."$grupo"."_"."$fechaDeAdjudicacion";
-			print "Grabo: $filename\n";
+			print "Grabo: $filename\n\n";
 			system("./GrabarBitacora.pl", "$NOMBRE_CMD", "Grabo: $filename", "INFO");
 			&escribirArchivo("$filename",$linea)				
 	}
@@ -277,7 +278,9 @@ sub hashSorteos{
 		chomp($linea);
 		my @listCsv=split(/;/,$linea);
 		my $numeroDeOrden=$listCsv[1];
+		$numeroDeOrden = sprintf( "%03d", $numeroDeOrden);
 		my $numeroDeSorteo=$listCsv[0];
+		$numeroDeSorteo = sprintf( "%03d", $numeroDeSorteo);
 		$hashSorteos{$numeroDeSorteo} = $numeroDeOrden;
 		#print "Nro. de Sorteo $numeroDeSorteo, le correspondió al número de orden $numeroDeOrden\n";
 	}
