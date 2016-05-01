@@ -2,7 +2,7 @@
 my $NOMBRE_CMD="DeterminarGanadores";
 if((not defined $ENV{'MAEDIR'}) or (not defined $ENV{'PROCDIR'})or (not defined $ENV{'INFODIR'})){
 	print	"ERROR: NO ESTAN DEFINIDAS LAS VARIABLES DE AMBIENTE\n";
-	system("./GrabarBitacora.pl", "$NOMBRE_CMD", "ERROR: NO ESTAN DEFINIDAS LAS VARIABLES DE AMBIENTE", "ERROR");
+	system("./GrabarBitacora.pl", "$NOMBRE_CMD", "NO ESTAN DEFINIDAS LAS VARIABLES DE AMBIENTE", "ERR");
     exit 1;
 }
 $MAEDIR =  $ENV{'MAEDIR'}; 
@@ -11,15 +11,18 @@ $INFODIR =  $ENV{'INFODIR'};
 
 if (@ARGV[0] eq "-a"){
 	&ayuda;
-	print "ayuda\n";
+	print "Ayuda\n";
+	system("./GrabarBitacora.pl", "$NOMBRE_CMD", "Muesta menu de ayuda", "INFO");
 	exit 0;
 }
 if (@ARGV[0] eq "-g"){
-	print "grabo\n";
+	print "Grabo\n";
+	system("./GrabarBitacora.pl", "$NOMBRE_CMD", "Se activo la opcion de grabar", "INFO");
 	$grabarBool="1";
 	shift(@ARGV);
 }else{
 	print "Opcion no grabo\n";
+	system("./GrabarBitacora.pl ","$NOMBRE_CMD", "Se activo la opcion de grabar"," INFO");
 	$grabarBool="0";
 }
 
@@ -37,31 +40,28 @@ if (opendir(DIR,"$PROCDIR/sorteos")){
 	closedir(DIR);
 }else{
 	print "ERROR:NO HAY SORTEOS\n";
-	system("perl GrabarBitacora.pl", "$NOMBRE_CMD", "ERROR:NO HAY SORTEOS", "ERROR");
+	system("./GrabarBitacora.pl", "$NOMBRE_CMD", "No hay sorteos", "ERR");
 	exit 1;
 }
 if( length($sorteo) eq 0){
 	print "ERROR:NO HAY SORTEO CON EL ID DADO\n";
+	system("./GrabarBitacora.pl", "$NOMBRE_CMD", "No hay sorteos", "ERR");
 	exit 1;
 }
 my @grupos = &listaGrupos(@ARGV);
-print "Sorteo: ".$sorteo."\n";
 my $index_separtor = index($sorteo, "_");
 my $index_subfix = index($sorteo, ".srt");
 my $lenght_fecha= $index_subfix-$index_separtor;
 my $fechaDeAdjudicacion= substr $sorteo,$index_separtor +1 ,$lenght_fecha -1 ;
-print "fecha: ".$fechaDeAdjudicacion."\n";
 my $pathPadrones=$MAEDIR."/temaL_padron.csv";
 my $pathGrupos=$MAEDIR."/grupos.csv";
 my $pathFechas=$PROCDIR."/validas/$fechaDeAdjudicacion.csv";
 my $pathSorteos=$PROCDIR."/sorteos/$sorteo";
-print $pathGrupos."\n";
-print $pathPadrones."\n";
-print $pathSorteos."\n";
-print $pathFechas."\n";
 
-if(not((-r $pathPadrones)and(-r $pathGrupos)and(-r $pathSorteos)and(-r $pathFechas))){#and(-e $pathFechas)
+
+if(not((-r $pathPadrones)and(-r $pathGrupos)and(-r $pathSorteos)and(-r $pathFechas))){
 	print	"ERROR: NO ESTAN TODOS LOS ARCHIVOS DE INGRESO\n";
+	system("./GrabarBitacora.pl", "$NOMBRE_CMD", "No estan todos los archivos de ingreso ", "ERR");
     exit 1;
 }
 my %hashSorteos=&hashSorteos($pathSorteos);
@@ -74,6 +74,11 @@ foreach $grupo (@grupos) {
 		push (@gruposOk,$grupo);
 	}
 }
+if(not @gruposOk){
+	print	"ERROR: NO SE INGRESARON GRUPOS VALIDOS\n";
+	system("./GrabarBitacora.pl", "$NOMBRE_CMD", "No ingresaron numeros validos ", "ERR");
+	exit -1;
+}
 
 $cadena = "";
 &opciones;
@@ -81,32 +86,36 @@ while ($cadena ne "exit") {
 	print "Ingresa tu opcion: ";
 	$cadena = <STDIN> ;
 	chop($cadena);
-	print "Has escrito $cadena\n";
-		if($cadena eq "exit"){print "Hasta luego\n"}
-		elsif($cadena eq "A"){
-			print "Resultado General del sorteo\n";
-			&ResultadoGeneralDelSorteo(\%hashSorteos);
-		}
-		elsif($cadena eq "B"){
-			print "Ganadores por sorteo\n";
-			print "Ganadores del sorteo $sorteoId de fecha $fechaDeAdjudicacion\n";
-			my $imprimo ="imprimir";
-			&GanadoresPorSorteo(\%hashPadron,\%hashSorteos,\@gruposOk,$imprimo);
-		}
-		elsif($cadena eq "C"){
-			print "Ganadores por licitacion\n";
-			print "Ganadores por Licitación $sorteoId de fecha $fechaDeAdjudicacion\n";
-			my $imprimo ="imprimir";
-			&GanadoresPorLicitacion(\%hashFechaDeAdjudicacion,\%hashPadron,\%hashSorteos,\@gruposOk,$imprimo);
-		}
-		elsif($cadena eq "D"){
-			print "Resultado por grupo \n";
-			&ResultadoPorGrupo(\%hashFechaDeAdjudicacion,\%hashPadron,\%hashSorteos,\@gruposOk);
-		}elsif($cadena eq "-a"){
+	if($cadena eq "exit"){print "Hasta luego\n"}
+	elsif($cadena eq "A"){
+		print "Resultado General del sorteo\n";
+		system("./GrabarBitacora.pl", "$NOMBRE_CMD", "Resultado General del sorteo ", "INFO");
+		&ResultadoGeneralDelSorteo(\%hashSorteos);
+	}
+	elsif($cadena eq "B"){
+		print "Ganadores por sorteo\n";
+		print "Ganadores del sorteo $sorteoId de fecha $fechaDeAdjudicacion\n";
+		system("./GrabarBitacora.pl", "$NOMBRE_CMD", "Ganadores del sorteo $sorteoId de fecha $fechaDeAdjudicacion ", "INFO");
+		my $imprimo ="imprimir";
+		&GanadoresPorSorteo(\%hashPadron,\%hashSorteos,\@gruposOk,$imprimo);
+	}
+	elsif($cadena eq "C"){
+		print "Ganadores por licitacion\n";
+		print "Ganadores por Licitación $sorteoId de fecha $fechaDeAdjudicacion\n";
+		system("./GrabarBitacora.pl", "$NOMBRE_CMD", "Ganadores por Licitación $sorteoId de fecha $fechaDeAdjudicacion ", "INFO");
+		my $imprimo ="imprimir";
+		&GanadoresPorLicitacion(\%hashFechaDeAdjudicacion,\%hashPadron,\%hashSorteos,\@gruposOk,$imprimo);
+	}
+	elsif($cadena eq "D"){
+		print "Resultado por grupo \n";
+		print "Ganadores por Grupo en el acto de adjudicación de fecha $fechaDeAdjudicacion, Sorteo: $sorteoId \n";
+		system("./GrabarBitacora.pl", "$NOMBRE_CMD", "Resultado por grupo, Ganadores por Grupo en el acto de adjudicación de fecha $fechaDeAdjudicacion, Sorteo: $sorteoId", "INFO");
+		&ResultadoPorGrupo(\%hashFechaDeAdjudicacion,\%hashPadron,\%hashSorteos,\@gruposOk);
+	}elsif($cadena eq "-a"){
 			&opciones;
-		}else{
-			print "La opcion ingresada no es valida. Ingrese -a para ver las opciones validas \n";
-		}
+	}else{
+		print "La opcion ingresada no es valida. Ingrese -a para ver las opciones validas \n";
+	}
 }
 
 sub ResultadoGeneralDelSorteo{
@@ -118,8 +127,8 @@ sub ResultadoGeneralDelSorteo{
 		$texto = $texto.$linea;	
 	}
 	if($grabarBool){
-		print "Grabo: ";
-		print "$sorteoId"."_"."$fechaDeAdjudicacion.txt\n";
+		print "Grabo: $sorteoId"."_"."$fechaDeAdjudicacion.txt\n";
+		system("./GrabarBitacora.pl", "$NOMBRE_CMD", "Grabo: $sorteoId"."_"."$fechaDeAdjudicacion.txt", "INFO");
 		&escribirArchivo("$sorteoId_$fechaDeAdjudicacion.txt",$texto)
 	}
 }
@@ -132,8 +141,8 @@ sub GanadoresPorSorteo{
 	my %hashGanador;
 	my $filename="$sorteoId";
 	my $texto="";
- 	foreach $grupos (@gruposOk){
- 		$filename=$filename.$grupo."-"
+ 	foreach $grupo (@gruposOk){
+ 		$filename=$filename."-".$grupo;
  	}
  	$filename=$filename."_"."$fechaDeAdjudicacion";
 	foreach $grupo (@gruposOk){
@@ -153,7 +162,6 @@ sub GanadoresPorSorteo{
 					$hashGanador{$grupo}=[$hashSorteos{$key},$listUser[2]];#guardo N de orden y el nombre
 					$boolGano=1;
 					$texto = $texto.$linea;	
-					print "$imprimo \n";
 					if($imprimo eq "imprimir"){
 						print $linea;
 					}
@@ -166,8 +174,8 @@ sub GanadoresPorSorteo{
 		}
 	}
 	if($grabarBool and ($imprimo eq "imprimir")){
-		print "Grabo: ";
-		print "$filename\n";
+		print "Grabo: $filename\n";
+		system("./GrabarBitacora.pl", "$NOMBRE_CMD", "Grabo: $filename", "INFO");
 		&escribirArchivo("$filename",$texto)				
 	}
 	return %hashGanador;
@@ -187,26 +195,28 @@ sub GanadoresPorLicitacion{
 	}
 	my $filename="$sorteoId";
 	my $texto="";
- 	my %hashGanadoresPorSorteo=	&GanadoresPorSorteo(\%hashPadron,\%hashSorteos,\@gruposOk,"no imprimir");
- 	foreach $grupos (@gruposOk){
+ 	my %hashGanadoresPorSorteo=	&GanadoresPorSorteo(\%hashPadron,\%hashSorteos,\@grupos,"no imprimir");
+ 	foreach $grupo (@grupos){
+ 		print grupo;
  		$filename=$filename.$grupo."-";
  	}
  	$filename=$filename."_"."$fechaDeAdjudicacion";
 	foreach $grupo (@gruposOk){
 		my @listaUsuarios;
+		$numeroDeOrdenGanadorPorSorteo=@{$hashGanadoresPorSorteo{$grupo}}[0];
 		foreach $nombrePadron (keys(%hashFecha)){
 			my $grupoPadron=@{$hashFecha{$nombrePadron}}[3];
 			if ($grupo == $grupoPadron){
 				push(@listaUsuarios,[@{$hashFecha{$nombrePadron}}]);
 			}
 		} 
-		$numeroDeOrden;
-		$nombre;
+		$numeroDeOrden="";
+		$nombre="";
 		$ofertaMax=0;
 		foreach $user (@listaUsuarios){
 			my @listUser = @{$user}; #le aclaro a perl que es una lista con los datos del uuario
 			if($ofertaMax < $listUser[5]){#Importe Ofertado
-				if(($ofertaMax==$listUser[5])and($hashNOrden{$numeroDeOrden} < $hashNOrden{$listUser[4]})and($numeroDeOrdenGanadorPorSorteo!=$listUser[4])){#Si es la misma oferta pero el numero de sorteo es mayor que al actual se mantiene el actual. Tampoco puede ser el ganador del soreteo
+				if((($ofertaMax==$listUser[5])and($hashNOrden{$numeroDeOrden} < $hashNOrden{$listUser[4]}))or($numeroDeOrdenGanadorPorSorteo==$listUser[4])){#Si es la misma oferta pero el numero de sorteo es mayor que al actual se mantiene el actual. Tampoco puede ser el ganador del soreteo
 					next;
 				}
 				$ofertaMax=$listUser[5];
@@ -215,16 +225,19 @@ sub GanadoresPorLicitacion{
 			}
 		}
 		$hashGanador{$grupo}=[$numeroDeOrden,$nombre ];#guardo N de orden y el nombre
-		print "@{$hashGanadoresPorSorteo{$grupo}}[0]"."\n";
-		$linea="Ganador por licitación del grupo $grupo: Numero de orden $numeroDeOrden, $nombre con $ofertaMax (Nro de Sorteo $hashNOrden{$numeroDeOrden})\n";
+		if($nombre){
+			$linea="Ganador por licitación del grupo $grupo: Numero de orden $numeroDeOrden, $nombre con $ofertaMax (Nro de Sorteo $hashNOrden{$numeroDeOrden})\n";
+		}else{
+			$linea="No hay ganador por licitación\n";
+		}
 		$texto = $texto.$linea;	
 		if ($imprimo eq "imprimir"){
 			print $linea;
 		}
 	}
 	if($grabarBool and ($imprimo eq "imprimir")){
-		print "Grabo: ";
-		print "$filename\n";
+		print "Grabo: $filename\n";
+		system("./GrabarBitacora.pl", "$NOMBRE_CMD", "Grabo: $filename", "INFO");
 		&escribirArchivo("$filename",$texto);					
 	}
 	return %hashGanador;
@@ -238,7 +251,6 @@ sub ResultadoPorGrupo{
 	my $imprimo ="no imprimir";
 	%hashGanadoresPorSorteo=&GanadoresPorSorteo(\%hashPadron,\%hashSorteos,\@gruposOk,$imprimo);
 	%hashGanadoresPorLicitacion=&GanadoresPorLicitacion(\%hashFechaDeAdjudicacion,\%hashPadron,\%hashSorteos,\@gruposOk,$imprimo);
-	print "Ganadores por Grupo en el acto de adjudicación de fecha $fechaDeAdjudicacion, Sorteo: $sorteoId \n";
 	foreach $grupo (@grupos){
 		$nombreGanadorSorteo=@{$hashGanadoresPorSorteo{$grupo}}[1];
 		$nombreGanadorLicitacion=@{$hashGanadoresPorLicitacion{$grupo}}[1];
@@ -248,8 +260,8 @@ sub ResultadoPorGrupo{
 		print $linea;
 		if($grabarBool){
 			my $filename="$sorteoId"."_"."Grupo"."$grupo"."_"."$fechaDeAdjudicacion";
-			print "Grabo: ";
-			print "$filename\n";
+			print "Grabo: $filename\n";
+			system("./GrabarBitacora.pl", "$NOMBRE_CMD", "Grabo: $filename", "INFO");
 			&escribirArchivo("$filename",$linea)				
 	}
 
@@ -354,14 +366,6 @@ sub listaGrupos{
 		}
 	}
 	sort {$a <=> $b} $grupos;
-	print "Grupos Participantes: ";
-	foreach $grupo (@grupos){
-		print "$grupo,";
-	}
-	if(not @grupos){
-		print "Todos"
-	}
-	print "\n";
 	return (@grupos);
 }
 sub escribirArchivo{
@@ -380,7 +384,6 @@ sub escribirArchivo{
 	$writemod="> ";
 	}
 	open ($file,$writemod.$filename) || die "ERROR: No puedo abrir el fichero $filename\n";
-	print $file $argumentos[1];
 	close($file);
 
 
