@@ -1,4 +1,9 @@
 #!/usr/bin/perl
+#Sirve para que solo corra una instancia
+use Fcntl ':flock';
+open my $self, '<', $0 or die "Couldn't open self: $!";
+flock $self, LOCK_EX | LOCK_NB or die "This script is already running";
+#########################################################################
 my $NOMBRE_CMD="DeterminarGanadores";
 if((not defined $ENV{'MAEDIR'}) or (not defined $ENV{'PROCDIR'})or (not defined $ENV{'INFODIR'})){
 	print	"ERROR: NO ESTAN DEFINIDAS LAS VARIABLES DE AMBIENTE\n";
@@ -10,8 +15,8 @@ $PROCDIR =  $ENV{'PROCDIR'};
 $INFODIR =  $ENV{'INFODIR'}; 
 
 if (@ARGV[0] eq "-a"){
-	&ayuda;
 	print "Ayuda\n";
+	&ayuda;
 	system("./GrabarBitacora.pl", "$NOMBRE_CMD", "Muesta menu de ayuda", "INFO");
 	exit 0;
 }
@@ -309,7 +314,7 @@ sub hashPadron{
 	return %hashPadron;
 }
 sub ayuda{
-	print "ayuda\n";
+	print "Nombre\n\tDeterminarGanadores\nDescripcion:\n\tSirve para determinar el ganador por sorteo y por licitacion de uno o varios grupos dado un sorteo determinado en su fecha de adjudicacion correspondiente\nComo se usa:\n\t./DeterminarGanadores.pl[-a][-g] SorteoId [Grupos]\nOpciones:\n\t-a Ofrece menu de ayuda\n\t-g Permite grabar toda la actividad y la guarda en el directorio $INFODIR\nParametros:\n\t-SorteoId: Se pasa el Id del sorteo que se desea procesar\n\t-[GRUPO]: Se pasan los grupos que se quieren procesar por su numero.Se puede utilizar de varias maneras:\n\t\t-numeros separados por espacios.Ej: 7888\n\t\t-Numero pasados como un rango.Ej: 7888-7890 -> 7888,7889,7890\nEjemplo de uso: ./DeterminarGanadores.pl -g 5 8378 8763-8766\n\t Siendo 5 el id del sorteo y 8378,8763,8764,8765,8766 como los grupos participantes.\n";
 }
 sub opciones{
 	print "Opciones Descripcion\nA \t Resultado General del sorteo\nB \t Ganadores por sorteo\nC \t Ganadores por licitacion\nD \t Resultado por grupo \nexit \t Para salir\n-a: \t repetir este mensaje\n";
@@ -380,20 +385,12 @@ sub escribirArchivo{
 	my $writemod;
 	my $filename = $INFODIR."/".$argumentos[0];
 	if(-e $filename){
-	#print "existe\n";
 		$writemod=">> ";
 	}else{
-	#print "no existe\n";
-	$writemod="> ";
+		$writemod="> ";
 	}
 	open ($file,$writemod.$filename) || die "ERROR: No puedo abrir el fichero $filename\n";
 	close($file);
 
 
 }
-#open my $handle, '<', $path_to_file;
-#chomp(my @lines = <$handle>);
-#close $handle;
-
-#BEGIN { print "empezamos ...\n";}
-#	END { print "nos fuimos \n"}
