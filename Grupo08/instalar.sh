@@ -4,7 +4,7 @@
 script=$(readlink -f "$0")
 # Absolute path this script is in, thus /home/user/bin
 script_path=$(dirname "$script")
-
+mkdir -p config
 grupo="$script_path"
 user=$(whoami)
 config_file="$grupo/config/CIPAL.cnf" 
