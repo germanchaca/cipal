@@ -48,11 +48,6 @@ if (opendir(DIR,"$PROCDIR/sorteos")){
 	system("./GrabarBitacora.pl", "$NOMBRE_CMD", "No hay sorteos", "ERR");
 	exit 1;
 }
-if( length($sorteo) eq 0){
-	print "ERROR:NO HAY SORTEO CON EL ID DADO\n";
-	system("./GrabarBitacora.pl", "$NOMBRE_CMD", "No hay sorteos", "ERR");
-	exit 1;
-}
 my @grupos = &listaGrupos(@ARGV);
 my $index_separtor = index($sorteo, "_");
 my $index_subfix = index($sorteo, ".srt");
@@ -62,8 +57,11 @@ my $pathPadrones=$MAEDIR."/temaL_padron.csv";
 my $pathGrupos=$MAEDIR."/grupos.csv";
 my $pathFechas=$PROCDIR."/validas/$fechaDeAdjudicacion.csv";
 my $pathSorteos=$PROCDIR."/sorteos/$sorteo";
-
-
+if( length($sorteo) eq 0 or (-r $pathSorteos)){
+	print "ERROR:NO HAY SORTEO CON EL ID DADO\n";
+	system("./GrabarBitacora.pl", "$NOMBRE_CMD", "No hay sorteos", "ERR");
+	exit 1;
+}
 if(not((-r $pathPadrones)and(-r $pathGrupos)and(-r $pathSorteos)and(-r $pathFechas))){
 	print	"ERROR: NO ESTAN TODOS LOS ARCHIVOS DE INGRESO\n";
 	system("./GrabarBitacora.pl", "$NOMBRE_CMD", "No estan todos los archivos de ingreso ", "ERR");
@@ -74,9 +72,21 @@ my %hashGrupos=&hashGrupos($pathGrupos);
 my %hashPadron=&hashPadron($pathPadrones);
 my %hashFechaDeAdjudicacion=&hashFechaDeAdjudicacion($pathFechas);
 my @gruposOk;
-foreach $grupo (@grupos) {
-	if(defined $hashGrupos{$grupo}){
+foreach $key (keys(%hashFechaDeAdjudicacion)){
+	my $grupo=@{$hashFechaDeAdjudicacion{$key}}[3];
+	if(not defined $hashGruposDeFecha{$grupo}){
+		$hashGruposDeFecha{$grupo}=1;
+	}
+}
+if (not @grupos){
+	foreach $grupo (sort { $a <=> $b } (keys(%hashGruposDeFecha))) {
 		push (@gruposOk,$grupo);
+	}
+}else{
+	foreach $grupo (@grupos) {
+		if((defined $hashGrupos{$grupo}) and (defined  $hashGruposDeFecha{$grupo})){
+			push (@gruposOk,$grupo);
+		}
 	}
 }
 if(not @gruposOk){
@@ -144,7 +154,7 @@ sub GanadoresPorSorteo{
 	my %hashPadron=%$refhashPadron;
 	my %hashSorteos=%$refhashSorteos;
 	my %hashGanador;
-	my $filename="$sorteoId";
+	my $filename="$sorteoId-";
 	my $texto="";
  	foreach $grupo (@gruposOk){
  		$filename=$filename."-".$grupo;
@@ -234,7 +244,7 @@ sub GanadoresPorLicitacion{
 		if($nombre){
 			$linea="Ganador por licitación del grupo $grupo: Numero de orden $numeroDeOrden, $nombre con $ofertaMax (Nro de Sorteo $hashNOrden{$numeroDeOrden})\n";
 		}else{
-			$linea="No hay ganador por licitación\n";
+			$linea="No hay ganador por licitación en el grupo: $grupo\n";
 		}
 		$texto = $texto.$linea;	
 		if ($imprimo eq "imprimir"){
@@ -269,10 +279,8 @@ sub ResultadoPorGrupo{
 			print "Grabo: $filename\n\n";
 			system("./GrabarBitacora.pl", "$NOMBRE_CMD", "Grabo: $filename", "INFO");
 			&escribirArchivo("$filename",$linea)				
+		}
 	}
-
-	}
-
 }
 sub hashSorteos{
 	my %hashSorteos;
@@ -314,7 +322,7 @@ sub hashPadron{
 	return %hashPadron;
 }
 sub ayuda{
-	print "Nombre\n\tDeterminarGanadores\nDescripcion:\n\tSirve para determinar el ganador por sorteo y por licitacion de uno o varios grupos dado un sorteo determinado en su fecha de adjudicacion correspondiente\nComo se usa:\n\t./DeterminarGanadores.pl[-a][-g] SorteoId [Grupos]\nOpciones:\n\t-a Ofrece menu de ayuda\n\t-g Permite grabar toda la actividad y la guarda en el directorio $INFODIR\nParametros:\n\t-SorteoId: Se pasa el Id del sorteo que se desea procesar\n\t-[GRUPO]: Se pasan los grupos que se quieren procesar por su numero.Se puede utilizar de varias maneras:\n\t\t-numeros separados por espacios.Ej: 7888\n\t\t-Numero pasados como un rango.Ej: 7888-7890 -> 7888,7889,7890\nEjemplo de uso: ./DeterminarGanadores.pl -g 5 8378 8763-8766\n\t Siendo 5 el id del sorteo y 8378,8763,8764,8765,8766 como los grupos participantes.\n";
+	print "Nombre\n\tDeterminarGanadores\nDescripcion:\n\tSirve para determinar el ganador por sorteo y por licitacion de uno o varios grupos dado un sorteo determinado en su fecha de adjudicacion correspondiente\nComo se usa:\n\t./DeterminarGanadores.pl[-a][-g] SorteoId [Grupos]\nOpciones:\n\t-a Ofrece menu de ayuda\n\t-g Permite grabar toda la actividad y la guarda en el directorio $INFODIR\nParametros:\n\t-SorteoId: Se pasa el Id del sorteo que se desea procesar\n\t-[GRUPO]: Se pasan los grupos que se quieren procesar por su numero.Se puede utilizar de varias maneras:\n\t\t-numeros separados por espacios.Ej: 7888\n\t\t-Numero pasados como un rango.Ej: 7888-7890 -> 7888,7889,7890\n\t\t- :Si no paso ningun grupo elijo todos los que pertenecen a la fecha de adjudicacion correspondiente al IdSorteo\nEjemplo de uso: ./DeterminarGanadores.pl -g 5 8378 8763-8766\n\t Siendo 5 el id del sorteo y 8378,8763,8764,8765,8766 como los grupos participantes.\n";
 }
 sub opciones{
 	print "Opciones Descripcion\nA \t Resultado General del sorteo\nB \t Ganadores por sorteo\nC \t Ganadores por licitacion\nD \t Resultado por grupo \nexit \t Para salir\n-a: \t repetir este mensaje\n";
@@ -353,10 +361,9 @@ sub hashFechaDeAdjudicacion{
 		$hashFechaDeAdjudicacion{$nombre}=[@listCsv];
 	}
 	close $handleFechas;
-
-	#foreach $key (keys(%hashFechaDeAdjudicacion)){#ordena numericamente{}
-	#	print "Nombre $key ,Datos:  @{$hashFechaDeAdjudicacion{$key}} \n";
-	#}
+	foreach $key (keys(%hashGruposDeFecha)){#ordena numericamente{}
+		print "Nombre $key ,Datos:  $hashGruposDeFecha{$key} \n";
+	}
 	return %hashFechaDeAdjudicacion;
 
 }	
