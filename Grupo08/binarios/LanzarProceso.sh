@@ -54,7 +54,6 @@ fi
 #Antes de iniciarlo me fijo que no es te corriendo.
 for i in $(ps)
 do
-	echo $i
 	aux=${proceso%.*}
 	punto=.
 	aux=$aux$punto
