@@ -52,11 +52,11 @@ then
 	Mensaje "El ambiente no se ecuentra inicializado" "ERR"
 fi
 #Antes de iniciarlo me fijo que no es te corriendo.
-for i in $(ps)
+cont=0
+for i in $(ps -ef)
 do
-	aux=${proceso%.*}
-	punto=.
-	aux=$aux$punto
+	prefix='./'
+	aux=$prefix$proceso
 	if [ $i == $aux ] 
 	then
 		Mensaje "Proceso $proceso ya se encuentra corriendo" "ERR"
