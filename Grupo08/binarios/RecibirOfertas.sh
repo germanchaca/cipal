@@ -34,7 +34,7 @@ do
 	do
 		dir="$ARRIDIR/$arch"
 		extension=${arch##*.}
-		text='txt'
+		text='csv'
 		#Que sea un texto
 		if [ "$extension" == "$text" ]
 		then

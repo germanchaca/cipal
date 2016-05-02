@@ -1389,3 +1389,5 @@ DATE:29/4/2016 21:32:6-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Cantidad de archi
 DATE:29/4/2016 21:32:6-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Se rechaza el archivo '*_*.csv' porque su estructura no se corresponde con el formato esperado 
 DATE:29/4/2016 21:32:6-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Archivos procesados: 0: Archivos rechazados: 1 
 DATE:29/4/2016 21:32:6-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Fin de ProcesarOfertas 
+DATE:29/4/2016 22:34:25-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:Inicio de ProcesarOfertas 
+DATE:29/4/2016 22:34:25-USER:-CMD:ProcesarOfertas-TYPE:INFO-MSJ:/home/federico/Escritorio/cipal/Grupo08/aceptados VACIO 
