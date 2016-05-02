@@ -22,7 +22,7 @@ then
 fi
 if [ "$padre" == "$er2" ]
 then
-	echo "RecibirOfertas solo se puede invocar desde LanzarProceso o InicializarAmbiente"
+	echo "RecibirOfertas solo se puede invocar desde LanzarProceso o PrepararAmbiente"
 	exit
 fi
 cont=0
