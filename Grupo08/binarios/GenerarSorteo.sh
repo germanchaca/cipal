@@ -46,9 +46,9 @@ function grabarBitacora() {
 }
 
 function crearDirOutputSorteosSiNoExiste(){
-	if [ ! -d $PROCDIR"sorteos" ]
+	if [ ! -d $PROCDIR"/sorteos" ]
 	then
-		mkdir -p $PROCDIR"sorteos"
+		mkdir -p $PROCDIR"/sorteos"
 	fi
 }
 
@@ -87,7 +87,7 @@ function escribirLineaArchivo(){
 [[ $# -gt 0 ]] && intruirModoLlamada
 
 checkearEntornoNoIniciado
-TEMP="GrabarBitacora.pl"
+TEMP="/GrabarBitacora.pl"
 GRABITAC="$BINDIR$TEMP"
 chkExistFncShGrabarBitacora
 

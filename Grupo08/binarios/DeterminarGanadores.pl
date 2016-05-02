@@ -57,10 +57,12 @@ my $pathPadrones=$MAEDIR."/temaL_padron.csv";
 my $pathGrupos=$MAEDIR."/grupos.csv";
 my $pathFechas=$PROCDIR."/validas/$fechaDeAdjudicacion.csv";
 my $pathSorteos=$PROCDIR."/sorteos/$sorteo";
+print "$pathSorteos \n";
+print "$sorteo \n";
 if( length($sorteo) eq 0 or (-r $pathSorteos)){
 	print "ERROR:NO HAY SORTEO CON EL ID DADO\n";
 	system("./GrabarBitacora.pl", "$NOMBRE_CMD", "No hay sorteos", "ERR");
-	exit 1;
+		exit 1;
 }
 if(not((-r $pathPadrones)and(-r $pathGrupos)and(-r $pathSorteos)and(-r $pathFechas))){
 	print	"ERROR: NO ESTAN TODOS LOS ARCHIVOS DE INGRESO\n";
