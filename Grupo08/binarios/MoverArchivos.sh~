@@ -15,7 +15,7 @@ fi
 
 function logear {
 	if [ $MODO = $GRABA ]; then
-		perl GrabarBitacora.pl "$LLAMADOR" "$1"
+		perl GrabarBitacora.pl $LLAMADOR "$1"
 	fi
 }
 

@@ -17,7 +17,7 @@ Mensaje () {
    		echo "Lanzar Proceso:" $1
    	else
    		#Aca graba bitacora
-   		./GrabarBitacora.pl LanzarProceso $1 $2
+   		./GrabarBitacora.pl LanzarProceso "$1" "$2"
    	fi
    	exit
 }
