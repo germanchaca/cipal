@@ -75,8 +75,13 @@ IFS='='
 while read var value user record_date
 do
 	export "$var"="$value"
-	echo "Variable $var inicializada con valor $value"
-	grabarBitacora "Variable $var inicializada con valor $value" "INFO"
+done < $config_file
+
+while read var value user record_date
+do
+	msg="Variable $var inicializada con valor $value"
+	echo $msg
+	grabarBitacora "$msg" "INFO"
 done < $config_file
 
 #Check if directories exist, and create them if they don't.
@@ -115,7 +120,7 @@ createDirIfNotPresent $NOKDIR
 	if [[ $reply =~ ^[sS][iI]?$ ]];
 	then
 		echo "Lanzando RecibirOfertas"
-		$(./LanzarProceso.sh -b RecibirOfertas.sh)
+		./LanzarProceso.sh -b RecibirOfertas.sh
 		echo "Para detener el proceso RecibirOfertas, se debe invocar el comando \"./DetenerProceso.sh RecibirOfertas.sh\""
 	else
 		echo "Para lanzar el proceso RecibirOfertas, se debe invocar el comando \"./LanzarProceso.sh -b RecibirOfertas.sh\""

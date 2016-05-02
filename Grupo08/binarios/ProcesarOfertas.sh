@@ -203,7 +203,7 @@ function finArchivo {
 $GRABAR "Inicio de ${PROCEAROFERTAS}"
 
 ARCHIV=$(ls $OKDIR)
-if [ ! $ARCHIV ]; then
+if [ ! "$ARCHIV" ]; then
 	$GRABAR "$OKDIR VACIO"
 	exit
 fi

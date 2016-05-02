@@ -34,7 +34,7 @@ do
 	do
 		dir="$ARRIDIR/$arch"
 		extension=${arch##*.}
-		text='txt'
+		text='csv'
 		#Que sea un texto
 		if [ "$extension" == "$text" ]
 		then
@@ -94,7 +94,7 @@ do
 									done < "$MAEDIR/FechasAdj.csv" 
 									if [ $fecha -gt $actoAnterior ]
 									then
-										./MoverArchivo.sh $dir $OKDIR
+										./MoverArchivos.sh $dir $OKDIR
 										Mensaje "$arch movido a $OKDIR" "INFO"
 									else
 										Mensaje "La fecha de $arch es anterior al ultimo acto de adjudicacion" "ERR"
