@@ -9,7 +9,7 @@ then
 	exit
 fi
 encontro=false
-for i in $(ps -ef -o comm)
+for i in $(ps -ef )
 do
 	aux=${proceso%.*}
 	if [ ${i%.*} == $aux ] 

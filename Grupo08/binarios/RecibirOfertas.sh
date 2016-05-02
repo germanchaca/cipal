@@ -1,7 +1,7 @@
 #!/bin/bash
 
 Mensaje () {
-   	./GrabarBitacora.pl RecibirOfertas $1 $2
+   	perl GrabarBitacora.pl "RecibirOfertas" $1 $2
 }
 #$1 dir con el file
 #$2 destino
