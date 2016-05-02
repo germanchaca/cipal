@@ -9,10 +9,11 @@ then
 	exit
 fi
 encontro=false
-for i in $(ps -ef )
+for i in $(ps -eF)
 do
-	aux=${proceso%.*}
-	if [ ${i%.*} == $aux ] 
+	prefix='./'
+	aux=$prefix$proceso
+	if [ $i == $aux ] 
 	then
 		encontro=true
 		pid=$(pidof -x $proceso)
