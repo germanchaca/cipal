@@ -1,0 +1,11 @@
+#! bin/bash
+FILES=$(ls)
+c=0
+for file in $FILES
+do
+echo "Archivo:" $file
+c=$((c+1))
+d=$(more $file | wc -l)
+echo "Cantidad de registros: $d"
+done
+echo $c

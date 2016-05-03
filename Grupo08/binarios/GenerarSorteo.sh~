@@ -17,7 +17,7 @@
 padre=$(ps -o stat= -p $PPID)
 er1='Ss'
 er2='Ss+'
-if [ "$padre" == "$er1" ]
+if [ "$padre" == "$er2" ]
 then
 	echo "RecibirOfertas solo se puede invocar desde LanzarProceso"
 	exit
