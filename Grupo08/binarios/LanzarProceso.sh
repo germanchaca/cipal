@@ -67,6 +67,6 @@ then
 	./"$proceso" &
 	Mensaje "Inicializacion exitosa. El proceso $proceso esta corriendo en background. Numero de proceso: $!" "INFO"
 else
-	Mensaje "Inicializacion exitosa. El proceso $proceso esta corriendo." "INFO"
+	./GrabarBitacora.pl LanzarProceso "Inicializacion exitosa. El proceso $proceso esta corriendo." "INFO"
 	./"$proceso"
 fi
