@@ -1,16 +1,5 @@
 #! /bin/bash
-#mis variables para ir probando
-OKDIR="../aceptados"
-MAEDIR="../maestros"
-PROCDIR="../procesados"
-NOKDIR="../rechazados"
-LOGDIR="../bitacoras" 
 
-LOGSIZE=10000
-export LOGDIR
-export LOGSIZE
-
-#faltaria validar mis propias funciones, como tomo la fecha
 #empieza mi programa de verdad
 PROCEAROFERTAS='ProcesarOfertas'
 GRABAR='perl GrabarBitacora.pl ProcesarOfertas'
@@ -31,6 +20,11 @@ IIMPORTE=1
 IPARTICIPA=2
 
 SEP=";"
+
+if [ ! "$INICIALIZADO" = 1 ];then
+	echo "No esta inicializado el ambiente"
+	exit $ERROR
+fi
 
 function fechaActual {
 	DATE=$(date +%d/%m/%Y)
@@ -113,18 +107,13 @@ function validIMPORTE {
 		local cuotasPend=${array_grupo[$ICUOTPEND]}
 		local cuotasLic=${array_grupo[$ICUOTLIC]}
 		cuotaPura=${cuotaPura//,/.}
-		local maximo=$(echo "scale=2;$cuotaPura*$cuotasPend" | bc)
-		local minimo=$(echo "scale=2;$cuotaPura*$cuotasLic" | bc)
-		echo "Pura, ${cuotaPura}"
-		echo "Pend, ${cuotasPend}"
-		echo "Lic, ${cuotasLic}"
-		echo $maximo
-		echo $1
-		echo $minimo
-		if (( $(echo "$1>$maximo" | bc -l) )); then
+		local maximo=$(echo "scale=2;${cuotaPura}*${cuotasPend}" | bc)
+		local minimo=$(echo "scale=2;${cuotaPura}*${cuotasLic}" | bc)
+		local importe=${1//,/.}
+		if (( $(echo "${importe} > ${maximo}" | bc -l) )); then
 			ERR_MSG="El importe supera el maximo a ofertar"
 			return $ERROR
-		elif (( $(echo "$1<$minimo" | bc -l) )); then
+		elif (( $(echo "${importe} < ${minimo}" | bc -l) )); then
 			ERR_MSG="El importe esta por debajo de lo minimo a ofertar"
 			return $ERROR
 		fi
@@ -201,9 +190,10 @@ function bienRegistro {
 function finArchivo {
 	if [ $2 = $ERROR ]; then
 		let 'RECHAZADOS++'
-		#mover $1 a ${NOKDIR}
+		./MoverArchivos.sh $1 ${NOKDIR}
 	else
 		let 'PROCESADOS++'
+		./MoverArchivos.sh $1 ${PROCDIR}/procesadas
 		#mover $1 a ${PROCDIR}/procesadas
 	fi
 }
@@ -211,6 +201,12 @@ function finArchivo {
 
 #Programa principal
 $GRABAR "Inicio de ${PROCEAROFERTAS}"
+
+ARCHIV=$(ls $OKDIR)
+if [ ! "$ARCHIV" ]; then
+	$GRABAR "$OKDIR VACIO"
+	exit
+fi
 
 ofertas="${OKDIR}/*_*.csv"
 countOfertas=$(ls -1  $ofertas | wc -l)
@@ -235,6 +231,9 @@ do
 
 			for line in $(<$file)
 			do
+				#archivos windows !!
+				line=${line//^M/}
+				line=$(echo $line | tr -d '\r')
 				validOFERTA $line
 				if [ $? = $OK ]; then
 					bienRegistro $file $line 

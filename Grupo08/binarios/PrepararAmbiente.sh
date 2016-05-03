@@ -44,8 +44,8 @@ function showErrorDirNotFound(){
 function createDirIfNotPresent(){
 	if [ ! -d $1 ];
 	then
+		mkdir $1		
 		grabarBitacora "Directorio $1 no encontrado. Creando directorio."
-		mkdir $1
 	fi
 }
 
@@ -77,14 +77,8 @@ do
 	export "$var"="$value"
 done < $config_file
 
-while read var value user record_date
-do
-	msg="Variable $var inicializada con valor $value"
-	echo $msg
-	grabarBitacora "$msg" "INFO"
-done < $config_file
-
 #Check if directories exist, and create them if they don't.
+createDirIfNotPresent $LOGDIR
 createDirIfNotPresent $BINDIR
 createDirIfNotPresent $MAEDIR
 createDirIfNotPresent $ARRIDIR
@@ -94,8 +88,15 @@ createDirIfNotPresent $PROCDIR/procesadas
 createDirIfNotPresent $PROCDIR/rechazadas
 createDirIfNotPresent $PROCDIR/validas
 createDirIfNotPresent $INFODIR
-createDirIfNotPresent $LOGDIR
 createDirIfNotPresent $NOKDIR
+
+while read var value user record_date
+do
+	msg="Variable $var inicializada con valor $value"
+	echo $msg
+	grabarBitacora "$msg" "INFO"
+done < $config_file
+
 
 
 #TODO Revisar ambiente

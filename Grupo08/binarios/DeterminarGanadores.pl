@@ -59,16 +59,16 @@ my $pathFechas=$PROCDIR."/validas/$fechaDeAdjudicacion.csv";
 my $pathSorteos=$PROCDIR."/sorteos/$sorteo";
 print "$pathSorteos \n";
 print "$sorteo \n";
-if( length($sorteo) eq 0 or (-r $pathSorteos)){
-	print "ERROR:NO HAY SORTEO CON EL ID DADO\n";
-	system("./GrabarBitacora.pl", "$NOMBRE_CMD", "No hay sorteos", "ERR");
-		exit 1;
-}
-if(not((-r $pathPadrones)and(-r $pathGrupos)and(-r $pathSorteos)and(-r $pathFechas))){
-	print	"ERROR: NO ESTAN TODOS LOS ARCHIVOS DE INGRESO\n";
-	system("./GrabarBitacora.pl", "$NOMBRE_CMD", "No estan todos los archivos de ingreso ", "ERR");
-    exit 1;
-}
+#if( length($sorteo) eq 0 or (-r $pathSorteos)){
+#	print "ERROR:NO HAY SORTEO CON EL ID DADO\n";
+#	system("./GrabarBitacora.pl", "$NOMBRE_CMD", "No hay sorteos", "ERR");
+#		exit 1;
+#}
+#if(not((-r $pathPadrones)and(-r $pathGrupos)and(-r $pathSorteos)and(-r $pathFechas))){
+#	print	"ERROR: NO ESTAN TODOS LOS ARCHIVOS DE INGRESO\n";
+#	system("./GrabarBitacora.pl", "$NOMBRE_CMD", "No estan todos los archivos de ingreso ", "ERR");
+#    exit 1;
+#}
 my %hashSorteos=&hashSorteos($pathSorteos);
 my %hashGrupos=&hashGrupos($pathGrupos);
 my %hashPadron=&hashPadron($pathPadrones);
@@ -156,9 +156,9 @@ sub GanadoresPorSorteo{
 	my %hashPadron=%$refhashPadron;
 	my %hashSorteos=%$refhashSorteos;
 	my %hashGanador;
-	my $filename="$sorteoId-";
-	my $texto="";
- 	foreach $grupo (@gruposOk){
+	my $filename="$sorteoId";
+ 	foreach $grupo (@grupos){
+ 		print grupo;
  		$filename=$filename."-".$grupo;
  	}
  	$filename=$filename."_"."$fechaDeAdjudicacion";
@@ -211,12 +211,12 @@ sub GanadoresPorLicitacion{
 		$numeroDeOrden = sprintf( "%03d", $hashSorteos{$numeroDeSorteo} );
 		$hashNOrden{$numeroDeOrden}=$numeroDeSorteo;
 	}
-	my $filename="$sorteoId";
 	my $texto="";
  	my %hashGanadoresPorSorteo=	&GanadoresPorSorteo(\%hashPadron,\%hashSorteos,\@grupos,"no imprimir");
+	my $filename="$sorteoId";
  	foreach $grupo (@grupos){
  		print grupo;
- 		$filename=$filename.$grupo."-";
+ 		$filename=$filename."-".$grupo;
  	}
  	$filename=$filename."_"."$fechaDeAdjudicacion";
 	foreach $grupo (@gruposOk){
@@ -277,7 +277,7 @@ sub ResultadoPorGrupo{
 		$linea= " $grupo-$numOrdenGanadorSorteo S ($nombreGanadorSorteo)\n $grupo-$numOrdenGanadorLicitacion L ($nombreGanadorLicitacion)\n";
 		print $linea;
 		if($grabarBool){
-			my $filename="$sorteoId"."_"."Grupo"."$grupo"."_"."$fechaDeAdjudicacion";
+			my $filename="$sorteoId"."_"."Grupo-"."$grupo"."_"."$fechaDeAdjudicacion";
 			print "Grabo: $filename\n\n";
 			system("./GrabarBitacora.pl", "$NOMBRE_CMD", "Grabo: $filename", "INFO");
 			&escribirArchivo("$filename",$linea)				
@@ -399,6 +399,7 @@ sub escribirArchivo{
 		$writemod="> ";
 	}
 	open ($file,$writemod.$filename) || die "ERROR: No puedo abrir el fichero $filename\n";
+	print $file $argumentos[1];
 	close($file);
 
 

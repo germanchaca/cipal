@@ -1,20 +1,26 @@
+#!/bin/bash
+
 proceso=$@
 #Me fijo la cantidad de parametros
 uno=1
-if [ "$#" -gt "$uno" ]
+if [ "$#" -gt "$uno" -o "$#" -eq 0 ]
 then
 	echo "Cantidad de parametros incorrecta"
 	exit
 fi
 encontro=false
-result=$(ps -L u n | tr -s " " | cut -d " " -f3,14- | grep $proceso)
-cant=$(echo $result | wc -w)
-if [ $cant -gt 3 ]
-then
-	encontro=true
-	pid=${result%% *}
-	kill $pid
-fi
+for i in $(ps -eF)
+do
+	prefix='./'
+	aux=$prefix$proceso
+	if [ $i == $aux ] 
+	then
+		encontro=true
+		pid=$(pidof -x $proceso)
+		pid=${pid% *}
+		kill $pid
+	fi
+done
 if [ $encontro = false ]
 then
 	echo No se encontro proceso
