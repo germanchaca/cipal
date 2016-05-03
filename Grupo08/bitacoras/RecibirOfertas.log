@@ -5,3 +5,356 @@ DATE:2/5/2016 20:58:23-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 94
 DATE:2/5/2016 20:58:28-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 95 
 DATE:2/5/2016 20:58:33-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 96 
 DATE:2/5/2016 20:58:38-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 97 
+DATE:2/5/2016 23:48:5-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 1 
+DATE:2/5/2016 23:48:10-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 2 
+DATE:2/5/2016 23:48:15-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 3 
+DATE:2/5/2016 23:48:20-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 4 
+DATE:2/5/2016 23:48:25-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 5 
+DATE:2/5/2016 23:48:30-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 6 
+DATE:2/5/2016 23:48:35-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 7 
+DATE:2/5/2016 23:48:40-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 8 
+DATE:2/5/2016 23:48:45-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 9 
+DATE:2/5/2016 23:48:50-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 10 
+DATE:2/5/2016 23:48:55-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 11 
+DATE:2/5/2016 23:49:0-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 12 
+DATE:2/5/2016 23:49:5-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 13 
+DATE:2/5/2016 23:49:10-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 14 
+DATE:2/5/2016 23:49:15-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 15 
+DATE:2/5/2016 23:50:15-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 1 
+DATE:2/5/2016 23:50:15-USER:-CMD:RecibirOfertas-TYPE:ERR-MSJ:fefe no es un texto 
+DATE:2/5/2016 23:50:15-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Movio fefe a /home/federico/Escritorio/cipal/Grupo08/rechazados/fefe 
+DATE:2/5/2016 23:50:20-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 2 
+DATE:2/5/2016 23:50:25-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 3 
+DATE:2/5/2016 23:50:30-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 4 
+DATE:2/5/2016 23:50:35-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 5 
+DATE:2/5/2016 23:50:40-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 6 
+DATE:2/5/2016 23:50:45-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 7 
+DATE:2/5/2016 23:50:50-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 8 
+DATE:2/5/2016 23:54:40-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 1 
+DATE:2/5/2016 23:54:40-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:3402_20160420.csv movido a /home/federico/Escritorio/cipal/Grupo08/aceptados 
+DATE:2/5/2016 23:54:40-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:3500_20160420.csv movido a /home/federico/Escritorio/cipal/Grupo08/aceptados 
+DATE:2/5/2016 23:54:40-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:3505_20160421.csv movido a /home/federico/Escritorio/cipal/Grupo08/aceptados 
+DATE:2/5/2016 23:54:40-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:3510_20160420.csv movido a /home/federico/Escritorio/cipal/Grupo08/aceptados 
+DATE:2/5/2016 23:54:40-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:3520_20160422.csv movido a /home/federico/Escritorio/cipal/Grupo08/aceptados 
+DATE:2/5/2016 23:54:40-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:3718_20160420.csv movido a /home/federico/Escritorio/cipal/Grupo08/aceptados 
+DATE:2/5/2016 23:54:40-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:3722_20160423.csv movido a /home/federico/Escritorio/cipal/Grupo08/aceptados 
+DATE:2/5/2016 23:54:41-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:3724_20160420.csv movido a /home/federico/Escritorio/cipal/Grupo08/aceptados 
+DATE:2/5/2016 23:54:41-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:3729_20160424.csv movido a /home/federico/Escritorio/cipal/Grupo08/aceptados 
+DATE:2/5/2016 23:54:41-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:3732_20160420.csv movido a /home/federico/Escritorio/cipal/Grupo08/aceptados 
+DATE:2/5/2016 23:54:41-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:3735_20160425.csv movido a /home/federico/Escritorio/cipal/Grupo08/aceptados 
+DATE:2/5/2016 23:54:41-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:3739_20160420.csv movido a /home/federico/Escritorio/cipal/Grupo08/aceptados 
+DATE:2/5/2016 23:54:41-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:3741_20160426.csv movido a /home/federico/Escritorio/cipal/Grupo08/aceptados 
+DATE:2/5/2016 23:54:41-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:3744_20160420.csv movido a /home/federico/Escritorio/cipal/Grupo08/aceptados 
+DATE:2/5/2016 23:54:41-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:3745_20160427.csv movido a /home/federico/Escritorio/cipal/Grupo08/aceptados 
+DATE:2/5/2016 23:54:41-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:3746_20160420.csv movido a /home/federico/Escritorio/cipal/Grupo08/aceptados 
+DATE:2/5/2016 23:54:41-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:3748_20160420.csv movido a /home/federico/Escritorio/cipal/Grupo08/aceptados 
+DATE:2/5/2016 23:54:41-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:3750_20160420.csv movido a /home/federico/Escritorio/cipal/Grupo08/aceptados 
+DATE:2/5/2016 23:54:41-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:3753_20160430.csv movido a /home/federico/Escritorio/cipal/Grupo08/aceptados 
+DATE:2/5/2016 23:54:41-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:3754_20160502.csv movido a /home/federico/Escritorio/cipal/Grupo08/aceptados 
+DATE:2/5/2016 23:54:41-USER:-CMD:RecibirOfertas-TYPE:ERR-MSJ:3756_20160503.csv es del futuro 
+DATE:2/5/2016 23:54:41-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Movio 3756_20160503.csv a /home/federico/Escritorio/cipal/Grupo08/rechazados/3756_20160503.csv 
+DATE:2/5/2016 23:54:41-USER:-CMD:RecibirOfertas-TYPE:ERR-MSJ:3757_20160503.csv es del futuro 
+DATE:2/5/2016 23:54:41-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Movio 3757_20160503.csv a /home/federico/Escritorio/cipal/Grupo08/rechazados/3757_20160503.csv 
+DATE:2/5/2016 23:54:41-USER:-CMD:RecibirOfertas-TYPE:ERR-MSJ:3758_20160503.csv es del futuro 
+DATE:2/5/2016 23:54:41-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Movio 3758_20160503.csv a /home/federico/Escritorio/cipal/Grupo08/rechazados/3758_20160503.csv 
+DATE:2/5/2016 23:54:41-USER:-CMD:RecibirOfertas-TYPE:ERR-MSJ:3759_20160503.csv es del futuro 
+DATE:2/5/2016 23:54:41-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Movio 3759_20160503.csv a /home/federico/Escritorio/cipal/Grupo08/rechazados/3759_20160503.csv 
+DATE:2/5/2016 23:54:41-USER:-CMD:RecibirOfertas-TYPE:ERR-MSJ:3760_20160504.csv es del futuro 
+DATE:2/5/2016 23:54:41-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Movio 3760_20160504.csv a /home/federico/Escritorio/cipal/Grupo08/rechazados/3760_20160504.csv 
+DATE:2/5/2016 23:54:41-USER:-CMD:RecibirOfertas-TYPE:ERR-MSJ:3761_20160504.csv es del futuro 
+DATE:2/5/2016 23:54:41-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Movio 3761_20160504.csv a /home/federico/Escritorio/cipal/Grupo08/rechazados/3761_20160504.csv 
+DATE:2/5/2016 23:54:41-USER:-CMD:RecibirOfertas-TYPE:ERR-MSJ:3762_20160504.csv es del futuro 
+DATE:2/5/2016 23:54:41-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Movio 3762_20160504.csv a /home/federico/Escritorio/cipal/Grupo08/rechazados/3762_20160504.csv 
+DATE:2/5/2016 23:54:41-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:3763_20160502.csv movido a /home/federico/Escritorio/cipal/Grupo08/aceptados 
+DATE:2/5/2016 23:54:41-USER:-CMD:RecibirOfertas-TYPE:ERR-MSJ:3764_20160510.csv es del futuro 
+DATE:2/5/2016 23:54:41-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Movio 3764_20160510.csv a /home/federico/Escritorio/cipal/Grupo08/rechazados/3764_20160510.csv 
+DATE:2/5/2016 23:54:41-USER:-CMD:RecibirOfertas-TYPE:ERR-MSJ:3765_20160510.csv es del futuro 
+DATE:2/5/2016 23:54:41-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Movio 3765_20160510.csv a /home/federico/Escritorio/cipal/Grupo08/rechazados/3765_20160510.csv 
+DATE:2/5/2016 23:54:41-USER:-CMD:RecibirOfertas-TYPE:ERR-MSJ:3766_20160510.csv es del futuro 
+DATE:2/5/2016 23:54:41-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Movio 3766_20160510.csv a /home/federico/Escritorio/cipal/Grupo08/rechazados/3766_20160510.csv 
+DATE:2/5/2016 23:54:41-USER:-CMD:RecibirOfertas-TYPE:ERR-MSJ:3768_20160510.csv es del futuro 
+DATE:2/5/2016 23:54:41-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Movio 3768_20160510.csv a /home/federico/Escritorio/cipal/Grupo08/rechazados/3768_20160510.csv 
+DATE:2/5/2016 23:54:41-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:3769_20160502.csv movido a /home/federico/Escritorio/cipal/Grupo08/aceptados 
+DATE:2/5/2016 23:54:41-USER:-CMD:RecibirOfertas-TYPE:ERR-MSJ:3770_20160506.csv es del futuro 
+DATE:2/5/2016 23:54:41-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Movio 3770_20160506.csv a /home/federico/Escritorio/cipal/Grupo08/rechazados/3770_20160506.csv 
+DATE:2/5/2016 23:54:41-USER:-CMD:RecibirOfertas-TYPE:ERR-MSJ:3771_20160506.csv es del futuro 
+DATE:2/5/2016 23:54:41-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Movio 3771_20160506.csv a /home/federico/Escritorio/cipal/Grupo08/rechazados/3771_20160506.csv 
+DATE:2/5/2016 23:54:41-USER:-CMD:RecibirOfertas-TYPE:ERR-MSJ:3773_20160506.csv es del futuro 
+DATE:2/5/2016 23:54:41-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Movio 3773_20160506.csv a /home/federico/Escritorio/cipal/Grupo08/rechazados/3773_20160506.csv 
+DATE:2/5/2016 23:54:41-USER:-CMD:RecibirOfertas-TYPE:ERR-MSJ:3775_20160506.csv es del futuro 
+DATE:2/5/2016 23:54:41-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Movio 3775_20160506.csv a /home/federico/Escritorio/cipal/Grupo08/rechazados/3775_20160506.csv 
+DATE:2/5/2016 23:54:41-USER:-CMD:RecibirOfertas-TYPE:ERR-MSJ:3776_20160506.csv es del futuro 
+DATE:2/5/2016 23:54:41-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Movio 3776_20160506.csv a /home/federico/Escritorio/cipal/Grupo08/rechazados/3776_20160506.csv 
+DATE:2/5/2016 23:54:41-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:3778_20160502.csv movido a /home/federico/Escritorio/cipal/Grupo08/aceptados 
+DATE:2/5/2016 23:54:41-USER:-CMD:RecibirOfertas-TYPE:ERR-MSJ:3779_20160509.csv es del futuro 
+DATE:2/5/2016 23:54:41-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Movio 3779_20160509.csv a /home/federico/Escritorio/cipal/Grupo08/rechazados/3779_20160509.csv 
+DATE:2/5/2016 23:54:41-USER:-CMD:RecibirOfertas-TYPE:ERR-MSJ:3780_20160507.csv es del futuro 
+DATE:2/5/2016 23:54:41-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Movio 3780_20160507.csv a /home/federico/Escritorio/cipal/Grupo08/rechazados/3780_20160507.csv 
+DATE:2/5/2016 23:54:41-USER:-CMD:RecibirOfertas-TYPE:ERR-MSJ:3782_20160510.csv es del futuro 
+DATE:2/5/2016 23:54:41-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Movio 3782_20160510.csv a /home/federico/Escritorio/cipal/Grupo08/rechazados/3782_20160510.csv 
+DATE:2/5/2016 23:54:41-USER:-CMD:RecibirOfertas-TYPE:ERR-MSJ:3783_20160510.csv es del futuro 
+DATE:2/5/2016 23:54:41-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Movio 3783_20160510.csv a /home/federico/Escritorio/cipal/Grupo08/rechazados/3783_20160510.csv 
+DATE:2/5/2016 23:54:42-USER:-CMD:RecibirOfertas-TYPE:ERR-MSJ:3784_20160510.csv es del futuro 
+DATE:2/5/2016 23:54:42-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Movio 3784_20160510.csv a /home/federico/Escritorio/cipal/Grupo08/rechazados/3784_20160510.csv 
+DATE:2/5/2016 23:54:42-USER:-CMD:RecibirOfertas-TYPE:ERR-MSJ:3785_20160510.csv codigo invalido 
+DATE:2/5/2016 23:54:42-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Movio 3785_20160510.csv a /home/federico/Escritorio/cipal/Grupo08/rechazados/3785_20160510.csv 
+DATE:2/5/2016 23:54:42-USER:-CMD:RecibirOfertas-TYPE:ERR-MSJ:4501_20160510.csv es del futuro 
+DATE:2/5/2016 23:54:42-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Movio 4501_20160510.csv a /home/federico/Escritorio/cipal/Grupo08/rechazados/4501_20160510.csv 
+DATE:2/5/2016 23:54:42-USER:-CMD:RecibirOfertas-TYPE:ERR-MSJ:4503_20160510.csv es del futuro 
+DATE:2/5/2016 23:54:42-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Movio 4503_20160510.csv a /home/federico/Escritorio/cipal/Grupo08/rechazados/4503_20160510.csv 
+DATE:2/5/2016 23:55:16-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:LanzarOfertas: DUPLICADO
+DUPLICADO
+PROCESANDO
+PROCESANDO
+PROCESANDO
+PROCESANDO
+PROCESANDO
+PROCESANDO
+PROCESANDO
+PROCESANDO
+PROCESANDO
+PROCESANDO
+PROCESANDO
+PROCESANDO
+PROCESANDO
+PROCESANDO
+PROCESANDO
+PROCESANDO
+PROCESANDO
+PROCESANDO
+PROCESANDO
+PROCESANDO
+PROCESANDOINFO 
+DATE:2/5/2016 23:55:21-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 2 
+DATE:2/5/2016 23:55:26-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 3 
+DATE:2/5/2016 23:55:31-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 4 
+DATE:2/5/2016 23:55:36-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 5 
+DATE:2/5/2016 23:55:41-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 6 
+DATE:2/5/2016 23:55:46-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 7 
+DATE:2/5/2016 23:55:51-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 8 
+DATE:2/5/2016 23:55:56-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 9 
+DATE:2/5/2016 23:56:1-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 10 
+DATE:2/5/2016 23:56:6-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 11 
+DATE:2/5/2016 23:56:11-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 12 
+DATE:2/5/2016 23:56:16-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 13 
+DATE:2/5/2016 23:56:21-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 14 
+DATE:2/5/2016 23:56:26-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 15 
+DATE:2/5/2016 23:56:31-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 16 
+DATE:2/5/2016 23:56:36-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 17 
+DATE:2/5/2016 23:56:42-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 18 
+DATE:2/5/2016 23:56:47-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 19 
+DATE:2/5/2016 23:56:52-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 20 
+DATE:2/5/2016 23:56:57-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 21 
+DATE:2/5/2016 23:57:2-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 22 
+DATE:2/5/2016 23:57:7-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 23 
+DATE:2/5/2016 23:57:12-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 24 
+DATE:2/5/2016 23:57:17-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 25 
+DATE:2/5/2016 23:57:22-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 26 
+DATE:2/5/2016 23:57:27-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 27 
+DATE:2/5/2016 23:57:32-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 28 
+DATE:2/5/2016 23:57:37-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 29 
+DATE:2/5/2016 23:57:42-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 30 
+DATE:2/5/2016 23:57:47-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 31 
+DATE:2/5/2016 23:57:52-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 32 
+DATE:2/5/2016 23:57:57-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 33 
+DATE:2/5/2016 23:58:2-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 34 
+DATE:2/5/2016 23:58:7-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 35 
+DATE:2/5/2016 23:58:12-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 36 
+DATE:2/5/2016 23:58:17-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 37 
+DATE:2/5/2016 23:58:22-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 38 
+DATE:2/5/2016 23:58:27-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 39 
+DATE:2/5/2016 23:58:32-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 40 
+DATE:2/5/2016 23:58:37-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 41 
+DATE:2/5/2016 23:58:42-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 42 
+DATE:2/5/2016 23:58:47-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 43 
+DATE:2/5/2016 23:58:52-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 44 
+DATE:2/5/2016 23:58:57-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 45 
+DATE:2/5/2016 23:59:2-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 46 
+DATE:2/5/2016 23:59:7-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 47 
+DATE:2/5/2016 23:59:12-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 48 
+DATE:2/5/2016 23:59:17-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 49 
+DATE:2/5/2016 23:59:22-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 50 
+DATE:2/5/2016 23:59:27-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 51 
+DATE:2/5/2016 23:59:32-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 52 
+DATE:2/5/2016 23:59:37-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 53 
+DATE:2/5/2016 23:59:42-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 54 
+DATE:2/5/2016 23:59:47-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 55 
+DATE:2/5/2016 23:59:52-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 56 
+DATE:2/5/2016 23:59:57-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 57 
+DATE:3/5/2016 0:0:2-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 58 
+DATE:3/5/2016 0:0:7-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 59 
+DATE:3/5/2016 0:0:12-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 60 
+DATE:3/5/2016 0:0:17-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 61 
+DATE:3/5/2016 0:0:22-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 62 
+DATE:3/5/2016 0:0:27-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 63 
+DATE:3/5/2016 0:0:32-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 64 
+DATE:3/5/2016 0:0:37-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 65 
+DATE:3/5/2016 0:0:42-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 66 
+DATE:3/5/2016 0:0:47-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 67 
+DATE:3/5/2016 0:0:52-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 68 
+DATE:3/5/2016 0:0:57-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 69 
+DATE:3/5/2016 0:1:2-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 70 
+DATE:3/5/2016 0:1:7-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 71 
+DATE:3/5/2016 0:1:13-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 72 
+DATE:3/5/2016 0:1:18-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 73 
+DATE:3/5/2016 0:1:23-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 74 
+DATE:3/5/2016 0:1:28-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 75 
+DATE:3/5/2016 0:1:33-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 76 
+DATE:3/5/2016 0:1:38-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 77 
+DATE:3/5/2016 0:1:43-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 78 
+DATE:3/5/2016 0:1:48-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 79 
+DATE:3/5/2016 0:1:53-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 80 
+DATE:3/5/2016 0:1:58-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 81 
+DATE:3/5/2016 0:2:3-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 82 
+DATE:3/5/2016 0:2:8-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 83 
+DATE:3/5/2016 0:2:13-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 84 
+DATE:3/5/2016 0:2:18-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 85 
+DATE:3/5/2016 0:2:23-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 86 
+DATE:3/5/2016 0:2:28-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 87 
+DATE:3/5/2016 0:2:33-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 88 
+DATE:3/5/2016 0:2:38-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 89 
+DATE:3/5/2016 0:2:43-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 90 
+DATE:3/5/2016 0:2:48-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 91 
+DATE:3/5/2016 0:2:53-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 92 
+DATE:3/5/2016 0:2:58-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 93 
+DATE:3/5/2016 0:3:3-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 94 
+DATE:3/5/2016 0:3:8-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 95 
+DATE:3/5/2016 0:3:13-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 96 
+DATE:3/5/2016 0:3:18-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 97 
+DATE:3/5/2016 0:3:23-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 98 
+DATE:3/5/2016 0:3:28-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 99 
+DATE:3/5/2016 0:3:33-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 100 
+DATE:3/5/2016 0:3:38-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 101 
+DATE:3/5/2016 0:3:43-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 102 
+DATE:3/5/2016 0:3:48-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 103 
+DATE:3/5/2016 0:3:53-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 104 
+DATE:3/5/2016 0:3:58-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 105 
+DATE:3/5/2016 0:4:3-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 106 
+DATE:3/5/2016 0:4:8-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 107 
+DATE:3/5/2016 0:4:13-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 108 
+DATE:3/5/2016 0:4:18-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 109 
+DATE:3/5/2016 0:4:23-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 110 
+DATE:3/5/2016 0:4:28-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 111 
+DATE:3/5/2016 0:4:33-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 112 
+DATE:3/5/2016 0:4:38-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 113 
+DATE:3/5/2016 0:4:43-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 114 
+DATE:3/5/2016 0:4:48-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 115 
+DATE:3/5/2016 0:4:53-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 116 
+DATE:3/5/2016 0:4:58-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 117 
+DATE:3/5/2016 0:5:3-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 118 
+DATE:3/5/2016 0:5:8-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 119 
+DATE:3/5/2016 0:5:13-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 120 
+DATE:3/5/2016 0:5:18-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 121 
+DATE:3/5/2016 0:5:23-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 122 
+DATE:3/5/2016 0:5:28-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 123 
+DATE:3/5/2016 0:5:33-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 124 
+DATE:3/5/2016 0:5:39-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 125 
+DATE:3/5/2016 0:5:44-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 126 
+DATE:3/5/2016 0:5:49-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 127 
+DATE:3/5/2016 0:5:54-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 128 
+DATE:3/5/2016 0:5:59-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 129 
+DATE:3/5/2016 0:6:4-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 130 
+DATE:3/5/2016 0:6:9-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 131 
+DATE:3/5/2016 0:6:14-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 132 
+DATE:3/5/2016 0:6:19-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 133 
+DATE:3/5/2016 0:6:24-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 134 
+DATE:3/5/2016 0:6:29-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 135 
+DATE:3/5/2016 0:6:34-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 136 
+DATE:3/5/2016 0:6:39-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 137 
+DATE:3/5/2016 0:6:44-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 138 
+DATE:3/5/2016 0:6:49-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 139 
+DATE:3/5/2016 0:6:54-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 140 
+DATE:3/5/2016 0:6:59-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 141 
+DATE:3/5/2016 0:7:4-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 142 
+DATE:3/5/2016 0:7:9-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 143 
+DATE:3/5/2016 0:7:14-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 144 
+DATE:3/5/2016 0:7:19-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 145 
+DATE:3/5/2016 0:7:24-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 146 
+DATE:3/5/2016 0:7:29-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 147 
+DATE:3/5/2016 0:7:34-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 148 
+DATE:3/5/2016 0:7:39-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 149 
+DATE:3/5/2016 0:7:44-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 150 
+DATE:3/5/2016 0:7:49-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 151 
+DATE:3/5/2016 0:7:54-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 152 
+DATE:3/5/2016 0:7:59-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 153 
+DATE:3/5/2016 0:8:4-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 154 
+DATE:3/5/2016 0:8:9-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 155 
+DATE:3/5/2016 0:8:14-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 156 
+DATE:3/5/2016 0:8:19-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 157 
+DATE:3/5/2016 0:8:24-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 158 
+DATE:3/5/2016 0:8:29-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 159 
+DATE:3/5/2016 0:8:34-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 160 
+DATE:3/5/2016 0:8:39-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 161 
+DATE:3/5/2016 0:8:44-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 162 
+DATE:3/5/2016 0:8:49-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 163 
+DATE:3/5/2016 0:8:54-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 164 
+DATE:3/5/2016 0:8:59-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 165 
+DATE:3/5/2016 0:9:4-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 166 
+DATE:3/5/2016 0:9:9-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 167 
+DATE:3/5/2016 0:9:14-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 168 
+DATE:3/5/2016 0:9:19-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 169 
+DATE:3/5/2016 0:9:24-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 170 
+DATE:3/5/2016 0:9:29-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 171 
+DATE:3/5/2016 0:9:34-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 172 
+DATE:3/5/2016 0:9:39-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 173 
+DATE:3/5/2016 0:9:44-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 174 
+DATE:3/5/2016 0:9:49-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 175 
+DATE:3/5/2016 0:9:54-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 176 
+DATE:3/5/2016 0:9:59-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 177 
+DATE:3/5/2016 0:10:4-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 178 
+DATE:3/5/2016 0:10:10-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 179 
+DATE:3/5/2016 0:10:15-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 180 
+DATE:3/5/2016 0:10:20-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 181 
+DATE:3/5/2016 0:10:25-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 182 
+DATE:3/5/2016 0:10:30-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 183 
+DATE:3/5/2016 0:10:35-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 184 
+DATE:3/5/2016 0:10:40-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 185 
+DATE:3/5/2016 0:10:45-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 186 
+DATE:3/5/2016 0:10:50-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 187 
+DATE:3/5/2016 0:10:55-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 188 
+DATE:3/5/2016 0:11:0-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 189 
+DATE:3/5/2016 0:11:5-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 190 
+DATE:3/5/2016 0:11:10-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 191 
+DATE:3/5/2016 0:11:15-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 192 
+DATE:3/5/2016 0:11:20-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 193 
+DATE:3/5/2016 0:11:25-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 194 
+DATE:3/5/2016 0:11:30-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 195 
+DATE:3/5/2016 0:11:35-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 196 
+DATE:3/5/2016 0:11:40-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 197 
+DATE:3/5/2016 0:11:45-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 198 
+DATE:3/5/2016 0:11:50-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 199 
+DATE:3/5/2016 0:11:55-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 200 
+DATE:3/5/2016 0:12:0-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 201 
+DATE:3/5/2016 0:12:5-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 202 
+DATE:3/5/2016 0:12:10-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 203 
+DATE:3/5/2016 0:12:15-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 204 
+DATE:3/5/2016 0:12:20-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 205 
+DATE:3/5/2016 0:12:25-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 206 
+DATE:3/5/2016 0:12:30-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 207 
+DATE:3/5/2016 0:12:35-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 208 
+DATE:3/5/2016 0:12:40-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 209 
+DATE:3/5/2016 0:12:45-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 210 
+DATE:3/5/2016 0:12:50-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 211 
+DATE:3/5/2016 0:12:55-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 212 
+DATE:3/5/2016 0:13:0-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 213 
+DATE:3/5/2016 0:13:5-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 214 
+DATE:3/5/2016 0:13:10-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 215 
+DATE:3/5/2016 0:13:15-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 216 
+DATE:3/5/2016 0:13:20-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 217 
+DATE:3/5/2016 0:13:25-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 218 
+DATE:3/5/2016 0:13:30-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 219 
+DATE:3/5/2016 0:13:35-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 220 
+DATE:3/5/2016 0:13:40-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 221 
+DATE:3/5/2016 0:13:45-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 222 
+DATE:3/5/2016 0:13:48-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 1 
+DATE:3/5/2016 0:13:53-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 2 
+DATE:3/5/2016 0:13:58-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 3 
+DATE:3/5/2016 0:14:3-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 4 
+DATE:3/5/2016 0:14:8-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 5 
+DATE:3/5/2016 0:14:13-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 6 
+DATE:3/5/2016 0:14:18-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 7 
+DATE:3/5/2016 0:14:23-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 8 
+DATE:3/5/2016 0:14:28-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 9 
+DATE:3/5/2016 0:14:33-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 10 
+DATE:3/5/2016 0:14:38-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 11 
+DATE:3/5/2016 0:14:43-USER:-CMD:RecibirOfertas-TYPE:INFO-MSJ:Corrida numero: 12 

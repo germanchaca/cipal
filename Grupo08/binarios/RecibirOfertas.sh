@@ -20,7 +20,6 @@ then
 	echo "RecibirOfertas solo corre en background"
 	exit
 fi
-echo $background
 if [ "$padre" == "$er2" ]
 then
 	echo "RecibirOfertas solo se puede invocar desde LanzarProceso o PrepararAmbiente"

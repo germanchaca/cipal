@@ -11,3 +11,16 @@ DATE:2/5/2016 21:32:38-USER:-CMD:PrepararAmbiente-TYPE:INFO-MSJ:Variable BCKP in
 DATE:2/5/2016 21:32:38-USER:-CMD:PrepararAmbiente-TYPE:INFO-MSJ:Variable LOGSIZE inicializada con valor 10000 
 DATE:2/5/2016 21:32:38-USER:-CMD:PrepararAmbiente-TYPE:INFO-MSJ:Variable SLEEPTIME inicializada con valor 5 
 DATE:2/5/2016 21:32:38-USER:federico-CMD:PrepararAmbiente-TYPE:INFO-MSJ:Estado del Sistema: INICIALIZADO 
+DATE:2/5/2016 23:47:25-USER:-CMD:PrepararAmbiente-TYPE:INFO-MSJ:Variable GRUPO inicializada con valor /home/federico/Escritorio/cipal/Grupo08 
+DATE:2/5/2016 23:47:25-USER:-CMD:PrepararAmbiente-TYPE:INFO-MSJ:Variable BINDIR inicializada con valor /home/federico/Escritorio/cipal/Grupo08/binarios 
+DATE:2/5/2016 23:47:25-USER:-CMD:PrepararAmbiente-TYPE:INFO-MSJ:Variable MAEDIR inicializada con valor /home/federico/Escritorio/cipal/Grupo08/maestros 
+DATE:2/5/2016 23:47:25-USER:-CMD:PrepararAmbiente-TYPE:INFO-MSJ:Variable ARRIDIR inicializada con valor /home/federico/Escritorio/cipal/Grupo08/arribados 
+DATE:2/5/2016 23:47:25-USER:-CMD:PrepararAmbiente-TYPE:INFO-MSJ:Variable OKDIR inicializada con valor /home/federico/Escritorio/cipal/Grupo08/aceptados 
+DATE:2/5/2016 23:47:25-USER:-CMD:PrepararAmbiente-TYPE:INFO-MSJ:Variable PROCDIR inicializada con valor /home/federico/Escritorio/cipal/Grupo08/procesados 
+DATE:2/5/2016 23:47:25-USER:-CMD:PrepararAmbiente-TYPE:INFO-MSJ:Variable INFODIR inicializada con valor /home/federico/Escritorio/cipal/Grupo08/informes 
+DATE:2/5/2016 23:47:25-USER:-CMD:PrepararAmbiente-TYPE:INFO-MSJ:Variable LOGDIR inicializada con valor /home/federico/Escritorio/cipal/Grupo08/bitacoras 
+DATE:2/5/2016 23:47:25-USER:-CMD:PrepararAmbiente-TYPE:INFO-MSJ:Variable NOKDIR inicializada con valor /home/federico/Escritorio/cipal/Grupo08/rechazados 
+DATE:2/5/2016 23:47:25-USER:-CMD:PrepararAmbiente-TYPE:INFO-MSJ:Variable BCKP inicializada con valor /home/federico/Escritorio/cipal/Grupo08/backup 
+DATE:2/5/2016 23:47:25-USER:-CMD:PrepararAmbiente-TYPE:INFO-MSJ:Variable LOGSIZE inicializada con valor 10000 
+DATE:2/5/2016 23:47:25-USER:-CMD:PrepararAmbiente-TYPE:INFO-MSJ:Variable SLEEPTIME inicializada con valor 5 
+DATE:2/5/2016 23:47:25-USER:federico-CMD:PrepararAmbiente-TYPE:INFO-MSJ:Estado del Sistema: INICIALIZADO 
