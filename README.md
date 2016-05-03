@@ -1,29 +1,22 @@
 # Cipal
 #75.08 - SistemasOperativos Trapabajo Practico Grupo 2. Primer cuatrimestre Año 2016 
-
 #INSTRUCTIVO DE INSTALACION
 
 1. Copiar el archivo GRUPO08.tar.gz a la carpeta deseada dentro del directorio home. 
 
 2. Abrir la consola y localizarse en el directorio dentro del home donde se haya copiado el archivo GRUPO08.tar.gz.
 
-3. Ejecutar el siguiente comando: 
+3. Extraer el directorio del sistema mediante el siguiente comando: 
 	tar -xvzf Grupo08.tar.gz
 
-4. Ejecutar el siguiente comando:
-	cd GRUPO08
-
-5. Ejecutar el siguiente comando:
+4. Ejecutar los siguientes comandos para llevar a cabo la instalacion:
+	cd Grupo08
 	./instalar.sh
 
-6. Preparar el ambiente
+5. Ejecutar los siguientes comandos para preparar el ambiente para la ejecucion del programa:
 	cd binarios
+	. PrepararAmbiente.sh
 
-. PrepararAmbiente.sh
-
-7. Luego de preparar el ambiente, el sistema preguntara si quiere Recibir las Ofertas. Una vez corrido este proceso, ejecutar:
-
+6. Luego de preparar el ambiente, el sistema preguntara si quiere correr el proceso RecibirOfertas. 
+   Una vez corrido este proceso, para enviar las ofertas al sistema y que este las reciba, se debe ejecutar el siguiente comando:
 	cp novedades/* arribados/
- 
-
-
