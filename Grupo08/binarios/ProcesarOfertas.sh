@@ -76,10 +76,13 @@ function setVariablesOfertaDeArchivosMaestros {
 }
 
 function validUser {
-	local users=$(ls "$PROCDIR/validas/$PROXADJ.csv" | grep ".*${GRUPO}${ORDEN}.*")
-	if [ ! $users eq "" ];then
-		ERR_MSG="Persona ya oferto"
-		return	$ERROR
+	local path_prox_adj="$PROCDIR/validas/$PROXADJ.csv"
+	if [ -f $path_prox_adj ];then 
+		local userss=$( grep ".*${SEP}${GRUPO}${ORDEN}${SEP}.*" $path_prox_adj)
+		if [ ! "$userss" = "" ];then
+			ERR_MSG="Persona ya oferto"
+			return	$ERROR
+		fi
 	fi
 	return $OK
 }
@@ -177,7 +180,6 @@ function errorRegistro {
 	local name=$(just_name $1)
 	local array=(${name//_/ })
 	local cod_concesionario=${array[ICODCONS]}
-	fechaActual
 	local line="${name}${SEP}${ERR_MSG}${SEP}'${2}'${SEP}${USER}${SEP}${DATE}"
 	writeLineTo "${PROCDIR}/rechazadas/${cod_concesionario}.rech" "$line"
 	let 'MALOFERTA++'
@@ -193,8 +195,6 @@ function bienRegistro {
 	local array_subscriptor=(${SUBSCRIPTOROFERTA//$SEP/ })
 	local name=${array_subscriptor[$NAME]}
 	local fecha_original=$(echo ${array[$IFECHA]} | sed "s/^\([0-9]\{4\}\)\([01][0-9]\)\([0-3][0-9]\)$/\3-\2-\1/" )
-	fechaActual
-	proximaFechaAdj
 	local line="${array[$ICODCONS]}${SEP}${fecha_original}${SEP}${contratoFusionado}${SEP}${GRUPO}${SEP}${ORDEN}${SEP}${array_line[$IIMPORTE]}${SEP}${name}${SEP}${USER}${SEP}${DATE}"
 	writeLineTo "${PROCDIR}/validas/${PROXADJ}.csv" "$line"
 	let 'BIENOFERTA++'
@@ -225,13 +225,13 @@ ofertas="${OKDIR}/*_*.csv"
 countOfertas=$(ls -1  $ofertas | wc -l)
 
 $GRABAR "Cantidad de archivos a procesar: ${countOfertas}"
-
+fechaActual
+proximaFechaAdj
 for file in $ofertas
 do
 	if [ -f "${PROCDIR}/procesadas/${file##*/}" ]
 		then
 		$GRABAR "Se rechaza el archivo '${file##*/}' por estar duplicado"
-		echo "DUPLICADO"
 		finArchivo $file $ERROR
 	else
 		#obtiene primer fila y arma array de elementos
@@ -239,7 +239,6 @@ do
 		campos=(${first_row//$SEP/ })
 		if [ ${#campos[@]} = $ROWSEXPECTED ]
 			then
-			echo "PROCESANDO"
 			$GRABAR "Archivo a procesar: ${file##*/}"
 
 			for line in $(<$file)
@@ -259,7 +258,6 @@ do
 			$GRABAR "Registros leidos = ${TOTAL}: cantidad de ofertas validas ${BIENOFERTA}: cantidad de ofertas rechazadas = ${MALOFERTA}"
 			finArchivo $file $OK
 		else
-			echo "MAL FORMATO DE ARCHIVO"
 			$GRABAR "Se rechaza el archivo '${file##*/}' porque su estructura no se corresponde con el formato esperado"
 			finArchivo $file $ERROR
 		fi
