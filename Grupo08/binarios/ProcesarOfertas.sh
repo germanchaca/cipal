@@ -203,10 +203,10 @@ function bienRegistro {
 function finArchivo {
 	if [ $2 = $ERROR ]; then
 		let 'RECHAZADOS++'
-		./MoverArchivos.sh $1 ${NOKDIR}
+		./MoverArchivos.sh $1 ${NOKDIR} "ProcesarOfertas"
 	else
 		let 'PROCESADOS++'
-		./MoverArchivos.sh $1 ${PROCDIR}/procesadas
+		./MoverArchivos.sh $1 ${PROCDIR}/procesadas "ProcesarOfertas"
 		#mover $1 a ${PROCDIR}/procesadas
 	fi
 }
