@@ -1,7 +1,6 @@
 # Cipal
 #75.08 - SistemasOperativos Trapabajo Practico Grupo 2. Primer cuatrimestre Año 2016 
 #INSTRUCTIVO DE INSTALACION
-
 1. Copiar el archivo GRUPO08.tar.gz a la carpeta deseada dentro del directorio home. 
 
 2. Abrir la consola y localizarse en el directorio dentro del home donde se haya copiado el archivo GRUPO08.tar.gz.
@@ -17,6 +16,12 @@
 	cd binarios
 	. PrepararAmbiente.sh
 
+#Uso
 6. Luego de preparar el ambiente, el sistema preguntara si quiere correr el proceso RecibirOfertas. 
-   Una vez corrido este proceso, para enviar las ofertas al sistema y que este las reciba, se debe ejecutar el siguiente comando:
+   Una vez corrido este proceso, para enviar todas las ofertas al sistema y que este las reciba, se debe ejecutar el siguiente comando:
 	cp novedades/* arribados/
+7. Para generar el Sorteo
+	 ./LanzarProceso.sh GenerarSorteo.sh 
+8. Para determinar los Ganadores
+	El comando -a da una ayuda de como ejecutar este comando.
+	./DeterminarGanadores.pl -a
