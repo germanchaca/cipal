@@ -14,14 +14,39 @@
 # 	1.Archivos de sorteos PROCDIR/sorteos/<sorteoId>_<fecha de adjudicación >
 # 	2.Log del Comando LOGDIR/GenerarSorteo.log
 
+SEP=";"
 padre=$(ps -o stat= -p $PPID)
 er1='Ss'
 er2='Ss+'
 if [ "$padre" == "$er1" ]
 then
-	echo "RecibirOfertas solo se puede invocar desde LanzarProceso"
+	echo "GenerarSorteo solo se puede invocar desde LanzarProceso"
 	exit
 fi
+
+
+function fechaActual {
+	DATE=$(date +%d/%m/%Y)
+}
+
+function proximaFechaAdj {
+	fechaActual
+	IANIO=2
+	IMES=1
+	IDIA=0
+	local array_fecha=(${DATE//// })
+	local nextDate=$(grep "[0-3][0-9]/${array_fecha[$IMES]}/${array_fecha[$IANIO]}${SEP}.*" "${MAEDIR}/FechasAdj.csv")
+	local nextDay=${nextDate%%/*}
+	if [ ! $nextDay -gt ${array_fecha[$IDIA]} ]; then
+		local mesSiguiente=$(( ${array_fecha[$IMES]} + 1 ))
+		if [ 10 -gt $mesSiguiente ];then
+			mesSiguiente="0${mesSiguiente}"
+		fi
+		nextDate=$(grep "[0-3][0-9]/$mesSiguiente/${array_fecha[$IANIO]}${SEP}.*" "${MAEDIR}/FechasAdj.csv")
+	fi
+	PROXADJ=${nextDate%%${SEP}*}
+	PROXADJ=${PROXADJ////-}
+}
 
 function intruirModoLlamada(){
 	echo "Modo de llamada a funcion bash: GenerarSorteo.sh"
@@ -60,7 +85,7 @@ function crearDirOutputSorteosSiNoExiste(){
 }
 
 function inicializarLog(){
-	grabarBitacora "Inicio de Sorteo" "INFO"
+	grabarBitacora "Inicio de Sorteo id: $1" "INFO"
 }
 
 function finalizarLog(){
@@ -107,17 +132,29 @@ crearDirOutputSorteosSiNoExiste
 #Me quedo con el primer campo del archivo csv con las fechas de adjudicacion, delimitado con ';'
 fechasActoAdjudicacion=$(cut "$TABLA_FECHAS_ADJ" -d';' -f1) 
 
-inicializarLog
+ 
 #inicializamos el sorteoId en 1
-sorteoId=1
 
-for fecha in $fechasActoAdjudicacion
+max=0
+for i in $(ls $PROCDIR/sorteos)
 do
+	id=${i%%_*}
+	if [ $id -gt $max ]
+	then
+		max=$id
+	fi
+done
+sorteoId=$((max+1))
+#for fecha in $fechasActoAdjudicacion
+#do
+	inicializarLog "$sorteoId"
+
 	sorteo=$(seq 168 | shuf) #Generador de numeros aleatorios del 1 al 168
 
-	fechaModificada=${fecha////-} #FORMATO DD-MM-YYYY
+	#fechaModificada=${fecha////-} #FORMATO DD-MM-YYYY
+	proximaFechaAdj
 
-	TEMP="/sorteos/$sorteoId""_""$fechaModificada.srt"
+	TEMP="/sorteos/$sorteoId""_""$PROXADJ.srt"
 
 	fileNameSorteo="$PROCDIR$TEMP"
 
@@ -136,7 +173,7 @@ do
 	
 	done
 	sorteoId=$((sorteoId+1))
-done
+#done
 finalizarLog
 #FIN MAIN
 

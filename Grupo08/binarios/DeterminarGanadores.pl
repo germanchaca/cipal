@@ -30,8 +30,8 @@ if (@ARGV[0] eq "-g"){
 	system("./GrabarBitacora.pl ","$NOMBRE_CMD", "Se activo la opcion de grabar"," INFO");
 	$grabarBool="0";
 }
-
 my $sorteoId=shift(@ARGV);
+
 my $sorteo="";
 my $fechaDeAdjudicacion="";
 #/**Busco el archivo de sorteo y la fechaDeAdjudicacion**/
@@ -48,6 +48,11 @@ if (opendir(DIR,"$PROCDIR/sorteos")){
 	system("./GrabarBitacora.pl", "$NOMBRE_CMD", "No hay sorteos", "ERR");
 	exit 1;
 }
+if($sorteo eq ""){
+	print "ERROR: NO EXISTE SORTEO ID\n";
+	system("./GrabarBitacora.pl","$NOMBRE_CMD","No hay sorteos ID","ERR");
+	exit 1;	
+}
 my @grupos = &listaGrupos(@ARGV);
 my $index_separtor = index($sorteo, "_");
 my $index_subfix = index($sorteo, ".srt");
@@ -57,8 +62,7 @@ my $pathPadrones=$MAEDIR."/temaL_padron.csv";
 my $pathGrupos=$MAEDIR."/grupos.csv";
 my $pathFechas=$PROCDIR."/validas/$fechaDeAdjudicacion.csv";
 my $pathSorteos=$PROCDIR."/sorteos/$sorteo";
-print "$pathSorteos \n";
-print "$sorteo \n";
+
 #if( length($sorteo) eq 0 or (-r $pathSorteos)){
 #	print "ERROR:NO HAY SORTEO CON EL ID DADO\n";
 #	system("./GrabarBitacora.pl", "$NOMBRE_CMD", "No hay sorteos", "ERR");
