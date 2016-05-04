@@ -75,6 +75,15 @@ function setVariablesOfertaDeArchivosMaestros {
 
 }
 
+function validUser {
+	local users=$(ls "$PROCDIR/validas/$PROXADJ.csv" | grep ".*${GRUPO}${ORDEN}.*")
+	if [ ! $users eq "" ];then
+		ERR_MSG="Persona ya oferto"
+		return	$ERROR
+	fi
+	return $OK
+}
+
 function validCONTFUS {
 	IESTADO=1
 	if [[ "$1" =~ [0-9]{7} ]]; then
@@ -140,6 +149,10 @@ function validPARTICIPA {
 function validOFERTA {
 	local array=(${1//$SEP/ })
 	setVariablesOfertaDeArchivosMaestros ${array[$ICONTFUS]}
+	validUser
+	if [ $? = $ERROR ]; then
+		return $ERROR	
+	fi
 	validCONTFUS ${array[$ICONTFUS]}
 	if [ $? = $ERROR ];	then
 		return $ERROR

@@ -14,7 +14,14 @@
 # 	1.Archivos de sorteos PROCDIR/sorteos/<sorteoId>_<fecha de adjudicación >
 # 	2.Log del Comando LOGDIR/GenerarSorteo.log
 
-
+padre=$(ps -o stat= -p $PPID)
+er1='Ss'
+er2='Ss+'
+if [ "$padre" == "$er1" ]
+then
+	echo "RecibirOfertas solo se puede invocar desde LanzarProceso"
+	exit
+fi
 
 function intruirModoLlamada(){
 	echo "Modo de llamada a funcion bash: GenerarSorteo.sh"
