@@ -13,7 +13,7 @@ if((not defined $ENV{'MAEDIR'}) or (not defined $ENV{'PROCDIR'})or (not defined 
 $MAEDIR =  $ENV{'MAEDIR'}; 
 $PROCDIR =  $ENV{'PROCDIR'}; 
 $INFODIR =  $ENV{'INFODIR'}; 
-
+$LARGOMAXNOMBRE=220;
 if (@ARGV[0] eq "-a"){
 	print "Ayuda\n";
 	&ayuda;
@@ -30,8 +30,8 @@ if (@ARGV[0] eq "-g"){
 	system("./GrabarBitacora.pl ","$NOMBRE_CMD", "Se activo la opcion de grabar"," INFO");
 	$grabarBool="0";
 }
-
 my $sorteoId=shift(@ARGV);
+
 my $sorteo="";
 my $fechaDeAdjudicacion="";
 #/**Busco el archivo de sorteo y la fechaDeAdjudicacion**/
@@ -48,6 +48,11 @@ if (opendir(DIR,"$PROCDIR/sorteos")){
 	system("./GrabarBitacora.pl", "$NOMBRE_CMD", "No hay sorteos", "ERR");
 	exit 1;
 }
+if($sorteo eq ""){
+	print "ERROR: NO EXISTE SORTEO ID\n";
+	system("./GrabarBitacora.pl","$NOMBRE_CMD","No hay sorteos ID","ERR");
+	exit 1;	
+}
 my @grupos = &listaGrupos(@ARGV);
 my $index_separtor = index($sorteo, "_");
 my $index_subfix = index($sorteo, ".srt");
@@ -57,8 +62,7 @@ my $pathPadrones=$MAEDIR."/temaL_padron.csv";
 my $pathGrupos=$MAEDIR."/grupos.csv";
 my $pathFechas=$PROCDIR."/validas/$fechaDeAdjudicacion.csv";
 my $pathSorteos=$PROCDIR."/sorteos/$sorteo";
-print "$pathSorteos \n";
-print "$sorteo \n";
+
 #if( length($sorteo) eq 0 or (-r $pathSorteos)){
 #	print "ERROR:NO HAY SORTEO CON EL ID DADO\n";
 #	system("./GrabarBitacora.pl", "$NOMBRE_CMD", "No hay sorteos", "ERR");
@@ -84,6 +88,7 @@ if (not @grupos){
 	foreach $grupo (sort { $a <=> $b } (keys(%hashGruposDeFecha))) {
 		push (@gruposOk,$grupo);
 	}
+	print "Atencion no se han ingresado grupos, si el nombre de un archivo es demasiado largo se acortara por limitaciones del sistemas.Muchas gracias por elegirnos\n"
 }else{
 	foreach $grupo (@grupos) {
 		if((defined $hashGrupos{$grupo}) and (defined  $hashGruposDeFecha{$grupo})){
@@ -161,7 +166,8 @@ sub GanadoresPorSorteo{
  		print grupo;
  		$filename=$filename."-".$grupo;
  	}
- 	$filename=$filename."_"."$fechaDeAdjudicacion";
+ 	$filename= substr( $filename, 0, $LARGOMAXNOMBRE );
+ 	$filename=$filename."_"."$fechaDeAdjudicacion"."_GanadoresPorSorteo";
 	foreach $grupo (@gruposOk){
 		my @listaUsuarios;
 		foreach $nombrePadron (keys(%hashPadron)){
@@ -206,7 +212,6 @@ sub GanadoresPorLicitacion{
 	my %hashPadron=%$refhashPadron;
 	my %hashNOrden;
 	my %hashGanador;
-
 	foreach $numeroDeSorteo (keys(%hashSorteos)){
 		$numeroDeOrden = sprintf( "%03d", $hashSorteos{$numeroDeSorteo} );
 		$hashNOrden{$numeroDeOrden}=$numeroDeSorteo;
@@ -218,7 +223,8 @@ sub GanadoresPorLicitacion{
  		print grupo;
  		$filename=$filename."-".$grupo;
  	}
- 	$filename=$filename."_"."$fechaDeAdjudicacion";
+	$filename= substr( $filename, 0, $LARGOMAXNOMBRE );
+ 	$filename=$filename."_"."$fechaDeAdjudicacion"."_GanadoresPorLicitacion";
 	foreach $grupo (@gruposOk){
 		my @listaUsuarios;
 		$numeroDeOrdenGanadorPorSorteo=@{$hashGanadoresPorSorteo{$grupo}}[0];
@@ -287,7 +293,6 @@ sub ResultadoPorGrupo{
 sub hashSorteos{
 	my %hashSorteos;
 	($pathSorteos)=@_;
-	print "Path sorteos: ".$pathSorteos."\n";
 	open (my $handleSorteos,'<'.$pathSorteos) || die "ERROR: No puedo abrir el fichero $pathSorteos\n";
 	while ($linea=<$handleSorteos>){
 		chomp($linea);
@@ -306,7 +311,6 @@ sub hashPadron{
 	#Key nombre, Value= info padron
 	my %hashPadron;
 	($pathPadrones)=@_;
-	print "Path padrones: ".$pathPadrones."\n";
 	open (my $handlePadron,'<'.$pathPadrones) || die "ERROR: No puedo abrir el fichero $pathPadrones\n";
 	while ($linea=<$handlePadron>){
 		chomp($linea);
@@ -354,7 +358,6 @@ sub hashGrupos{
 sub hashFechaDeAdjudicacion{
 	my %hashFechaDeAdjudicacion;
 	($pathFechas)=@_;
-	print "Path fechas: ".$pathFechas."\n";
 	open (my $handleFechas,'<'.$pathFechas) || die "ERROR: No puedo abrir el fichero $pathFechas\n";
 	while ($linea=<$handleFechas>){
 		chomp($linea);
@@ -401,6 +404,4 @@ sub escribirArchivo{
 	open ($file,$writemod.$filename) || die "ERROR: No puedo abrir el fichero $filename\n";
 	print $file $argumentos[1];
 	close($file);
-
-
 }

@@ -15,6 +15,7 @@ Mensaje () {
     if [ "$padre" == "$bash" ]
     then
    		echo "Lanzar Proceso:" $1
+		./GrabarBitacora.pl LanzarProceso "$1" "$2"
    	else
    		#Aca graba bitacora
    		./GrabarBitacora.pl LanzarProceso "$1" "$2"

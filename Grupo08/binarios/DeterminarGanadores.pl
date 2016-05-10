@@ -13,7 +13,7 @@ if((not defined $ENV{'MAEDIR'}) or (not defined $ENV{'PROCDIR'})or (not defined 
 $MAEDIR =  $ENV{'MAEDIR'}; 
 $PROCDIR =  $ENV{'PROCDIR'}; 
 $INFODIR =  $ENV{'INFODIR'}; 
-$LARGOMAXNOMBRE=240;
+$LARGOMAXNOMBRE=220;
 if (@ARGV[0] eq "-a"){
 	print "Ayuda\n";
 	&ayuda;
@@ -401,8 +401,7 @@ sub escribirArchivo{
 	}else{
 		$writemod="> ";
 	}
-	$shortenedFile = substr( $filename, 0, $LARGOMAXNOMBRE );
-	open ($file,$writemod.$shortenedFile) || die "ERROR: No puedo abrir el fichero $filename\n";
+	open ($file,$writemod.$filename) || die "ERROR: No puedo abrir el fichero $filename\n";
 	print $file $argumentos[1];
 	close($file);
 }
